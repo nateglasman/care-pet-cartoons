@@ -1,0 +1,31 @@
+{
+  "pet_id": "CAIL-A-50377",
+  "cover_photo_id": 51884470,
+  "breed": {
+    "species": "Cat",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Domestic Shorthair (tabby)",
+        "confidence": 0.55,
+        "reason": "(mock) placeholder guess"
+      },
+      {
+        "breed": "Maine Coon mix",
+        "confidence": 0.25,
+        "reason": "(mock) placeholder guess"
+      }
+    ],
+    "appearance": "(mock) A Grey cat with bright eyes and a friendly expression.",
+    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+  },
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Bella (2026). Keep its real appearance: (mock) A Grey cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50377.jpg",
+  "cartoon_file": "CAIL-A-50377.jpg",
+  "models": {
+    "breed": "mock",
+    "cartoon": "mock"
+  },
+  "seconds": 0.5,
+  "analyzed_at": 1793379093
+}

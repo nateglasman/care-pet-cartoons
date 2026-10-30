@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breed + Cartoon</title>
+<style>
+  :root { --bg:#f6f4ef; --card:#fff; --ink:#1f1d1a; --muted:#6b665e; --accent:#e4572e; --ok:#2a9d8f; --line:#e6e1d8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#17161a; --card:#232227; --ink:#f1efe9; --muted:#a39d93; --line:#34323a; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.45 system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:20px 16px 8px; display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; }
+  header h1 { margin:0; font-size:20px; }
+  header .status { color:var(--muted); font-size:13px; flex-basis:100%; }
+  .toolbar { padding:0 16px 12px; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  button, select { font:inherit; padding:7px 12px; border-radius:8px; border:1px solid var(--line); background:var(--card); color:var(--ink); cursor:pointer; }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  button:disabled { opacity:.5; cursor:default; }
+  main { padding:0 16px 40px; display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
+  .imgs { display:grid; grid-template-columns:1fr 1fr; background:#000; }
+  .imgs img { width:100%; aspect-ratio:1; object-fit:cover; display:block; }
+  .imgs .placeholder { aspect-ratio:1; display:grid; place-items:center; color:#999; font-size:12px; background:#2b2a2e; }
+  .body { padding:12px 14px 14px; display:flex; flex-direction:column; gap:6px; }
+  .name { font-weight:700; font-size:17px; }
+  .meta { color:var(--muted); font-size:13px; }
+  .guess { display:flex; justify-content:space-between; gap:8px; }
+  .bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden; }
+  .bar i { display:block; height:100%; background:var(--ok); }
+  .fact { font-size:13px; font-style:italic; }
+  .err { color:var(--accent); font-size:13px; }
+  .pill { display:inline-block; font-size:11px; padding:2px 8px; border-radius:999px; background:var(--line); color:var(--muted); }
+  details summary { cursor:pointer; color:var(--muted); font-size:12px; }
+  details pre { white-space:pre-wrap; font-size:11px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🐾 Closest breed + cartoon</h1>
+  <span class="status" id="status">loading…</span>
+</header>
+<div class="toolbar">
+  <select id="species"><option value="">Dogs + cats</option><option value="Dog">Dogs</option><option value="Cat">Cats</option></select>
+  <button id="sync">Re-sync from shelter</button>
+  <button id="all" class="primary">Analyze all unprocessed</button>
+  <span class="meta" id="count"></span>
+</div>
+<main id="grid"></main>
+
+<script>
+const $ = s => document.querySelector(s);
+let pets = [];
+
+async function api(path, opts) {
+  const r = await fetch(path, opts);
+  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || r.statusText);
+  return r.json();
+}
+
+async function loadStatus() {
+  const s = await api('/api/status');
+  $('#status').textContent = s.mock_ai
+    ? `MOCK mode: no API calls. Set keys or enable Replit AI Integrations for real results.`
+    : `Breed: ${s.breed_model} (${s.breed_credentials}) · Cartoon: ${s.cartoon_model} (${s.cartoon_credentials})`;
+}
+
+async function loadPets() {
+  const sp = $('#species').value;
+  pets = await api('/api/pets' + (sp ? `?species=${sp}` : ''));
+  $('#count').textContent = `${pets.length} pets · ${pets.filter(p => p.analyzed).length} analyzed`;
+  render();
+}
+
+function card(p) {
+  const r = p.result;
+  const b = r && r.breed;
+  const guesses = b ? b.guesses.map(g => `
+      <div class="guess"><span>${g.breed}</span><span class="meta">${Math.round(g.confidence * 100)}%</span></div>
+      <div class="bar"><i style="width:${Math.round(g.confidence * 100)}%"></i></div>
+      <div class="meta">${g.reason}</div>`).join('') : '';
+  return `
+  <div class="card" data-id="${p.id}">
+    <div class="imgs">
+      <img src="${r ? `/photos/${p.id}.jpg` : p.cover_photo_url}" alt="${p.name}" loading="lazy">
+      ${r ? `<img src="/cartoons/${p.id}.jpg?t=${r.analyzed_at}" alt="cartoon of ${p.name}" loading="lazy">`
+          : `<div class="placeholder">cartoon not generated yet</div>`}
+    </div>
+    <div class="body">
+      <div class="name">${p.name} <span class="pill">${p.species}</span> ${b && b.is_mixed ? '<span class="pill">mix</span>' : ''}</div>
+      <div class="meta">Shelter says: ${p.shelter_breed || '—'}${p.shelter_secondary_breed ? ' / ' + p.shelter_secondary_breed : ''} · ${p.age_group || ''} · ${p.sex || ''}</div>
+      ${guesses}
+      ${b ? `<div class="fact">${b.fun_fact}</div>` : ''}
+      <div class="err" id="err-${p.id}"></div>
+      <div style="display:flex;gap:8px;align-items:center;margin-top:4px">
+        <button onclick="analyze('${p.id}', ${!!r})">${r ? 'Redo' : 'Analyze'}</button>
+        ${p.public_url ? `<a class="meta" href="${p.public_url}" target="_blank" rel="noopener">shelter page ↗</a>` : ''}
+        ${r ? `<span class="meta">${r.seconds}s · ${r.models.breed} / ${r.models.cartoon}</span>` : ''}
+      </div>
+      ${r ? `<details><summary>cartoon prompt</summary><pre>${r.cartoon_prompt}</pre></details>` : ''}
+    </div>
+  </div>`;
+}
+
+function render() { $('#grid').innerHTML = pets.map(card).join(''); }
+
+async function analyze(id, force) {
+  const btn = document.querySelector(`[data-id="${id}"] button`);
+  btn.disabled = true; btn.textContent = 'Working…';
+  $(`#err-${id}`).textContent = '';
+  try {
+    const updated = await api(`/api/pets/${id}/analyze${force ? '?force=true' : ''}`, { method: 'POST' });
+    pets = pets.map(p => p.id === id ? updated : p);
+    render();
+    $('#count').textContent = `${pets.length} pets · ${pets.filter(p => p.analyzed).length} analyzed`;
+  } catch (e) {
+    btn.disabled = false; btn.textContent = 'Retry';
+    $(`#err-${id}`).textContent = e.message;
+  }
+}
+
+$('#all').onclick = async () => {
+  $('#all').disabled = true;
+  for (const p of pets.filter(p => !p.analyzed)) await analyze(p.id, false);
+  $('#all').disabled = false;
+};
+$('#sync').onclick = async () => { $('#sync').disabled = true; await api('/api/sync', { method: 'POST' }); await loadPets(); $('#sync').disabled = false; };
+$('#species').onchange = loadPets;
+
+loadStatus(); loadPets();
+</script>
+</body>
+</html>

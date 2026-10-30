@@ -1,0 +1,175 @@
+{
+ "animals": [
+  {
+   "nid": 210634379,
+   "name": "Gaia",
+   "uniqueId": "CAIL-A-3215",
+   "sex": "Male",
+   "location": "Foster Home",
+   "birthday": "1562569200",
+   "age_group": {
+    "id": 39110,
+    "shelter_id": 3204,
+    "name": "Adult Cat",
+    "legacy_id": 359436,
+    "age_from": 6,
+    "from_unit": "months",
+    "age_to": 8,
+    "to_unit": "years",
+    "type": "Cat",
+    "default_group": 1,
+    "created_at": "2025-01-28T19:04:46.000000Z",
+    "updated_at": "2025-02-08T23:40:29.000000Z",
+    "deleted_at": null,
+    "estimated_days": 180,
+    "age_from_in_days": 180,
+    "age_to_in_days": 2920,
+    "name_with_duration": "Adult Cat (6 months-8 years)",
+    "duration": "(6 months-8 years)"
+   },
+   "species": "Cat",
+   "breed": "Domestic Shorthair",
+   "secondary_breed": "Domestic Longhair",
+   "primary_color": "White",
+   "secondary_color": null,
+   "weight_group": null,
+   "attributes": [
+    "Special Dietary needs",
+    "Good with Cats"
+   ],
+   "photos": {
+    "0": {
+     "id": 31200177,
+     "name": "IMG_1155.JPG",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/8b3198f982e0b2d9690dc1da4d244c9d/88d6e24b310501075ffae862ac11ce22.JPG",
+     "isCover": false,
+     "order_column": 5
+    },
+    "1": {
+     "id": 31268127,
+     "name": "20220731_210509.jpeg",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/ae6af774507e9e0ef6cb8bf068428717/2ed42cadf6cff10e68ab95d1e3924c09.jpeg",
+     "isCover": false,
+     "order_column": 6
+    },
+    "2": {
+     "id": 31268138,
+     "name": "20220823_160626.jpg",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/e57f73094d147db774f1d9914173dd81/d20acaf15b24a5267ef3f3369239e6d9.jpg",
+     "isCover": false,
+     "order_column": 7
+    },
+    "7": {
+     "id": 34975459,
+     "name": "20251216_154607.jpg",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/eeb6493fc8fdb697c29ed2e32b409474/2de08fb893d198663d2e1030fb7105f0.jpg",
+     "isCover": false,
+     "order_column": 18
+    },
+    "8": {
+     "id": 34975541,
+     "name": "20251013_165403.jpg",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/2d6d8ff177ba13e854511c33b5591077/b32666f46a7b2c72856c58bcae71474d.jpg",
+     "isCover": false,
+     "order_column": 19
+    },
+    "9": {
+     "id": 42524183,
+     "name": "156.png",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/e32384bc17dc2bbf150f4d33a358646d/36768fa53f3c1c3df6df4c999bb8a75f.png",
+     "isCover": true,
+     "order_column": 20
+    },
+    "10": {
+     "id": 42850816,
+     "name": "IMG_1772.png",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/c3288f6b74b5c488023d4e1f3963d1ce/c6b1e9c4b982b70b5005dd9a2ef5e3ed.png",
+     "isCover": false,
+     "order_column": 21
+    }
+   },
+   "intake_date": "1756482065",
+   "campus": "Main Campus",
+   "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-3215",
+   "adoptable": 1
+  },
+  {
+   "nid": 210633745,
+   "name": "Roger",
+   "uniqueId": "CAIL-A-5131",
+   "sex": "Male",
+   "location": "Main Dog Kennel",
+   "birthday": "1708848000",
+   "age_group": {
+    "id": 39106,
+    "shelter_id": 3204,
+    "name": "Adult",
+    "legacy_id": 359089,
+    "age_from": 1,
+    "from_unit": "years",
+    "age_to": 7,
+    "to_unit": "years",
+    "type": "Dog",
+    "default_group": 0,
+    "created_at": "2025-01-08T23:26:40.000000Z",
+    "updated_at": "2025-03-10T14:47:56.000000Z",
+    "deleted_at": null,
+    "estimated_days": 365,
+    "age_from_in_days": 365,
+    "age_to_in_days": 2555,
+    "name_with_duration": "Adult (1-7 years)",
+    "duration": "(1-7 years)"
+   },
+   "species": "Dog",
+   "breed": "Terrier",
+   "secondary_breed": "",
+   "primary_color": "Apricot",
+   "secondary_color": null,
+   "weight_group": null,
+   "attributes": [
+    "Adult-Only Home Preferred"
+   ],
+   "photos": [
+    {
+     "id": 50348729,
+     "name": "IMG_0410.jpeg",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/542f0b70d6b85a0271eb6fc23a7826fa/97030ea431c1b252455d9175995aa376.jpeg",
+     "isCover": false,
+     "order_column": 1
+    },
+    {
+     "id": 50473068,
+     "name": "IMG_5200.jpeg",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/7eff5a1f0d517e4fb00ea2001d488410/698c1d22e53aa50246633db5fe649403.jpeg",
+     "isCover": false,
+     "order_column": 3
+    },
+    {
+     "id": 51872734,
+     "name": "img_0626_1024.jpg",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/5e343e7f5f757437aa15fb2fffc86b71/811ba23bd75916d08a018e9eac6093ce.jpg",
+     "isCover": false,
+     "order_column": 6
+    },
+    {
+     "id": 51872812,
+     "name": "d57c58d8-c9fd-4a18-9958-059a15a9e523_1_105_c.jpg",
+     "url": "https://new-s3.shelterluv.com/profile-pictures/a8817933f80a0c8ebf5ec9ac595c164b/e1373e77abc7ceb61376c469d3598cfe.jpg",
+     "isCover": true,
+     "order_column": 7
+    }
+   ],
+   "intake_date": "1790261275",
+   "campus": "Main Campus",
+   "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-5131",
+   "adoptable": 1
+  }
+ ],
+ "show": {
+  "filters": true,
+  "adoptionLink": true,
+  "defaultSort": "oldest",
+  "field_campus": false,
+  "has_multiple_campuses": false
+ }
+}

@@ -1,0 +1,1617 @@
+{
+  "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
+  "synced_at": 1793379092,
+  "count": 58,
+  "pets": [
+    {
+      "id": "CAIL-A-50246",
+      "name": "Addison (k2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play",
+        "Loves Brushing"
+      ],
+      "cover_photo_id": 49643164,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/4a8fc5de180b81f5a9907566e441da41/52e5a9c927e08854cdc3e5a44ed34274.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/4a8fc5de180b81f5a9907566e441da41/52e5a9c927e08854cdc3e5a44ed34274.png",
+        "https://new-s3.shelterluv.com/profile-pictures/0992325dcd82ab0de6d38f36396748d4/10ab9f37159a45d50fb2534af2d1724e.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/3b221fa14be04a38289970cbb4aa1f2b/d75ff226cf17fd82f19cc7039e6d5890.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/215f10cba0821c598d84d8f4836d03f9/a1297f1ceb492f6fb5e162dc637a2bfe.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/2bb441830c338f4f787620fddb52bddd/a2a6d847e8d8546ef4cb33ec6620de71.png",
+        "https://new-s3.shelterluv.com/profile-pictures/040c00525b24b351e0bbbac28797bb09/6d351a8015c79947123d80f6c429eb29.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/361d6c7bffddba92443c058f501a5812/48f5d7fa6b160e9cf3070e94fcf9252b.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50246"
+    },
+    {
+      "id": "CAIL-A-50357",
+      "name": "Angela (2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Cat Catio",
+      "attributes": [
+        "Talkative",
+        "Lap Cat",
+        "Not Good with Cats"
+      ],
+      "cover_photo_id": 50335776,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/fc27f7ec8e6c86b315018b34a356d198/740c9527479516286b0e2232c8311d17.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/fc27f7ec8e6c86b315018b34a356d198/740c9527479516286b0e2232c8311d17.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/82e98f14c345a63a42f77d99dc3bb41f/dc8d4605844bca9378a060a95bebb8f2.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/49c22d4db4425e52f6c44a883ad15e33/50f0541263774ea2d6d01a4ed882a547.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/ff076e5d09bd0633757e7abe2c318596/46bb9d3910d6511ae58ef8a10e3a5bd4.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/e67c4d953649c7def9d052752b431362/ac0f717435a2745da2162941087d77c5.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50357"
+    },
+    {
+      "id": "CAIL-A-50332",
+      "name": "Augusta",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Medium Hair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Cat Catio",
+      "attributes": [
+        "No small children"
+      ],
+      "cover_photo_id": 50507634,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/f8a436e67a6c4199f966bd908d8ddb19/588d4d24b2216379b3821e0e118bbce6.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/f8a436e67a6c4199f966bd908d8ddb19/588d4d24b2216379b3821e0e118bbce6.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/fc20eff8cedb547e6cee35e9730f6067/cc87ae0d862c3c3b7d1da86d402cff10.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/60e1eb3c174df8884d03ec4553821f23/ee778005e8cf8c1aea38478f1f1ca7c0.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/1f55fa29c3bc00d86ccf17e2faf61579/42ed7d1a2b2cdd0618bfbea8a95eb0ff.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50332"
+    },
+    {
+      "id": "CAIL-A-50377",
+      "name": "Bella (2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Senior Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Cat Catio",
+      "attributes": [],
+      "cover_photo_id": 51884470,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/03d5da9fe575007fb5724e6c05819157/854431072254efea23e7ad72a761ea56.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/03d5da9fe575007fb5724e6c05819157/854431072254efea23e7ad72a761ea56.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/21b6e3fe78d409b06d75d8e7d464eb71/3c2e8060574141e8b49208b4cedd61d8.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/e8a7a90d467a5c148c38b09f8fa577b3/576eb6b5c561cdb3e0880a01caf45f8e.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/eb3c99ae6b5757deedf986484cae127b/265b11545d77285073b1a305e3c7eb76.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/e1c89e26934ed9aa4d005a25d0210b16/88ee3fa527e8a40798a93e23aa55ef94.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/137382e15a3a566e528113136d76d63f/354c5bbb207ba44132cf2a815aadf3ee.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50377"
+    },
+    {
+      "id": "CAIL-A-5107",
+      "name": "Burt (c2026)",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Cat Catio",
+      "attributes": [
+        "No small children",
+        "Likes to Play",
+        "Likes to Sit Nearby",
+        "Good with Cats"
+      ],
+      "cover_photo_id": 38773197,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/a8d51ea37a390a65eebba41ef8e9e262/563cd5e9f184a725d47461b0fcb755ea.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/a8d51ea37a390a65eebba41ef8e9e262/563cd5e9f184a725d47461b0fcb755ea.png",
+        "https://new-s3.shelterluv.com/profile-pictures/f96fe750e7fdf6a7a8c797021d3fee0c/65a3d47d92803805f84a75c523408b73.png",
+        "https://new-s3.shelterluv.com/profile-pictures/588be2ad27652ad12f72ae89a168d470/86ba1c716c4631a9c675f3d0f3d7f715.png",
+        "https://new-s3.shelterluv.com/profile-pictures/d741be4db87e5ee51e9295b6ab4c7e00/7ae2556fc39eb0d5832d10fc76132a89.png",
+        "https://new-s3.shelterluv.com/profile-pictures/71eb21e5564cf6dc5841a2a62ac32ede/18946dc4eded1cc9aecb9d85aa8e342f.png",
+        "https://new-s3.shelterluv.com/profile-pictures/119c971423a61c208db5fe5b04d9c91a/2d650d7cae5072b369082da6eaa6f4b8.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/c16f9a18f7edb63cba53134ed28ebe60/34e1be55156f192e6ae20a076f8aef3c.png",
+        "https://new-s3.shelterluv.com/profile-pictures/426d01cb2e29126b91e4aac53ad24ab7/7cdd3ea98ec757744f293710bab33b69.png",
+        "https://new-s3.shelterluv.com/profile-pictures/ae758439737d5de43e89c3a831a1046a/4d66055a4845fa4e0b339f01f01e1c8c.png",
+        "https://new-s3.shelterluv.com/profile-pictures/bdebf89a06c65e9e3f1c2346a67fa7a1/d2e4a190203ebb1bf37e1014efa8facb.png",
+        "https://new-s3.shelterluv.com/profile-pictures/2ccf300238b8c6ae450ffd9f9cac3c85/9742e1f0fb092536fb6d5caffd3f1307.png",
+        "https://new-s3.shelterluv.com/profile-pictures/4be9632426f07380e81c5201afbc51a1/9fd3e5206d582f6b3d98cbe35ebe350c.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/0a8422c160fa0b8a409577badc89fced/a03fb30987b30d12f037403e5bdb493e.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/53d9d97580c5159f7c452a617c3f2c56/07290d801734784640b272caf6559a63.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-5107"
+    },
+    {
+      "id": "CAIL-A-50375",
+      "name": "Carter (k2026)",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 51695117,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/07b8e7ed8f9fe455412ee0bfb192e207/17a6ce31c9ff8f5b74b79acd0cb4a356.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/07b8e7ed8f9fe455412ee0bfb192e207/17a6ce31c9ff8f5b74b79acd0cb4a356.png",
+        "https://new-s3.shelterluv.com/profile-pictures/4a2db35dcbb537fad98c636ad3b2fbf6/060bfe93589e866f2bc72b1a03736d70.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/b244d241b0e65015320b1aa6b1f1a2cc/c634d65ba8d21563c949570bfc65edae.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/ea3b25223ecfb13ef046da5f1dbd59e9/cd7845e483636cc6795a9e07439980bf.png",
+        "https://new-s3.shelterluv.com/profile-pictures/69b3b8479dcc54e63a46b0d4af7787f6/56d94475a8708caf0f80c2ef56e1085e.png",
+        "https://new-s3.shelterluv.com/profile-pictures/4b5ae8d27f4abdd79efa556e5b7f67a4/b1b2b93000c5b5beb40a1980521cc626.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50375"
+    },
+    {
+      "id": "CAIL-A-50373",
+      "name": "Celine",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play",
+        "Loves Brushing"
+      ],
+      "cover_photo_id": 51815601,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/40e11bde52bfbbc831f0cc416efc204e/8ff06b0cbba854cf394a5f3b5a68f8ac.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/40e11bde52bfbbc831f0cc416efc204e/8ff06b0cbba854cf394a5f3b5a68f8ac.png",
+        "https://new-s3.shelterluv.com/profile-pictures/9a64177910b06b4e87c057f10535655f/3277571c886034ddb068f1447d495e6a.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/dc8c408a062aa3a16fcf22532bc44f26/315ce158965fbce06f8f4a11ce41590b.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/ba52bad592aee2523d4fd6f98ab1f750/09665d8cc0af5f4f8106810bfb2423dc.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/b57710be3a976f645141ede27eec35db/4928a9678f49eaf73c7858575322035a.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50373"
+    },
+    {
+      "id": "CAIL-A-50250",
+      "name": "Damen",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 49638488,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/5e1a46e635f8b2b035a79a9e5877af75/e4b031a2e6500f3a398863c2ee7753cc.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/5e1a46e635f8b2b035a79a9e5877af75/e4b031a2e6500f3a398863c2ee7753cc.png",
+        "https://new-s3.shelterluv.com/profile-pictures/5b6be0e03c955f25e086525f53d19727/29c9ac4e2df509dbbbd6af9607514d8b.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/2563f2e4b1a452eecf5a55a20632708c/ca8763fb3896d83bd65e2420654445e0.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/29f8e5258b94a6029198b2758fc01671/8f74caab19f9ac4e104533e3987c8ce4.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/9656887fae727c17a36598027611e8bb/206e2b0361757883c6f3aa69fdaf7d30.png",
+        "https://new-s3.shelterluv.com/profile-pictures/f2f372f349353eae18c884d252ce0030/c434a53a978f204be14f57966b6a4d50.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50250"
+    },
+    {
+      "id": "CAIL-A-50276",
+      "name": "Eileen",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": "Siamese",
+      "color": "Lynx",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Likes to Play",
+        "Older respectful children",
+        "Not Good with Dogs"
+      ],
+      "cover_photo_id": 52114975,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/7d694845ec780c6400634306e37a3c82/c7deb7a3c7634f4d68d5f2e9dd86da03.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/7d694845ec780c6400634306e37a3c82/c7deb7a3c7634f4d68d5f2e9dd86da03.png",
+        "https://new-s3.shelterluv.com/profile-pictures/b0f24a5e83f5b0da651d95914f472d62/a7012524e76ab16d026e4424f9fac55a.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/e925698f38f9f87b2b05f4c2f6fe7aef/d466da5e26960b4f98b321fcda7b8be7.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/62aa3412e77169fbc87da2b3c37bc331/e3fcd2475803a2709ebb4fcd1fe09f63.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/fe00295ed7d91bc52cf693ab1af27bae/677a2b41bed2d3c34f4fff1f8b274295.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/ddb193b58fad45c02f1932ca8da890b7/37f1deefc03f81f8b01687e8187b584d.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/1249870b9bac84dbf76734399b2e6a6b/d42fdaba8f6d6c747c72281dc5ca0d39.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/76598f071a573177b5770dc19240ed2f/a19cb81a7af205fe2861193f62c9befa.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/1d65872d1945b2090fc6fdb93b9a3f69/e6c1f0f31d0835cea8da315b990bb164.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50276"
+    },
+    {
+      "id": "CAIL-A-50384",
+      "name": "Elberta",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Tortoise",
+      "location": "Cat Catio",
+      "attributes": [
+        "Lap Cat",
+        "Likes to Sit Nearby"
+      ],
+      "cover_photo_id": 51421885,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/de7d23054ffb2900667d53c8c89847c5/9ab7b5e967a13117ddb72c9f6720df75.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/de7d23054ffb2900667d53c8c89847c5/9ab7b5e967a13117ddb72c9f6720df75.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/3e42bafede7c68ed6bc965e12073a04f/0d73aa1c7a7541b41a1cc689d79664f5.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/523b48006a98a4a485ca4f9421b10a53/a273cf0e3b27c02c4f18e8bb4196bf26.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/7c217fff489f857d6aa42d3f4bc644a9/bf668d9b3c939037d9bd7b7b31c68615.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/f1422744e0a66efee0ca5a0ba9b2d4fb/fe65855be64022b82177b3cc237962be.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50384"
+    },
+    {
+      "id": "CAIL-A-50347",
+      "name": "Ethel",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Tortoise",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Likes to Play",
+        "No small children",
+        "Shy at First"
+      ],
+      "cover_photo_id": 51403356,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/cc4bb73f71d47f92ea1391b977c80593/a2abc7c63d3bc7abcf7d3f3ec03b463d.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/cc4bb73f71d47f92ea1391b977c80593/a2abc7c63d3bc7abcf7d3f3ec03b463d.png",
+        "https://new-s3.shelterluv.com/profile-pictures/836636b11884f00282bb1e5e866a1e84/ec958ce8d343336601afe871d214ba12.png",
+        "https://new-s3.shelterluv.com/profile-pictures/345f91de02e81a057cd54e09bb11679b/98139e462ae66573e396c4705a10c015.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/29f720768768cf6b073571bb1e690a00/7a9b1267940385ea2b6d81932233f2ca.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50347"
+    },
+    {
+      "id": "CAIL-A-4662",
+      "name": "Gabriel",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Cat Catio",
+      "attributes": [
+        "Not Good with Cats",
+        "Adult-Only Home Preferred",
+        "Special Dietary needs",
+        "Likes to Play",
+        "Talkative"
+      ],
+      "cover_photo_id": 44324053,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/03aa5b2201085f3d15eb0ee106b81fa9/6d6b4b0e4d15c53154cedef76c6f6269.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/03aa5b2201085f3d15eb0ee106b81fa9/6d6b4b0e4d15c53154cedef76c6f6269.png",
+        "https://new-s3.shelterluv.com/profile-pictures/d7f8602323f0f84027f3fa0939c8c6b2/a26255efcf1cfe7ecce31047802896a7.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/b077a05fc56c62993340ff58a91350c1/edd463e37e0b4dba7624afec11c0224d.png",
+        "https://new-s3.shelterluv.com/profile-pictures/52b66c185a4358bfa7e05b9c3ce53030/33b389aa19fc327c20c1d3116c2f0806.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-4662"
+    },
+    {
+      "id": "CAIL-A-5100",
+      "name": "Gaby",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Calico",
+      "location": "Foster Home",
+      "attributes": [
+        "Not Good with Cats",
+        "Not Good with Dogs",
+        "Adult-Only Home Preferred",
+        "Likes to Set Boundaries",
+        "Older respectful children",
+        "No small children",
+        "Prefers Not to be Picked Up"
+      ],
+      "cover_photo_id": 42914834,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/2dfab331067bd3f8902c3eae1af64395/69b3cf1f3bf62d4881889fa464c9636e.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/2dfab331067bd3f8902c3eae1af64395/69b3cf1f3bf62d4881889fa464c9636e.png",
+        "https://new-s3.shelterluv.com/profile-pictures/daa1708fc77b9cc9d5cee85a29659bb6/20250310181635.png",
+        "https://new-s3.shelterluv.com/profile-pictures/78767a40142709c48b91515153fdb97b/20250310181748.png",
+        "https://new-s3.shelterluv.com/profile-pictures/b0614ade415cb816bfa6812dd3286205/20250310181740.png",
+        "https://new-s3.shelterluv.com/profile-pictures/dda4c512e97d7fd882a7ea6592afda50/20250310181718.png",
+        "https://new-s3.shelterluv.com/profile-pictures/2e2203638ea2707a82f44ea7228031c9/1b6601e8630a2888a4d52b0dece00a42.png",
+        "https://new-s3.shelterluv.com/profile-pictures/f247739c273b56d72ca707a87d8a03b6/68a33fbd83d0fce9b8c1602232c9e052.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/50599d6c2d2a0572c38a515166253301/aee4f069c74fc2f9dae437878624e35b.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/5c8ab564de9d50f9dd17e92a17a950c7/b4fe337f738705dfa624052a1c83317f.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/ffbb20c9b99013e7f5b81592023c3e58/037b52d93187800eda4f070ad433ae1b.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/9b16abe86087fb9615cfe227d62b16d8/6d9a1604ba2eee6cdaf4af80482a6b12.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/9cf61f868fffa85e81ace94a3c809b9e/b5083dac485b22fc7500fb3524b6946f.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/80a03b8e304daf8d17c253111e0547dc/5cd13579c36c523c065f9ea410063cc1.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/95391c8ed89cef7d745f07f3033bc1bb/3e44bbf77fb81b9d941f87df453da1cf.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/b0f55300df6f465f821326c166616bd8/50d66f338d4ea70b81a473c401ed81e9.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/1c4cdf6dd80937d4cb6b9c82c8121301/e8f4c05b2606296c9c094bcfbe88cd3f.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-5100"
+    },
+    {
+      "id": "CAIL-A-3215",
+      "name": "Gaia",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": "Domestic Longhair",
+      "color": "White",
+      "location": "Foster Home",
+      "attributes": [
+        "Special Dietary needs",
+        "Good with Cats"
+      ],
+      "cover_photo_id": 42524183,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/e32384bc17dc2bbf150f4d33a358646d/36768fa53f3c1c3df6df4c999bb8a75f.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/e32384bc17dc2bbf150f4d33a358646d/36768fa53f3c1c3df6df4c999bb8a75f.png",
+        "https://new-s3.shelterluv.com/profile-pictures/8b3198f982e0b2d9690dc1da4d244c9d/88d6e24b310501075ffae862ac11ce22.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/ae6af774507e9e0ef6cb8bf068428717/2ed42cadf6cff10e68ab95d1e3924c09.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/e57f73094d147db774f1d9914173dd81/d20acaf15b24a5267ef3f3369239e6d9.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/eeb6493fc8fdb697c29ed2e32b409474/2de08fb893d198663d2e1030fb7105f0.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/2d6d8ff177ba13e854511c33b5591077/b32666f46a7b2c72856c58bcae71474d.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/c3288f6b74b5c488023d4e1f3963d1ce/c6b1e9c4b982b70b5005dd9a2ef5e3ed.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-3215"
+    },
+    {
+      "id": "CAIL-A-50242",
+      "name": "Gia",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Cat Catio",
+      "attributes": [
+        "Bonded",
+        "Lap Cat",
+        "Likes to Play",
+        "Shy at First"
+      ],
+      "cover_photo_id": 49485524,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/fa015bbbd6ac52d8faf933a15a7f1480/42b42097bfd4895f965948d813706fc6.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/fa015bbbd6ac52d8faf933a15a7f1480/42b42097bfd4895f965948d813706fc6.png",
+        "https://new-s3.shelterluv.com/profile-pictures/84830771ace6634bff12d5a9b0881dea/4fecd7a4b56eb7ada74195b792116736.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/0101b1b9f4eda1c4ea833fbf530519d0/7ac0e9f5ea3fa8577c49cd0f6fa771ee.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/4bbd6e9e217ed6da4683fee062bf63dd/571156fdbbe658109da8ca618fe9e652.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/b64e08e06148cddc5f2f9034804278ea/9a3978f0ac9a756361becbb92651bd88.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/fa44ef961fac77bf4a0846cc2b8078ed/3a1ba93e07baac590f230bc8c44ebff1.JPG"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50242"
+    },
+    {
+      "id": "CAIL-A-50179",
+      "name": "Ginger Rogers",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Cat Catio",
+      "attributes": [
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 47814644,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/104965992be4c9a6f39997f758356a21/2b9bb00fdfd7e4821a65a1bd73f58446.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/104965992be4c9a6f39997f758356a21/2b9bb00fdfd7e4821a65a1bd73f58446.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/b2ceafb710fe51d76439757877c5ded2/0eac926691302fd50f4a8b2dc551abee.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/10ba5acbaf6c102367d766380dadf114/7b0928ad98ca39249861f1c3604902cd.png",
+        "https://new-s3.shelterluv.com/profile-pictures/3c02e38a7b49fb65f9f2e543b7c4ffd1/4a6dfc4c213baf89c227baea6c56f0f7.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/3411151caaa2d89c1c54802f397e2182/0e27278b495a9927622135232b48a73e.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/d472f50de44714489836547b1bfb10fc/10e3b2ebce7b0310a781956f40cdec18.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/8ab215cfdb4d14bdbada75d41d677d96/42111967d142958a337c9ec17f2b9cb7.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50179"
+    },
+    {
+      "id": "CAIL-A-50175",
+      "name": "Grace Kelly",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Cat Catio",
+      "attributes": [
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 47814402,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/09fbfabebf1365b3255427d500fc54a4/e1b553ac1e472c6516c5d747f454bb18.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/09fbfabebf1365b3255427d500fc54a4/e1b553ac1e472c6516c5d747f454bb18.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/09bdac90e7cb69db1e4930fdf92d1cf0/696b279f0bbc5306b42648919e49aa60.png",
+        "https://new-s3.shelterluv.com/profile-pictures/7f96affe714a9137ff015070b44484bc/236110914a9e0e76fd8fccdced4fa883.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/74ec6c0da3134e12e05f0768beb68879/7541bc64bcdcc01e1c4356a38f7919c8.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/ccde709d3975d738749b059b907cfbbc/b72ec7354afe3f04cb2eebe9b0febd11.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/a0a3bb93871feac806f64df21724f1d1/eda030380e935fa8365965f969994c52.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/2dd4e3041946c1fb235dd8f6b82ca62f/3b37aa03fa53462fefe533ba3d2db3b2.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/4a3a55f2a5f6eb4cb3891f42ff24483f/32f78a70e1b397abb8bd7f0364d3f8bb.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/1015dd02bd3506837abd03323122e6f7/1c4b53dbf105df51d5742e3ee4e2c202.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/9281771594ccbf78260d10fd83f2e71c/22c1ab6b800659a93f3eaa04cdd88885.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/f8f92669618f44cdfbc466a2a908e640/ad3e762e6fadb4668941b2fccae761a7.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/1e9e2e31c16a8f2ee98f47e9bb4af1d9/5d6c2d9d574b5d9f543049dc301cd032.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/d55be1c3b0e26fd7c6d1185d164d0e97/14fad88f0bc94f85408a6d2e90e53ae9.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50175"
+    },
+    {
+      "id": "CAIL-A-50177",
+      "name": "Greta Garbo",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Cat Catio",
+      "attributes": [
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 48011420,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/48f404c6c43d80404809532586a34d28/ca615e0b86b133e38e3f193391343b90.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/48f404c6c43d80404809532586a34d28/ca615e0b86b133e38e3f193391343b90.png",
+        "https://new-s3.shelterluv.com/profile-pictures/b90ca330d544bdf013bbf2ff79880f40/2de08ecd22759e38ad48d97d08eed422.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/90e0e2d02cc27d7494ab1675170b10b1/5efec871ab51a8588d710292b02e7dab.png",
+        "https://new-s3.shelterluv.com/profile-pictures/07839e7a343d41c7050e6d7e0b508c7a/2bd433be60e67f05e8abb41553edde26.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/7d5c8b2141dbe47c4621abebd0922b4c/4ca729c5c15cc3ca63709d6e79a3f74a.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/dd6c4c05b9559d3064b79c0a6d5c0062/55949cbf7dd03b13820fd7517a4ad2de.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/6491dc2f0d2c54c6b11f633e17e03bd7/68afcae99bc26d0c5521e0ecb225ed18.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/fa8bc104e3501e7dfcd99e4555ab2f9f/11c26e7691b17428778c40aa77d0fef7.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/1cc32606f9f39d0d6fcc757551bceffd/8148ee974affa93711a34f817dc6c29f.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/a3bfbd1bd765a97c9027fa3ddc731c5d/b3a7b3acae35aa77759335a926dab14c.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50177"
+    },
+    {
+      "id": "CAIL-A-50178",
+      "name": "Ingrid Bergman",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 48008040,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/df327a83b9d402d7e3efc96922058763/bd37650f221e99e58bb6ff1ca98b0dad.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/df327a83b9d402d7e3efc96922058763/bd37650f221e99e58bb6ff1ca98b0dad.png",
+        "https://new-s3.shelterluv.com/profile-pictures/7e57a3c20768609e884c34f89ee5fcfd/e2e63990bb919b86c3dea26deaf3bf35.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/f5c197bcfa39736e0ae45fa4e18a3643/2b834b507c51ce76c4ddcb6ade01ba4d.png",
+        "https://new-s3.shelterluv.com/profile-pictures/dffd77b5bad984ccaab48e67c6cdcc9d/c60096c558bcb1724fc85008bd94fdd6.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/731ac8794142299610ea3059bb6340f6/50afe568f6f25c8cba048547d8ab489f.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/86fea247234861a8a69ffddf1ab4d3b4/93a2c41d2ab1d1fec6d32490471eae69.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/7268706105f3a4d5d4541de34d6287ee/58dbc9ef91d1907d01297e457ba957d2.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/a835f3a0feee9542e7ab0ba2b05bc78a/4fd981eb09fecda77e59d8e61fc4299a.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/0c20ea6dadbd1a12a523af6cce36b7cf/d399a93f555a2b57b8dce6831c8904f5.png",
+        "https://new-s3.shelterluv.com/profile-pictures/e420c3dfee0d1cdbffa5de46295f8e3a/03df8afe6152f155b864a2b15478b30a.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/37e02bf3c0f44387729368cdb52c1dc0/e431e779c99acfe28e60196bcce27dcd.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50178"
+    },
+    {
+      "id": "CAIL-A-50381",
+      "name": "Kate (Zaija)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Foster Home",
+      "attributes": [
+        "Likes to Play"
+      ],
+      "cover_photo_id": 51981642,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/1c70542ea96ad96b2f490a94890037a0/dd1394007ffe964b2956d747bf31ebcb.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/1c70542ea96ad96b2f490a94890037a0/dd1394007ffe964b2956d747bf31ebcb.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/8039d563e55200cd3e7536694a7b0fb5/427a040fa385e8596fcac9e14a99e28e.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50381"
+    },
+    {
+      "id": "CAIL-A-50066",
+      "name": "Katrina",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Shy at First",
+        "Adult-Only Home Preferred",
+        "Good with Cats",
+        "Likes to Set Boundaries",
+        "Loves Brushing",
+        "Dislikes Loud Noises and Sudden Movements",
+        "Lap Cat"
+      ],
+      "cover_photo_id": 48046468,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/61e2eca9b83aadd00ae8e9f724ea778a/6c0f0c57c653b1cc1fcb7dac10344318.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/61e2eca9b83aadd00ae8e9f724ea778a/6c0f0c57c653b1cc1fcb7dac10344318.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/d4c44276a618f17c1303647bdd79e0c0/3fa1985dfcb7f52ad000d06425cbf895.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/9a5656c6fb7d8e75de52c7580f70bd6a/ba0c3c0dca0e11133c38018751d2c9aa.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/a3a9cd3c244ff56100281eaf5bb48262/514df255b5b0f817c00629c36342e727.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/e2db8e9e85eb7a70cfc857bc2e4b7507/82c9704dc136f13564c258f2463b48b7.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/7ed2d50bdb4021d5e0c4fdba3755b49c/4846b4566322fe56e03709577682580a.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/cb88a25860255b67507f11377aeb9a55/d57bbf8b096ccaaffc6d8c273269b1cc.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/e2aab6c2ee7bb771687f4462e53d79b0/bb7eafd0d9fa2d7433d2142cef8b0b64.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/3f3202629b3107425f52b79ce8b1bad4/88886db8502a3f85a163afe67e855f57.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/0608995fa63bdb3ea2420b14673be518/f4101d86423aa777cee86dc28d03880e.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/0405ab5664eccc79eedda4199f8adbe1/7132a071e6e5b1db6211177d630a0e77.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/f61a583e214add97a8edddcee1ab559a/231e37305f962cb3735cb7012e82f390.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/92670e9b4e79576c8e89736784c3f1fe/58da249e0abcee5b209d6ea47bf03cdd.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50066"
+    },
+    {
+      "id": "CAIL-A-50251",
+      "name": "Kimball (k2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Lap Cat",
+        "Likes to Play",
+        "Shy at First"
+      ],
+      "cover_photo_id": 49638423,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/55c6a6b096c8b9b3bec5da279aef8c84/2eb76a6cb8ff1e598025aef490e7bc2d.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/55c6a6b096c8b9b3bec5da279aef8c84/2eb76a6cb8ff1e598025aef490e7bc2d.png",
+        "https://new-s3.shelterluv.com/profile-pictures/77b6b684de9e143cc7e060282c507f7b/4033546cadf01ffdda8da1e19d272ea2.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/f9e9c081cca1cf46f729b10abdbcd560/7d0bc2cd9e06e37e89a581da5966f685.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/d1754fd6110b869051b5d58fa6b9b274/4046f09b78c2476117d424254e1f81c9.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/78029c6aff7c34c8393a96a5a6003aa8/b0c690c3509de496510c2a5e36808d32.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50251"
+    },
+    {
+      "id": "CAIL-A-50348",
+      "name": "Lucy (k2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Lap Cat",
+        "Likes to Play",
+        "Loves Brushing"
+      ],
+      "cover_photo_id": 51403720,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/ed7faab05189eb4b8dbcb2577336c12c/2d43e7c24ff037cd63d92a81d8b96012.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/ed7faab05189eb4b8dbcb2577336c12c/2d43e7c24ff037cd63d92a81d8b96012.png",
+        "https://new-s3.shelterluv.com/profile-pictures/886b97aa5b3ac783b6db58e168400f6d/9b0d8273fa40d1f4704299a0bbf521d7.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/64df2df6bc099ecba3ccdbab7c7cc17c/32ecbcaf648c248a56365777b387304c.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/ffc5fd6d54dde037441027893b824c9c/fff38e154acc24cf38932832de8ddaf2.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/4f655d8f21b42409eaf7341cb74c6017/c696ca719416601f130cbcdf28fe0f28.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/ad267e299dee8194f9f41d820c528869/c1ad89d7fd4f11467bf436b46d51b5bd.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50348"
+    },
+    {
+      "id": "CAIL-A-50317",
+      "name": "Maria (aka Ahjumma)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Senior Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Foster Home",
+      "attributes": [],
+      "cover_photo_id": 50517717,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/4b83ec98b633da30ec4f8219553b8484/14c1938891e1beddea43a7f74738c4f9.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/4b83ec98b633da30ec4f8219553b8484/14c1938891e1beddea43a7f74738c4f9.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/96542dea3ed40ab9a661410b2e99cf76/9ff51ec0dba3da9f85e93141d5bc4bb7.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/96538568eee72af48e3be99695be5731/beec5973ee67b3b09224d82f86a5f0eb.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/252cda5f4128a16daa45cf23e6adfe0b/f5c0076a4640ff054802ab02de013b76.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/b9ac3db06b159a057f4603393e6c4a60/986e9b53c7cf05e03048765e39fd396b.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50317"
+    },
+    {
+      "id": "CAIL-A-50241",
+      "name": "Mia (k2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Cat Catio",
+      "attributes": [
+        "Bonded",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 49486182,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/d2ab8a2a9b23073ab9bdc2fd28fcf2f0/8c94ecfacd2fc3fc6a154ee3a06ffc03.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/d2ab8a2a9b23073ab9bdc2fd28fcf2f0/8c94ecfacd2fc3fc6a154ee3a06ffc03.png",
+        "https://new-s3.shelterluv.com/profile-pictures/e927d82219e8d30a4c1f86815bd762ec/aab21f5787e91f738e208a50c811a4ac.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/0817c5e5a1b00d3091418799716749f3/15ff8bfe73bcbeea5df6883859562804.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/940be722077e921840764998e47007af/b81be0614315e05e6ff80383f4cbf6ea.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/a7efabd8533154d187fe9892556070ce/2a8f7c954cab6eb60f37cd909dcda981.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/a9ca9edab5327047372cef9536a9a156/c18f83635ca53b098191e87bc893ae88.JPG"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50241"
+    },
+    {
+      "id": "CAIL-A-50341",
+      "name": "Michael (k2026)",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play",
+        "Loves Brushing"
+      ],
+      "cover_photo_id": 51927014,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/91fd1daa1aea28052fc5094ce564e32c/cffbca96e6b3b045fc8706e6985205ac.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/91fd1daa1aea28052fc5094ce564e32c/cffbca96e6b3b045fc8706e6985205ac.png",
+        "https://new-s3.shelterluv.com/profile-pictures/a3785ee462bb116d8a5c5ea493785947/8ada4b27a68bd80e92d7dd07bb76f79d.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/a33038cc2bc18db6dc1906b76d6aabb1/2702b09a42a519b83dd99a177e3c0bb3.JPEG",
+        "https://new-s3.shelterluv.com/profile-pictures/ea442d62393df61b558fdd639ec0cdbd/71f97f5836c58bb964e86673bd524d7d.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/67ef2f281733b339c27a01598beff534/05d0916c6bb2d09693a64e0fd67e124c.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/6aef2c499dfaccdaac3b0fc75a7aefb3/1ce37664dd98c6804bd8c6a2336608b7.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/c9f6f3da344a6b21495730a55a7dcc0b/484261db198d352579c5c73f8d6f3d50.JPG"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50341"
+    },
+    {
+      "id": "CAIL-A-50211",
+      "name": "Miller",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Cat Catio",
+      "attributes": [
+        "Not Good with Dogs",
+        "Adult-Only Home Preferred",
+        "Likes to Sit Nearby",
+        "Prefers Not to be Picked Up",
+        "Shy at First",
+        "Likes to Play",
+        "Special Dietary needs"
+      ],
+      "cover_photo_id": 43326707,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/959dc9b224247a7dc712ba0c691ccaa6/778e3d950c500ca68c190050cde59ca3.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/959dc9b224247a7dc712ba0c691ccaa6/778e3d950c500ca68c190050cde59ca3.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/773c2b1f539d8117bc76b24b901b3de2/6f5c9953a12357ac215e6d32b5f09e0d.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/d0968eb3175c733807c5d4d7e9a4bc98/be184b4943d23ba50751e3b3e5773628.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/fbd90c3cf3affafa3e0485a8934253c2/8aad886f9a72a01ff434066a19f9c07b.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50211"
+    },
+    {
+      "id": "CAIL-A-50352",
+      "name": "Obie",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Kids",
+        "Likes to Play",
+        "Good with Cats"
+      ],
+      "cover_photo_id": 50344672,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/a1527fe8d4ad9fd02601f70d4ca28c0a/42500d509ec0e6f204313f45fc9ef2e7.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/a1527fe8d4ad9fd02601f70d4ca28c0a/42500d509ec0e6f204313f45fc9ef2e7.png",
+        "https://new-s3.shelterluv.com/profile-pictures/e44c9446a1aa88cd7c7cd1e759b2b64f/5ce1027473308910acbc990dd192571b.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50352"
+    },
+    {
+      "id": "CAIL-A-50351",
+      "name": "Olaf",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 52133556,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/ce4a2ae8d983c97e985567e267e67b2f/3c96ee622cddaf2354679ccb1810c98d.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/ce4a2ae8d983c97e985567e267e67b2f/3c96ee622cddaf2354679ccb1810c98d.png",
+        "https://new-s3.shelterluv.com/profile-pictures/6e2633e6d4b1fb19067cef6ac98cdb62/e0e9b58261043692afd371dd78bbbcef.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50351"
+    },
+    {
+      "id": "CAIL-A-50349",
+      "name": "Olga (k2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Likes to Play",
+        "Shy at First"
+      ],
+      "cover_photo_id": 50344237,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/9c7ccd208a858d4ad0f29ec36aa852d1/e94c36f0f40100111df0e87ff7239023.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/9c7ccd208a858d4ad0f29ec36aa852d1/e94c36f0f40100111df0e87ff7239023.png",
+        "https://new-s3.shelterluv.com/profile-pictures/2fa849f65e4d1b23285642a1fdd61c85/c2e30692c3d30aaf12b278d49de6f7d1.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/f155e0b4d7ec504b5a9586a3c393f363/e4784cc8d29a4b6a60cbb26c19f3fb02.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50349"
+    },
+    {
+      "id": "CAIL-A-50350",
+      "name": "Ozzie (k2026)",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 50351695,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/d2b83afce661c5018e76d0b1fa0d4f47/917e85bb7e090fd03d0a2096a9c2318d.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/d2b83afce661c5018e76d0b1fa0d4f47/917e85bb7e090fd03d0a2096a9c2318d.png",
+        "https://new-s3.shelterluv.com/profile-pictures/b2a317f3b1f36e25da68f336faae8efa/07bf8f3b997971e903926f9fcf749309.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50350"
+    },
+    {
+      "id": "CAIL-A-50340",
+      "name": "Pam",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play",
+        "Loves Brushing"
+      ],
+      "cover_photo_id": 51927078,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/60f1c70d289e9691ccf95bca8d1099d3/238bfe48d4c11a15bf52696d090cdc76.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/60f1c70d289e9691ccf95bca8d1099d3/238bfe48d4c11a15bf52696d090cdc76.png",
+        "https://new-s3.shelterluv.com/profile-pictures/c878fe6b44ee5d6be5356caf3b850246/17565b42a2106f5876d2643d1a120a7d.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/52e66a46449b479b997e71f9355db048/5745b9b07fad394a30bd1a2db18a6742.JPEG",
+        "https://new-s3.shelterluv.com/profile-pictures/b5709bb5b2e0973f5999cf36f3a0f9e7/c23b641a48b42c7902bd79833dc9e386.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/3ec9861649f57528c39bf2477b9ae74c/dfcb18cc76417ad708938c1cc4b5a0c4.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/ca8f0dba047b73785df040000a520a1c/c27a72efc86f6ade6ad8e5176b2861bd.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/914c221caf851fb1fc6b788c858f139f/f0e948dfb8ba9916220b4aff02782d11.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/4722bd847227f09a446ad8548ba971ec/2dc2d8e8a56d1494286b0fdad624d62a.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/0332e89d28400d56ceb5245772b9adc5/d46af52517b1bc5e0be94b694ea915b5.JPG"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50340"
+    },
+    {
+      "id": "CAIL-A-50245",
+      "name": "Paulina",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play",
+        "Loves Brushing"
+      ],
+      "cover_photo_id": 49643553,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/b2a7c476c3d6f628b2f1c5e588c1538f/a8d0f72da485216974165ebbc9023da2.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/b2a7c476c3d6f628b2f1c5e588c1538f/a8d0f72da485216974165ebbc9023da2.png",
+        "https://new-s3.shelterluv.com/profile-pictures/6b08e0e8541f555963e26261fbda73cd/682673e3ab7c068747d5d3099eee6995.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/bab4eeceabce2514daf14f0f474db813/32ee9df43bd275d5737bcd4b80ffc73a.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/346209391be0f772f2a5c8a30bea1cc7/19cb4582beff76d16be2e32ce824f255.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/47d89178242aed9805e92bffa27afdd6/f566006aa175fde660fa032fa0760c9c.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/fa3571602eebbb8030a80dc8cbba49a6/0a4fbb2713a3343c236a2b161cba710a.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/634219fbd9bd732536d7024d88b85613/f8ef28608076d823ad6f26224952fc8d.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/821ecdbb6136a39c5c073024b2145847/4f1179c0bbe5f5e39c5d6295ea946182.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/332a8bfba69776ceecb334c40de8946b/b7405710d250c9f63bfbce68c141d802.png",
+        "https://new-s3.shelterluv.com/profile-pictures/f5e7ed418057590e5b6b5e572dd93f95/3574d352ddac011fdf0891893fb38869.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/43692ca231ee058a8f5e8a1653fc32ec/a9f13d4b649ff9934414442e67df69ae.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/cb679fc278c90c46a46717074a362835/c1d864ae0c3d6e339a1fc6508eaa32c8.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/88b2cbcf6f895e8aa01279bc028985b4/c55f12489e26f84d0805dd393c3293d4.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50245"
+    },
+    {
+      "id": "CAIL-A-50343",
+      "name": "Piper (c2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Torbie",
+      "location": "Cat Catio",
+      "attributes": [],
+      "cover_photo_id": 51404530,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/2f08234012d7349eab2466f0dc2d5951/c782cd5d8dab5de22cd2ccd2fb115f65.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/2f08234012d7349eab2466f0dc2d5951/c782cd5d8dab5de22cd2ccd2fb115f65.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/c21e3da85c3ce5d4821750c0f5c57a65/4e5c2db6330ecd0acf16e01b5b11aa7b.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/448f68603bb4c57001cc6e75d2ba4eef/849fb5c75f5d3ebe0d7231f3658c29d8.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50343"
+    },
+    {
+      "id": "CAIL-A-50386",
+      "name": "Ponzu",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Cat Catio",
+      "attributes": [],
+      "cover_photo_id": 52504323,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/e1c5b2ea4f703f345882f0599f221a7a/466d0805a2413af300e100ff7a28f6d0.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/e1c5b2ea4f703f345882f0599f221a7a/466d0805a2413af300e100ff7a28f6d0.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/b3a9a9b7ab41c8911ee105d306ffc530/f35130a1316943a4b46fa8fd5ac65118.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/0863e53f86c33c1a8fdf2fa633074a5e/09733f821322efecfaf0c886d75b0164.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/8705fc9df1fc867997dc711757598c9b/43c91fb4a4b8cb7bf6b00f00f670d580.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50386"
+    },
+    {
+      "id": "CAIL-A-50344",
+      "name": "Savannah",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Cat Catio",
+      "attributes": [],
+      "cover_photo_id": 50679712,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/dd918e62d7e546599764f2b62af0223e/03d6191ff79e18e2ce2f0a2f9ac8ef24.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/dd918e62d7e546599764f2b62af0223e/03d6191ff79e18e2ce2f0a2f9ac8ef24.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/72e8b23c46e836930d9b737c3ae341ca/ba073de9708da4374175fde044cff75e.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/e8b362d16a98abbf14103dea62d40f6a/fac5ba5b0ff452a945522be7364a3155.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50344"
+    },
+    {
+      "id": "CAIL-A-50380",
+      "name": "Sunny (2026)",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Orange",
+      "location": "Foster Home",
+      "attributes": [],
+      "cover_photo_id": 51981542,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/7b1ebee8f1d48571a5c9246b85e43f76/e159f65fd1141f1982a922540f1249f5.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/7b1ebee8f1d48571a5c9246b85e43f76/e159f65fd1141f1982a922540f1249f5.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/c10e79d9c657625af0fc610bf59c4cd6/5c26a5ca68cecc617e4333fd57de71e9.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50380"
+    },
+    {
+      "id": "CAIL-A-50387",
+      "name": "Tara (2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Tortoise",
+      "location": "Cat Catio",
+      "attributes": [],
+      "cover_photo_id": 52504398,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/c7f4d33042d8e736e2f54fb570f5ffd2/cc05389b6b12b7e632b4a10339c6a4cf.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/c7f4d33042d8e736e2f54fb570f5ffd2/cc05389b6b12b7e632b4a10339c6a4cf.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/4278f53cbd3d340fcb95deb822874fa0/b675d090d84c80f8cde8bd78fd35ec3d.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/6931da020128593d8e64b525efd16ac6/6e69247a0707d808a08bc60b1d49b349.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50387"
+    },
+    {
+      "id": "CAIL-A-50152",
+      "name": "Tiffany (c2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Torbie",
+      "location": "Foster Home",
+      "attributes": [
+        "Likes to Play",
+        "Shy at First"
+      ],
+      "cover_photo_id": 40827914,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/96330e6dc82a26c1c05195db8911bc02/938b6356481f4371896b9a86e37c1a25.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/96330e6dc82a26c1c05195db8911bc02/938b6356481f4371896b9a86e37c1a25.png",
+        "https://new-s3.shelterluv.com/profile-pictures/661ab03600a73a407adaeab82fdb6e8d/7fa1e08eee7e3228c37a77e186f43e90.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/1ffaa582c6f67bc3273328e4f4105077/228d829840d2dc5488a8e0fa71ea6275.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/730b0849c7dce8a09217759aefd0705f/5d99b0b784e25bfb8cfd03eb34472686.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/c58b3e02f3af2f7e839939302c5f8c5a/4492aa1c47fb657a356addb9be9d8c3a.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/1849236fc91fa405191be07d5c7a5bd5/69c74b1714e3cfed351557ac4e53ed64.png",
+        "https://new-s3.shelterluv.com/profile-pictures/80ea6e07cbbbaea9aa072e45381df0cf/cb44134ba0a0bc39316d23246fddebea.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/6eae230b902528756b052a3a8f224b09/12540329a0af744741e6ebac9009bc22.png",
+        "https://new-s3.shelterluv.com/profile-pictures/d323dbfc98d38cef9f94dbe46bb4cd28/0ea878bd765ba856234064cd6936b55c.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50152"
+    },
+    {
+      "id": "CAIL-A-50204",
+      "name": "Unni",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Cat Catio",
+      "attributes": [
+        "Likes to Play"
+      ],
+      "cover_photo_id": 48752314,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/3ada185e8196d452a11040037c93f917/dd7803a22a4e0fb195099585454c7a03.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/3ada185e8196d452a11040037c93f917/dd7803a22a4e0fb195099585454c7a03.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/76bd4f63296abed84eef7eee2f37bcfa/bc1ef0c16df2c7b3d56b74b7450c3656.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/902ed0b0d8e6f33f74765fe4caad595a/52375bc5d17e3f706aca0fee9eeb9f10.png",
+        "https://new-s3.shelterluv.com/profile-pictures/49f5d19a8e70040ca15129f90c44fdb5/c63a81837868813ab670c8dd1ebaa9b3.png",
+        "https://new-s3.shelterluv.com/profile-pictures/b4a00218b34c6a8042c5090f19a18d0f/2e0e05945c19fd28e1eed80d46ec4d8a.png",
+        "https://new-s3.shelterluv.com/profile-pictures/23d3fa97160c7228f6ee595fcb625cff/b6f837e713eb27f981321bdc299d7506.png",
+        "https://new-s3.shelterluv.com/profile-pictures/a6d0d7f95ae6cd3f277cfdee71943604/4623c6e60fbf23ff1a2133d80ce4ac51.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50204"
+    },
+    {
+      "id": "CAIL-A-50284",
+      "name": "Valentino",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Cat Catio",
+      "attributes": [
+        "Good with Kids",
+        "Likes to Play",
+        "Not Good with Cats"
+      ],
+      "cover_photo_id": 46410567,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/c39aaaf75b7af3d041c2886f13741cd3/3f4ac592abd2e7ad72ac08ef6c14a450.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/c39aaaf75b7af3d041c2886f13741cd3/3f4ac592abd2e7ad72ac08ef6c14a450.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/50a6ae6fca990587f72cdd4bf9b0d20b/1b76f73bea4f2807218a9f6d253ec822.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/03e8701e019da6aa1b70b7f459fcea0e/6b874aa0e2b4d9d9356a67d1c4f16dbb.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/5d461fb88c419338fb3f7e32000da3f3/f84dd86e0bf7cc4966aac3acb62d3cdb.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/d2a0638b915b7de952139fce4f0daf55/ef4f2e673f62a9d6ece6a291539d84e3.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50284"
+    },
+    {
+      "id": "CAIL-A-50174",
+      "name": "Veronica Lake",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 48006859,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/8e1c838b588686aad68fd4483d0b37a7/6b08ce3f3a9164cc33cc7f91f84d6ee3.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/8e1c838b588686aad68fd4483d0b37a7/6b08ce3f3a9164cc33cc7f91f84d6ee3.png",
+        "https://new-s3.shelterluv.com/profile-pictures/36ee4581f527f5b64b403dddd4df49ac/7e1d7220e900476b0003d7faf7a501ae.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/01257e7f0563a33ee559e29990a45f97/3d4cf7e850f40a69c9d1b03db28d0d6e.png",
+        "https://new-s3.shelterluv.com/profile-pictures/8ab57e359a2a3aa5a8fe2add62e687eb/d28c9c6a76ca8860de1c4c187d1343b7.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/04dd88534c1e089fb60e32ed2077bdea/e5f41bc47fe498e381c0ce2f7e7c80eb.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/a77f541d3e7eb746258859c4fe2c7c88/2c667baab313f68758d02c7df97a9684.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/a421bb42df8b31de6e443da5595ed2c4/e480980ea5a9c1499824ac3eeaf2339a.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/97bf58bcbff412d5fc879422f346bf46/3aba13de3c9552dcc5a176dced430dee.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50174"
+    },
+    {
+      "id": "CAIL-A-50274",
+      "name": "Wally",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Bonded",
+        "Good with Cats",
+        "Likes to Play",
+        "Not Good with Dogs",
+        "Older respectful children",
+        "Shy at First"
+      ],
+      "cover_photo_id": 52115149,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/dec50eab7be23110f591de76ce5054b8/d2d8f2125e8f3b19932cd15e209999c9.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/dec50eab7be23110f591de76ce5054b8/d2d8f2125e8f3b19932cd15e209999c9.png",
+        "https://new-s3.shelterluv.com/profile-pictures/6802ebfa5dc9a9693aeba759c3cfe202/986af8ec629c9227711332d6d1dce4ed.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/9ee6287315f9b91d97196d8f96516121/fb60635ed1e980de3a01919a0126fc5e.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/23f3c7551c9b0bc2ea97793a86daf742/e432ed0d8022c463eda1d959260c146b.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/01b04a58423b2b808555a144bafe0784/48675d1c25e9b5cda728c5bfe38a9782.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/643dfe2d8905b06ad84755ee8d533ce4/7ee10b7b0e7dac1415f95a58c5b0d993.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/81994ce9e926e03b4ecb46502ce1794a/e19e69e31486e402c45044304a7b6ee0.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/031f944d3433a32c423d85a0c79568f7/02990422cbbfdb6f13fa69fb9a5cb2c1.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/8c2fbfaf3abb4a5c7e265e73f1483d26/817d23e299ddcefd97d83f0e3e4e1e28.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50274"
+    },
+    {
+      "id": "CAIL-A-50376",
+      "name": "Ziggy (c2026)",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Senior Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Cat Catio",
+      "attributes": [
+        "Shy at First"
+      ],
+      "cover_photo_id": 50835830,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/f4a1f92b5618b8367205f07d5118c2cc/7da731355747957e06ef86d68d5abd86.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/f4a1f92b5618b8367205f07d5118c2cc/7da731355747957e06ef86d68d5abd86.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/0ec35e00cf94159bb66d3dc1e2883df5/2c9c2f04f5f997fa7b6e1c39aed4a000.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/9fd36501667e54b4889f6195a9940985/bd87f8766bdcc3da3fcedec2c7d8b2a8.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/86713be2370c8152eb6b25de8f9c39f7/f04a05678b1e8fcab116e15e3b107092.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/48621ef2a580665073c73291508e59ea/9ea943e6e27ef23a3dc75179fef2cf4f.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50376"
+    },
+    {
+      "id": "CAIL-A-4801",
+      "name": "Arty",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Small)",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Crate Trained",
+        "Potty Trained",
+        "Suitable for an Apartment",
+        "Adult-Only Home Preferred",
+        "Not Good with Dogs",
+        "Not Good with Cats",
+        "No small children"
+      ],
+      "cover_photo_id": 40023504,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/d0cec111a97f79e42dfa02e8d887b9a2/6cc148bc2774ca15211682fa2019593f.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/d0cec111a97f79e42dfa02e8d887b9a2/6cc148bc2774ca15211682fa2019593f.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/cd0c08d09178174323e0e54301f991b9/20250311164538.png",
+        "https://new-s3.shelterluv.com/profile-pictures/5b87086c60638ec9f658cea2a6a0ac2f/ad94f9c4cbfe4361746bf9e054f7dcd4.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/8b449917d61601135b056f7b7bcfa03f/472422b52246a7b9e7035583a1b127be.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/f891952011f2392c27773ecefcdbf5c0/e09aff1d37b2f43c80630cf0aadd98f3.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/b41de4c4f56bd14462c5e5df092723c6/4f50562d06334deb8f90f3cf4524b1b6.png",
+        "https://new-s3.shelterluv.com/profile-pictures/ffee8e71a11ca4aa906515d5e971fa8a/8c6b36ddd3f595b005ea160a05172f75.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/e2698c8a46b8b6ae57843da6f6bb341f/b235d0059fc6bf03b1e35666f03c9608.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-4801"
+    },
+    {
+      "id": "CAIL-A-50360",
+      "name": "Bonchon",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Small)",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Foster Home",
+      "attributes": [
+        "Crate Trained",
+        "Good with Kids",
+        "Good with Dogs",
+        "Suitable for an Apartment"
+      ],
+      "cover_photo_id": 51873369,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/d4b7d9dad1865af3ca8349eb18754a2b/3ecfc266665e71c12140d55d180a7f65.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/d4b7d9dad1865af3ca8349eb18754a2b/3ecfc266665e71c12140d55d180a7f65.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/f53cad2a2a7af5f5e0f710315280d7ee/721ee618822920ca30d7d347de2ed6b2.png",
+        "https://new-s3.shelterluv.com/profile-pictures/7fce4c7ba73b227bb8b5aa7d0cd3fc63/a3863b87d90658aaa07044c915a6e955.png",
+        "https://new-s3.shelterluv.com/profile-pictures/afb307cebc705b4ab9e77ee87814e839/927536902a665e5e652d1888bfece614.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/c4d1d9bb3eec821f84970c2a625043af/0239c31fe8f6a795c07c024dab6d96fd.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/3dbf1f9ef3dea17f8600823ed2525260/d950e56d7d63e5221c3e0827bd780415.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/e65a0afae83bbac4865ab30f3f6c24ad/035e20e76a59f72dead6e2d27de3232d.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50360"
+    },
+    {
+      "id": "CAIL-A-50016",
+      "name": "Bruno",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Large)",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Effie's Office",
+      "attributes": [
+        "Crate Trained",
+        "Good with Dogs",
+        "Completed Basic Obedience",
+        "Fenced Yard preferred",
+        "Potty Trained"
+      ],
+      "cover_photo_id": 32716840,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/a8e459813aced3ec71c82cb9d3d62d8f/196e55297c4348497aba5c90c4455774.JPG",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/a8e459813aced3ec71c82cb9d3d62d8f/196e55297c4348497aba5c90c4455774.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/ac62692705187968bd1f94c458e741dc/3d30725ef2a550000ae64134b5a0de22.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/ff6d5b2e7f449082e25c3c0f83c84d3a/e6228d3533b0e87bbba2d0a4255ae33a.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/adcd9ee0666b21ea34c8316d5fdacf6a/32cc1483032b81670fc4442cd26faa78.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/2a1f4c9903299de791d8d0f29a79e2b7/5384bac05e77511eaebac741a00dcfba.JPG",
+        "https://new-s3.shelterluv.com/profile-pictures/b2741c58010697e1c235489b7057f674/d11921a63f4cc64603b3af1e96ae8cff.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/01384c72c10f9831b702f952aac1def2/8e6d9acbfb7aff5e2c91f7f9084d6b6e.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/9e970dee3d50a8b6f7ea54ccf2b4d96b/03982ade2ce921d092cf575bf8772490.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/774a4cffa36d20aebf806923f3003753/5febab50d0aca11f3c273da4d0822359.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/c23b88be5c5471f493f4d3ab6428341b/e57c347abccf8d2233a336b2c618c2ff.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/fa923741fd5b5a3f19531dd75728efe1/a7a66b23ef03b0f9f18a1743737b7145.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/d3a81808266169324336a6814a443ccb/6bf5dff551b05de5fb65a796d0094b21.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/6b9f00f7302d22aa54a198863cc0f55e/d277a15e194de00b8e148c8b7204d19b.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/39ff2bb4fc32d7035209b909ad57830b/154381358079908aec3077599136aefa.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50016"
+    },
+    {
+      "id": "CAIL-A-50361",
+      "name": "Dahlia",
+      "species": "Dog",
+      "sex": "Female",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Medium)",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Dog Isolation",
+      "attributes": [
+        "Children over 12 years old",
+        "Crate Trained"
+      ],
+      "cover_photo_id": 51873023,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/f2d6ee99ef31086dea0340d7e44c247b/15b45c7b39915e774d687670efdd3fef.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/f2d6ee99ef31086dea0340d7e44c247b/15b45c7b39915e774d687670efdd3fef.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/e1746086b3bb39ce678690c456850bf4/ef0b3b6390a5e6717329cb8d4d770316.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/667f1de974bccff3089775f198a5adfe/233a790a92cac5ad677c76e13dce671c.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/5ec601a9370949cfad392db9760bb27d/1d8c2487602cba449db681c74ce46823.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/e250e8f3513305b539f744aed7d1b0cc/7cf7bb1f7e95327aca3b8c2ceb0b77d9.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50361"
+    },
+    {
+      "id": "CAIL-A-50396",
+      "name": "Fluffy",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Young",
+      "shelter_breed": "Mixed Breed (Small)",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Main Dog Kennel",
+      "attributes": [],
+      "cover_photo_id": 52066023,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/4197a4727785f901985d793513a01510/b8d56a8a62453d8c6bc43c18975ecd3c.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/4197a4727785f901985d793513a01510/b8d56a8a62453d8c6bc43c18975ecd3c.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50396"
+    },
+    {
+      "id": "CAIL-A-50371",
+      "name": "Hutch",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Husky",
+      "shelter_secondary_breed": "Husky",
+      "color": "Black",
+      "location": "Foster Home",
+      "attributes": [
+        "Good with Dogs",
+        "Good with Cats",
+        "Potty Trained"
+      ],
+      "cover_photo_id": 51872494,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/0df01baf8f32e4e168291804306a6dbc/44da8896e6ae3c42271133fe88d767b9.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/0df01baf8f32e4e168291804306a6dbc/44da8896e6ae3c42271133fe88d767b9.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/56afd04246b8d4b428dd52d4aa155a0f/ae28f8e2a072c1ad181fcd2fbc938df7.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50371"
+    },
+    {
+      "id": "CAIL-A-50385",
+      "name": "Jack",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Small)",
+      "shelter_secondary_breed": null,
+      "color": "White",
+      "location": "Main Dog Kennel",
+      "attributes": [
+        "Crate Trained",
+        "Housetrained",
+        "Suitable for an Apartment"
+      ],
+      "cover_photo_id": 51872530,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/2d6489b50f6528cebeb31e811f6532a4/a66fdd5a811b20c40cff01a95598a74b.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/2d6489b50f6528cebeb31e811f6532a4/a66fdd5a811b20c40cff01a95598a74b.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/df75a2f96a8c141533bd75563da55fb7/b7dcf7bb43a812a1d9461c3f587ada4e.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/50f8d1c65585805104fb9d5b101431e5/108d1790e654889c4af6d1d2d5c00556.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/37f37777ed9432a152277f875bf4b320/e3e845163c663dea6c6fecd854f71d95.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/a82cd7f173c223b966274fd7b9995383/79bb2768cac924efb15345bc0ca6c20e.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50385"
+    },
+    {
+      "id": "CAIL-A-50081",
+      "name": "Jerry",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Senior",
+      "shelter_breed": "Mixed Breed (Large)",
+      "shelter_secondary_breed": null,
+      "color": "Brown",
+      "location": "Foster Home",
+      "attributes": [
+        "Children over 12 years old",
+        "Potty Trained",
+        "Not Good with Cats"
+      ],
+      "cover_photo_id": 38387306,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/4dc71662a3f47390edf618b8afdb0594/753525f68d5a9b062429c28a9a0058c0.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/4dc71662a3f47390edf618b8afdb0594/753525f68d5a9b062429c28a9a0058c0.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/c5c31ea4f1bdea5b240d641f405e1317/c7d507861bd0bd83367957e30181094f.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/a891c5162f22962d77cb3e2beb7cc139/ae0994274a01c4d3acde54b222be6cf1.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/cf4960382b49b78843a3391ff723d284/b1505935e640927da6e4e7c1eac73994.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/d66cb530e04b224bc394edff99de0ff7/d6993c9ea03891856a58bbe833881622.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/d9ed814cdd297fef7f9da2d41ad8c070/dbe8429dbbb380cd3dd322d253582a64.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/e08bcc3a5a2121fcef5284e0e808a61e/a3629a3c3641f5ea34c24c9bf2a7b17f.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/1c7227e50081465ec28341d85f816124/2c15cbd4abbecd27006cfc847259cebf.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/c76ff218efd40f67e405da6e97c31465/274db50f3e869724cbf6a0093beca53a.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/9edf681b35186ad9d22d5da89d6f38ca/cc4de9768c514673f0ac2c6de7417c74.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/f9776430761eca93d1330d00d00507b3/1155df8ca90c4baffca5efea183182f9.png",
+        "https://new-s3.shelterluv.com/profile-pictures/d2a13e1c5fc84c4abaaba1eec63e31f0/2b307da0627333d603e5786f28244e0e.png",
+        "https://new-s3.shelterluv.com/profile-pictures/de3318b40ddccb758c7d57c083ba753e/d6ba377c1fbc4fd436b98db3955fb6a5.png",
+        "https://new-s3.shelterluv.com/profile-pictures/b508706fe833ba6527d1ff933a3534e3/1a2058cbe9064b7538d671a8a763cfc3.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/3af4e0b3ccd411ba24fe4396a7676d2a/ea9180ec723b0bb7f649b9d5b0d8c069.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/903bb5e17430b75d955c4ee3e774ed6f/b84ef1051966e0d4406374838d3cfa7a.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/9cda9f3de83842128df66c693030db92/b8eb1db4be440fd5f0061c4e34dc7850.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/2a5f34297ef859e6da2fde038abe4080/46fff83c096ff25e6d7d960eb9def2cb.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/95105b24bfc3ef71791754617e07b26f/e46e93b574b64635621592ae6339882e.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/77a319bef3e600408438228b179bfe98/02aab33f4ca5070715ed3455c47a2c17.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/66a4f1772e2e167beeefe4f3b5d0c5f5/f6f47fb3ef00b79b35c937a9a3c4dcae.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/95cc78dc9b085e7464bd2f7ba6043622/19521374574f1dd9ee9943a709e03ac3.png",
+        "https://new-s3.shelterluv.com/profile-pictures/5eb904d7aba77a9fec8900ddb1e093c7/3a9f58b23d7480e2b6938ce45f5426da.png",
+        "https://new-s3.shelterluv.com/profile-pictures/740e2aad8533b0032afdad7863f26b2f/2da7d780f8e4c2e1883ccbe424d811e6.png",
+        "https://new-s3.shelterluv.com/profile-pictures/b7fe5d949bd5299304ae0065993673a7/9c9fea2025af8d650399bd8fbb0eee88.png",
+        "https://new-s3.shelterluv.com/profile-pictures/79bf58fc405353a0a4f7ce059fa0ac04/3ef701746c9b6337b9801e4c9ee06b74.png",
+        "https://new-s3.shelterluv.com/profile-pictures/1f76a89d3addcabf5078fa99094d32a1/9fbf0d8b258db265f68f207fcc84f982.png",
+        "https://new-s3.shelterluv.com/profile-pictures/cb443f6ff8d0cd28e60e1156728347b1/a952512057342e236c60d0b62b5a11b1.png",
+        "https://new-s3.shelterluv.com/profile-pictures/afacb0bb3c25b194c2996fb83cd4aa3c/b6fc1adac325d61e14d6dcb69123349f.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50081"
+    },
+    {
+      "id": "CAIL-A-50345",
+      "name": "Mina",
+      "species": "Dog",
+      "sex": "Female",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Medium)",
+      "shelter_secondary_breed": null,
+      "color": "Red/Mahogany",
+      "location": "Room 23 - Small Dog Room",
+      "attributes": [
+        "Suitable for an Apartment",
+        "Potty Trained"
+      ],
+      "cover_photo_id": 50433142,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/835d11f9ddc628d4e1d851844c11c97e/cf3cc7ab0a5de46b5f9be8c482718de9.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/835d11f9ddc628d4e1d851844c11c97e/cf3cc7ab0a5de46b5f9be8c482718de9.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/5ba2b84443e7cac39bfdb0b3f9f0295e/dd45ad5ad12d3596606cd7ae85048c70.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/3bd7aecfbeb8815ab9529cb831911b8d/eb67e8171c033f5d88a74fbacdb098b1.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50345"
+    },
+    {
+      "id": "CAIL-A-5131",
+      "name": "Roger",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Terrier",
+      "shelter_secondary_breed": null,
+      "color": "Apricot",
+      "location": "Main Dog Kennel",
+      "attributes": [
+        "Adult-Only Home Preferred"
+      ],
+      "cover_photo_id": 51872812,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/a8817933f80a0c8ebf5ec9ac595c164b/e1373e77abc7ceb61376c469d3598cfe.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/a8817933f80a0c8ebf5ec9ac595c164b/e1373e77abc7ceb61376c469d3598cfe.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/542f0b70d6b85a0271eb6fc23a7826fa/97030ea431c1b252455d9175995aa376.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/7eff5a1f0d517e4fb00ea2001d488410/698c1d22e53aa50246633db5fe649403.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/5e343e7f5f757437aa15fb2fffc86b71/811ba23bd75916d08a018e9eac6093ce.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-5131"
+    },
+    {
+      "id": "CAIL-A-50397",
+      "name": "Snow White",
+      "species": "Dog",
+      "sex": "Female",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Small)",
+      "shelter_secondary_breed": null,
+      "color": "Cream",
+      "location": "Main Dog Kennel",
+      "attributes": [],
+      "cover_photo_id": 52066055,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/287c53ed2b102cd502b70bf559c77742/a94babc33dfc44b162bea81bb84a30c8.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/287c53ed2b102cd502b70bf559c77742/a94babc33dfc44b162bea81bb84a30c8.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50397"
+    },
+    {
+      "id": "CAIL-A-50356",
+      "name": "Tiki",
+      "species": "Dog",
+      "sex": "Female",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Medium)",
+      "shelter_secondary_breed": null,
+      "color": "Beige",
+      "location": "Main Dog Kennel",
+      "attributes": [
+        "Completed Basic Obedience",
+        "Crate Trained",
+        "Good with Dogs",
+        "Good with Kids",
+        "Housetrained",
+        "Potty Trained",
+        "Suitable for an Apartment"
+      ],
+      "cover_photo_id": 50450432,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/5288cf322eb9378cca1afee9d54cfe2e/d65c0529ad078e8a757d2325fe68c6d2.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/5288cf322eb9378cca1afee9d54cfe2e/d65c0529ad078e8a757d2325fe68c6d2.png",
+        "https://new-s3.shelterluv.com/profile-pictures/96c0faaacb12bd861f0916b88c7bf41b/944cd32089046c3a2856c84cbb81b4dd.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/89037d698117abf55995a03636c07258/1e185e3dcbba31b2f9b3c0779a1fc1ca.png",
+        "https://new-s3.shelterluv.com/profile-pictures/11caca45ae769318e6dba72806686cc7/95f7952ea8a8007b8ccc1cdeac9f6ab3.png",
+        "https://new-s3.shelterluv.com/profile-pictures/13a5160cdff48cb2469569e7a9cf5de6/ac23aa030b4d71ebe5c352ac4c76f1ab.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/b71d6f621288082276c1004162e47156/4b947ee5ce77d70fe49b55a0e64246d0.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/05762e6f648b955506748f90ddda7f45/5619f862f1cbba0864d917eca12038ea.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50356"
+    },
+    {
+      "id": "CAIL-A-50367",
+      "name": "Vera",
+      "species": "Dog",
+      "sex": "Female",
+      "age_group": "Young",
+      "shelter_breed": "Mixed Breed (Large)",
+      "shelter_secondary_breed": null,
+      "color": "White",
+      "location": "Main Dog Kennel",
+      "attributes": [
+        "Good with Dogs",
+        "Good with Kids"
+      ],
+      "cover_photo_id": 51872040,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/466fc18cb6036dcfc30887d02fba4d51/e5828026042a785358000697ac0a6d97.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/466fc18cb6036dcfc30887d02fba4d51/e5828026042a785358000697ac0a6d97.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/aa50c930e2763690ebd077ea82a169b0/b5c0c6d283fa36855dbc087967210005.png",
+        "https://new-s3.shelterluv.com/profile-pictures/8d6e50355c2721a22254ff2b42a2f363/d431b7175afe6bbceb521dab155a1896.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/b92e28eb4999ce7a5e0e50d2d9d76507/5e808b1ecb1f474945592bd0a666ba99.png",
+        "https://new-s3.shelterluv.com/profile-pictures/85cf14b3da62f43f8a30128b2253edde/dfe4666818806c8de315e957107d6979.png",
+        "https://new-s3.shelterluv.com/profile-pictures/bd8f0806c26c5738be64a3c5571ddb1b/9df584309d1f918275644a4963054080.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50367"
+    },
+    {
+      "id": "CAIL-A-50368",
+      "name": "Veronica",
+      "species": "Dog",
+      "sex": "Female",
+      "age_group": "Young",
+      "shelter_breed": "Mixed Breed (Large)",
+      "shelter_secondary_breed": null,
+      "color": "White",
+      "location": "Main Dog Kennel",
+      "attributes": [
+        "Good with Dogs",
+        "Good with Kids"
+      ],
+      "cover_photo_id": 51872269,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/9ee8c8549a1813b11cb1536d6f2b0f07/5b7b3b39d2cd156e1d58aa34ab3d3ec2.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/9ee8c8549a1813b11cb1536d6f2b0f07/5b7b3b39d2cd156e1d58aa34ab3d3ec2.png",
+        "https://new-s3.shelterluv.com/profile-pictures/43837ce7e7df768e8a1287b1671c119f/d9b8c5bb10821bdfb69e738ddfd8a985.png",
+        "https://new-s3.shelterluv.com/profile-pictures/5a3e28b7ea67127177fb023475e80db8/cf0edb56e75f3d4bc45cca4a1be5004b.png",
+        "https://new-s3.shelterluv.com/profile-pictures/ed0f3c2f8ef2bc814f30a75324212c14/880bdd9dfeeb2b2b5266ababb0b197d4.png",
+        "https://new-s3.shelterluv.com/profile-pictures/080f04a0deda699edcc9bb0d05e0fe16/193ae9c731daaa6eb1e4e789a8069af0.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50368"
+    }
+  ]
+}

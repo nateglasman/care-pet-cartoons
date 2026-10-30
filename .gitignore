@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+# built by `python -m app.site`; GitHub Actions deploys it to Pages
+site/
+# local Replit workspace cruft
+.pythonlibs/
+.cache/
+.upm/

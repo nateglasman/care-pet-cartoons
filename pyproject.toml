@@ -1,0 +1,17 @@
+[project]
+name = "pet-breed-cartoon"
+version = "0.1.0"
+description = "Identify the closest breed for each adoptable dog/cat at C.A.R.E. North Shore and generate a cartoon portrait."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "anthropic>=1.0",
+    "openai>=2.0",
+    "google-genai>=1.30",
+    "pillow>=10.0",
+    "pydantic>=2.0",
+]
+
+[tool.setuptools]
+packages = ["app"]
