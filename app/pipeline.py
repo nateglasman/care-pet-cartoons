@@ -40,6 +40,19 @@ def load_result(pet: dict) -> dict | None:
     return data
 
 
+def _cached_breed(pet: dict) -> breed_mod.BreedResult | None:
+    """Reuse a real breed result for this photo even if the cartoon step failed or changed."""
+    p = result_path(pet["id"])
+    if not p.exists():
+        return None
+    data = json.loads(p.read_text())
+    if data.get("cover_photo_id") != pet.get("cover_photo_id") or not data.get("breed"):
+        return None
+    if data.get("models", {}).get("breed") == "mock" and not config.MOCK_AI:
+        return None
+    return breed_mod.BreedResult.model_validate(data["breed"])
+
+
 def analyze(pet: dict, force: bool = False, style: str | None = None) -> dict:
     if not force:
         cached = load_result(pet)
@@ -47,7 +60,16 @@ def analyze(pet: dict, force: bool = False, style: str | None = None) -> dict:
             return cached
     t0 = time.time()
     photo = ensure_photo(pet)
-    breed = breed_mod.identify(pet, photo)
+    breed = (None if force else _cached_breed(pet)) or breed_mod.identify(pet, photo)
+    # Persist the breed before drawing: a cartoon failure must never re-bill the breed call.
+    partial = {
+        "pet_id": pet["id"],
+        "cover_photo_id": pet.get("cover_photo_id"),
+        "breed": breed.model_dump(),
+        "models": {"breed": "mock" if config.MOCK_AI else config.BREED_MODEL},
+        "analyzed_at": int(time.time()),
+    }
+    result_path(pet["id"]).write_text(json.dumps(partial, indent=2))
     cartoon = cartoon_mod.generate(pet, breed, photo, style=style)
     data = {
         "pet_id": pet["id"],

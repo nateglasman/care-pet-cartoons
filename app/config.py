@@ -27,16 +27,18 @@ SHELTERLUV_URL = f"https://new.shelterluv.com/api/v3/available-animals/{SHELTERL
 
 MOCK_AI = os.environ.get("MOCK_AI", "").strip().lower() in {"1", "true", "yes"}
 
-BREED_MODEL = os.environ.get("BREED_MODEL", "claude-opus-5-5")
-CARTOON_PROVIDER = os.environ.get("CARTOON_PROVIDER", "openai").strip().lower()
+BREED_MODEL = os.environ.get("BREED_MODEL") or "claude-opus-5-5"
+# `or` (not a default arg): CI passes empty strings for unset variables.
+CARTOON_PROVIDER = (os.environ.get("CARTOON_PROVIDER") or "openai").strip().lower()
+if CARTOON_PROVIDER not in ("openai", "gemini"):
+    raise ValueError(f"CARTOON_PROVIDER must be 'openai' or 'gemini', got {CARTOON_PROVIDER!r}")
 CARTOON_MODEL = os.environ.get("CARTOON_MODEL") or {
     "openai": "gpt-image-1.5",  # supports transparent backgrounds + high input fidelity; gpt-image-2 rejects transparent
     "gemini": "gemini-2.5-flash-image",
-}.get(CARTOON_PROVIDER, "gpt-image-2")
-CARTOON_STYLE = os.environ.get(
-    "CARTOON_STYLE",
+}[CARTOON_PROVIDER]
+CARTOON_STYLE = os.environ.get("CARTOON_STYLE") or (
     "friendly flat-color cartoon with bold clean outlines and soft shading, "
-    "like a character from a modern animated series",
+    "like a character from a modern animated series"
 )
 
 # Longest side the shelter photo is resized to before it's sent to any model.
