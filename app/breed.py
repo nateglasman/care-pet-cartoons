@@ -28,7 +28,7 @@ SPECIES = ("Dog", "Cat")
 
 class BreedGuess(BaseModel):
     breed: str = Field(description="Breed name, e.g. 'Labrador Retriever' or 'Domestic Shorthair (tabby)'")
-    confidence: float = Field(ge=0, le=1, description="0-1 confidence that this breed dominates the animal's appearance")
+    confidence: float = Field(description="Confidence between 0 and 1 that this breed dominates the animal's appearance")
     reason: str = Field(description="One sentence on the visual cues (ears, coat, muzzle, build, markings) behind this guess")
 
 
@@ -49,8 +49,10 @@ _SCHEMA = BreedResult.model_json_schema()
 
 
 def _strict(schema: dict) -> dict:
-    """Structured outputs want additionalProperties=false everywhere."""
+    """Structured outputs want additionalProperties=false everywhere and no numeric bounds."""
     if isinstance(schema, dict):
+        schema.pop("minimum", None)
+        schema.pop("maximum", None)
         if schema.get("type") == "object":
             schema.setdefault("additionalProperties", False)
             if "properties" in schema:
@@ -115,6 +117,8 @@ def identify(pet: dict, photo_path: Path) -> BreedResult:
     text = next(b.text for b in response.content if b.type == "text")
     result = BreedResult.model_validate(json.loads(text))
     result.guesses = result.guesses[:3]
+    for g in result.guesses:
+        g.confidence = min(1.0, max(0.0, g.confidence))
     return result
 
 
