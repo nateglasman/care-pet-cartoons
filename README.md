@@ -35,7 +35,7 @@ file to change.)
 | Step | Default | Why |
 |---|---|---|
 | Breed ID | Claude Opus 5.5 vision, structured JSON output | The shelter's own labels are placeholders ("Mixed Breed (Medium)", "Domestic Shorthair" for 42 of 43 cats). The useful question is *what does it look closest to*, which needs mixed-breed reasoning across dogs **and** cats. Purpose-built classifiers (e.g. ViT fine-tuned on Stanford Dogs) top out around 84% top-1 on purebreds only and have no cat classes. A vision LLM also writes the appearance description the cartoon prompt needs. Nothing to host on Replit. |
-| Cartoon | OpenAI `gpt-image-2` via `images.edit` (photo as reference) | Image-to-image keeps the actual animal's face and markings. Alternative: Gemini image models (`CARTOON_PROVIDER=gemini`). Both are offered through Replit AI Integrations. |
+| Cartoon | OpenAI `gpt-image-1.5` via `images.edit` (photo as reference, transparent background, high input fidelity) | Image-to-image keeps the actual animal's face and markings. Alternative: Gemini image models (`CARTOON_PROVIDER=gemini`). Both are offered through Replit AI Integrations. |
 
 Swap either by env var (see `.env.example`). `app/breed.py` is the only place
 that knows about Claude; drop in CLIP/ViT there if you want a classic-CV baseline.
@@ -50,6 +50,12 @@ touching the code:
    cached in `data/`, which the workflow commits back to the repo),
 3. deletes cached files for pets that left the list,
 4. rebuilds `site/` with `python -m app.site` and deploys it to GitHub Pages.
+
+The page shows each pet as a spinnable coin: cartoon on the front, shelter
+photo on the back. Flick it to spin; the first spin "catches" the pet and the
+counter in the header remembers it in that browser. Bump `CARTOON_VERSION` in
+`app/cartoon.py` whenever you change the cartoon prompt or format and every
+cartoon is regenerated on the next run.
 
 Setup once: **Settings → Secrets and variables → Actions** and add
 `ANTHROPIC_API_KEY` and `OPENAI_API_KEY` (billed to whoever owns those keys).
@@ -144,4 +150,4 @@ data/               cache (pets.json, photos, cartoons, results); committed by t
 | GET | `/api/pets?species=Dog` | list with cached results attached |
 | POST | `/api/sync` | re-pull from Shelterluv |
 | POST | `/api/pets/{id}/analyze?force=&style=` | run (or re-run) one pet; `style` overrides `CARTOON_STYLE` |
-| GET | `/photos/{id}.jpg`, `/cartoons/{id}.jpg` | files |
+| GET | `/photos/{id}.jpg`, `/cartoons/{id}.webp` | files |

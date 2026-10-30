@@ -1,6 +1,7 @@
 {
   "pet_id": "CAIL-A-50246",
   "cover_photo_id": 49643164,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
@@ -8,29 +9,29 @@
       {
         "breed": "Domestic Shorthair (brown tabby)",
         "confidence": 0.85,
-        "reason": "Short dense coat with a classic brown mackerel/ticked tabby pattern, the forehead 'M', and a ringed dark-tipped tail are typical of a random-bred shorthair."
+        "reason": "Short dense coat with a classic brown mackerel/ticked tabby pattern, forehead 'M', and an average lean kitten build typical of random-bred shorthairs."
       },
       {
         "breed": "American Shorthair mix",
-        "confidence": 0.1,
-        "reason": "Brown tabby coloring with a sturdy, rounded face could hint at American Shorthair ancestry, though the build is leaner."
+        "confidence": 0.08,
+        "reason": "The brown tabby striping and rounded face hint at American Shorthair coloring, though the build is slimmer than the breed standard."
       },
       {
         "breed": "Abyssinian mix",
-        "confidence": 0.05,
-        "reason": "Some warm, ticked agouti fur on the face and large upright ears faintly echo Abyssinian traits."
+        "confidence": 0.04,
+        "reason": "Large upright ears and some warm ticking on the coat loosely suggest Abyssinian influence."
       }
     ],
-    "appearance": "A slender young kitten with a short brown tabby coat of warm tan-gray fur, fine dark mackerel stripes along the legs and sides, a bold 'M' on the forehead, and a dark-ringed tail ending in a solid black tip. Large, tall upright ears with pinkish interiors, round yellow-green eyes outlined in dark, a brick-pink nose, a white chin and muzzle, and long white whiskers. She wears an orange collar and sits alertly with one front paw raised, gazing upward.",
-    "fun_fact": "Brown tabby Domestic Shorthairs are famously adaptable, curious companions, and every one has a uniquely striped coat like a fingerprint!"
+    "appearance": "A young, slender brown tabby kitten with a short coat of warm sandy-brown ground color, marked with dark brown-black mackerel stripes and spots, a bold 'M' on the forehead, and dark rings along a black-tipped tail. She has large, tall, pointed ears with pink insides, round greenish-gold eyes rimmed in dark liner, a brick-pink nose outlined in black, a white muzzle and chin with long white whiskers, and a slightly cream chest. She wears a bright orange collar and sits upright with one striped front paw raised.",
+    "fun_fact": "Brown tabbies like Addison sport the famous 'M' on their foreheads, a natural badge that makes every tabby instantly recognizable!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (brown tabby) mix named Addison (k2026). Keep its real appearance: A slender young kitten with a short brown tabby coat of warm tan-gray fur, fine dark mackerel stripes along the legs and sides, a bold 'M' on the forehead, and a dark-ringed tail ending in a solid black tip. Large, tall upright ears with pinkish interiors, round yellow-green eyes outlined in dark, a brick-pink nose, a white chin and muzzle, and long white whiskers. She wears an orange collar and sits alertly with one front paw raised, gazing upward. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby) mix named Addison (k2026). Keep its real appearance: A young, slender brown tabby kitten with a short coat of warm sandy-brown ground color, marked with dark brown-black mackerel stripes and spots, a bold 'M' on the forehead, and dark rings along a black-tipped tail. She has large, tall, pointed ears with pink insides, round greenish-gold eyes rimmed in dark liner, a brick-pink nose outlined in black, a white muzzle and chin with long white whiskers, and a slightly cream chest. She wears a bright orange collar and sits upright with one striped front paw raised. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50246.jpg",
-  "cartoon_file": "CAIL-A-50246.jpg",
+  "cartoon_file": "CAIL-A-50246.webp",
   "models": {
     "breed": "claude-opus-5-5",
-    "cartoon": "openai:gpt-image-2"
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 39.8,
-  "analyzed_at": 1793385770
+  "seconds": 25.5,
+  "analyzed_at": 1793386420
 }

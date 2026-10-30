@@ -19,7 +19,10 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 # Cartoons are committed to git by the GitHub Action, so keep them small.
+# WebP keeps the transparent background at a fraction of PNG's size.
 CARTOON_MAX_PX = 768
+# Bump when the prompt/format changes so every cached cartoon is regenerated on the next run.
+CARTOON_VERSION = 2
 
 from . import config
 from .breed import BreedResult
@@ -28,23 +31,24 @@ from .breed import BreedResult
 def cartoon_prompt(pet: dict, breed: BreedResult, style: str | None = None) -> str:
     top = breed.guesses[0].breed if breed.guesses else pet["species"]
     return (
-        f"Redraw the {pet['species'].lower()} in this photo as a {style or config.CARTOON_STYLE}. "
+        f"Redraw the {pet['species'].lower()} in this photo as a {style or config.CARTOON_STYLE}, "
+        "as a sticker-style portrait isolated on a fully transparent background. "
         f"It is a {top}{' mix' if breed.is_mixed else ''} named {pet['name']}. "
         f"Keep its real appearance: {breed.appearance} "
         "Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. "
-        "Happy, approachable expression, full head and shoulders centered in frame, "
-        "simple warm single-color background, no text, no watermark, no collar tag text."
+        "Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, "
+        "nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text."
     )
 
 
 def cartoon_path(pet: dict) -> Path:
-    return config.CARTOONS_DIR / f"{pet['id']}.jpg"
+    return config.CARTOONS_DIR / f"{pet['id']}.webp"
 
 
 def _save(image_bytes: bytes, out: Path) -> None:
-    img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+    img = Image.open(io.BytesIO(image_bytes)).convert("RGBA")
     img.thumbnail((CARTOON_MAX_PX, CARTOON_MAX_PX))
-    img.save(out, "JPEG", quality=88)
+    img.save(out, "WEBP", quality=88, method=6)
 
 
 def generate(pet: dict, breed: BreedResult, photo_path: Path, style: str | None = None) -> Path:
@@ -66,6 +70,9 @@ def _openai(prompt: str, photo_path: Path, out: Path) -> None:
     if not creds.available:
         raise RuntimeError("No OpenAI credentials: set OPENAI_API_KEY, enable Replit AI Integrations, or set MOCK_AI=1")
     client = OpenAI(api_key=creds.api_key, base_url=creds.base_url)
+    extra = {}
+    if config.CARTOON_MODEL.startswith("gpt-image-1.5"):
+        extra["input_fidelity"] = "high"  # keep the real animal's face/markings (gpt-image-2 doesn't take this)
     with photo_path.open("rb") as f:
         result = client.images.edit(
             model=config.CARTOON_MODEL,
@@ -73,7 +80,9 @@ def _openai(prompt: str, photo_path: Path, out: Path) -> None:
             prompt=prompt,
             size="1024x1024",
             quality="medium",
+            background="transparent",
             output_format="png",
+            **extra,
         )
     data = result.data[0].b64_json
     if not data:

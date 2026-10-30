@@ -19,6 +19,7 @@
   main { padding:0 16px 40px; display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); }
   .card { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
   .imgs { display:grid; grid-template-columns:1fr 1fr; background:#000; }
+  .imgs img + img { background:radial-gradient(circle at 50% 40%, #fde9b8, #e9b94f 70%); object-fit:contain; }
   .imgs img { width:100%; aspect-ratio:1; object-fit:cover; display:block; }
   .imgs .placeholder { aspect-ratio:1; display:grid; place-items:center; color:#999; font-size:12px; background:#2b2a2e; }
   .body { padding:12px 14px 14px; display:flex; flex-direction:column; gap:6px; }
@@ -82,7 +83,7 @@ function card(p) {
   <div class="card" data-id="${p.id}">
     <div class="imgs">
       <img src="${r ? `/photos/${p.id}.jpg` : p.cover_photo_url}" alt="${p.name}" loading="lazy">
-      ${r ? `<img src="/cartoons/${p.id}.jpg?t=${r.analyzed_at}" alt="cartoon of ${p.name}" loading="lazy">`
+      ${r ? `<img src="/cartoons/${p.id}.webp?t=${r.analyzed_at}" alt="cartoon of ${p.name}" loading="lazy">`
           : `<div class="placeholder">cartoon not generated yet</div>`}
     </div>
     <div class="body">

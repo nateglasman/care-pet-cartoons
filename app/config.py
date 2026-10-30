@@ -30,7 +30,7 @@ MOCK_AI = os.environ.get("MOCK_AI", "").strip().lower() in {"1", "true", "yes"}
 BREED_MODEL = os.environ.get("BREED_MODEL", "claude-opus-5-5")
 CARTOON_PROVIDER = os.environ.get("CARTOON_PROVIDER", "openai").strip().lower()
 CARTOON_MODEL = os.environ.get("CARTOON_MODEL") or {
-    "openai": "gpt-image-2",
+    "openai": "gpt-image-1.5",  # supports transparent backgrounds + high input fidelity; gpt-image-2 rejects transparent
     "gemini": "gemini-2.5-flash-image",
 }.get(CARTOON_PROVIDER, "gpt-image-2")
 CARTOON_STYLE = os.environ.get(

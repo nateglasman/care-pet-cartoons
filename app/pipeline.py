@@ -35,6 +35,8 @@ def load_result(pet: dict) -> dict | None:
         return None
     if data.get("models", {}).get("breed") == "mock" and not config.MOCK_AI:
         return None  # placeholder from a keyless run; redo now that real models are available
+    if data.get("cartoon_version") != cartoon_mod.CARTOON_VERSION:
+        return None  # cartoon prompt/format changed -> regenerate
     return data
 
 
@@ -50,6 +52,7 @@ def analyze(pet: dict, force: bool = False, style: str | None = None) -> dict:
     data = {
         "pet_id": pet["id"],
         "cover_photo_id": pet.get("cover_photo_id"),
+        "cartoon_version": cartoon_mod.CARTOON_VERSION,
         "breed": breed.model_dump(),
         "cartoon_prompt": cartoon_mod.cartoon_prompt(pet, breed, style),
         "photo_file": photo.name,

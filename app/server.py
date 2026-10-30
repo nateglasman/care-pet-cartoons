@@ -80,12 +80,12 @@ def photo(pet_id: str):
     return FileResponse(p, media_type="image/jpeg")
 
 
-@app.get("/cartoons/{pet_id}.jpg")
+@app.get("/cartoons/{pet_id}.webp")
 def cartoon(pet_id: str):
-    p = config.CARTOONS_DIR / f"{pet_id}.jpg"
+    p = config.CARTOONS_DIR / f"{pet_id}.webp"
     if not p.exists():
         raise HTTPException(404)
-    return FileResponse(p, media_type="image/jpeg")
+    return FileResponse(p, media_type="image/webp")
 
 
 @app.get("/")

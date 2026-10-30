@@ -67,22 +67,25 @@ def _card(p: dict) -> str:
             f'<div class="bar"><i style="width:{round(g["confidence"] * 100)}%"></i></div>'
             for g in b["guesses"]
         )
-        imgs = (
-            f'<figure><img src="img/{pid}.jpg" alt="Photo of {e(p["name"])}" loading="lazy"><figcaption>shelter photo</figcaption></figure>'
-            f'<figure><img src="cartoons/{pid}.jpg" alt="Cartoon of {e(p["name"])}" loading="lazy"><figcaption>cartoon</figcaption></figure>'
+        coin = (
+            f'<div class="coin-wrap"><div class="coin" data-id="{pid}" tabindex="0" role="button" aria-label="Spin {e(p["name"])}\'s coin">'
+            f'<div class="face front"><img src="cartoons/{pid}.webp" alt="Cartoon of {e(p["name"])}" loading="lazy" draggable="false"></div>'
+            f'<div class="face back"><img src="img/{pid}.jpg" alt="Photo of {e(p["name"])}" loading="lazy" draggable="false"></div>'
+            f'</div><div class="caught-badge">caught ✓</div><div class="hint">flick to spin</div></div>'
         )
         mixed = '<span class="pill">mix</span>' if b["is_mixed"] else ""
         body = f'{guesses}<p class="fact">{e(b["fun_fact"])}</p>'
     else:
-        imgs = (
-            f'<figure><img src="{e(p["cover_photo_url"])}" alt="Photo of {e(p["name"])}" loading="lazy"><figcaption>shelter photo</figcaption></figure>'
-            f'<figure><div class="pending">cartoon coming on the next update</div><figcaption>cartoon</figcaption></figure>'
+        coin = (
+            f'<div class="coin-wrap"><div class="coin pending-coin" aria-hidden="true">'
+            f'<div class="face front"><img src="{e(p["cover_photo_url"])}" alt="Photo of {e(p["name"])}" loading="lazy" draggable="false"></div>'
+            f'</div><div class="hint">cartoon coming on the next update</div></div>'
         )
         mixed, body = "", ""
     link = f'<a href="{e(p["public_url"])}" target="_blank" rel="noopener">adopt {e(p["name"])} ↗</a>' if p.get("public_url") else ""
     return f"""
 <article class="card">
-  <div class="imgs">{imgs}</div>
+  {coin}
   <div class="body">
     <h2>{e(p["name"])} <span class="pill">{e(p["species"])}</span> {mixed}</h2>
     <p class="meta">Shelter label: {shelter_label} · {e(p.get("age_group") or "")} · {e(p.get("sex") or "")}</p>
@@ -124,11 +127,25 @@ def render(rows: list[dict], meta: dict) -> str:
   section > h2 {{ margin:8px 0 12px; font-size:20px; }}
   .grid {{ display:grid; gap:14px; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); }}
   .card {{ background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; }}
-  .imgs {{ display:grid; grid-template-columns:1fr 1fr; background:#111; }}
-  figure {{ margin:0; position:relative; }}
-  figure img, .pending {{ width:100%; aspect-ratio:1; object-fit:cover; display:block; }}
-  .pending {{ display:grid; place-items:center; color:#aaa; font-size:12px; text-align:center; padding:12px; background:#2b2a2e; }}
-  figcaption {{ position:absolute; left:6px; bottom:6px; font-size:11px; background:rgba(0,0,0,.55); color:#fff; padding:2px 7px; border-radius:999px; }}
+  .counter {{ margin:10px 0 0; font-size:15px; }}
+  .counter a {{ color:var(--muted); }}
+  .coin-wrap {{ position:relative; display:grid; place-items:center; padding:18px 0 6px; perspective:900px; background:radial-gradient(ellipse at 50% 30%, rgba(228,87,46,.10), transparent 70%); }}
+  .coin {{ width:210px; height:210px; position:relative; transform-style:preserve-3d; cursor:grab; touch-action:pan-y; user-select:none; -webkit-user-select:none; outline:none; will-change:transform; }}
+  .coin:focus-visible {{ filter:drop-shadow(0 0 0 3px var(--accent)); }}
+  .coin.dragging {{ cursor:grabbing; }}
+  .face {{ position:absolute; inset:0; border-radius:50%; overflow:hidden; backface-visibility:hidden; -webkit-backface-visibility:hidden;
+           background:radial-gradient(circle at 35% 30%, #fff1c2 0%, #f3c64f 45%, #c99324 100%);
+           box-shadow: inset 0 0 0 7px #d9a93a, inset 0 0 0 9px #fff0b5, inset 0 0 0 12px #b8831c, 0 10px 22px rgba(0,0,0,.28); }}
+  .face img {{ width:100%; height:100%; object-fit:contain; padding:16px; display:block; pointer-events:none; }}
+  .face.back {{ transform:rotateY(180deg); }}
+  .face.back img {{ object-fit:cover; padding:12px; border-radius:50%; }}
+  .pending-coin {{ opacity:.55; filter:grayscale(.6); cursor:default; }}
+  .pending-coin .face img {{ object-fit:cover; padding:12px; border-radius:50%; }}
+  .hint {{ font-size:11px; color:var(--muted); margin-top:6px; }}
+  .caught-badge {{ position:absolute; top:10px; right:12px; font-size:11px; font-weight:700; padding:3px 9px; border-radius:999px; background:var(--ok); color:#fff; opacity:0; transform:scale(.6); transition:all .35s cubic-bezier(.2,1.4,.4,1); }}
+  .coin-wrap.caught .caught-badge {{ opacity:1; transform:scale(1); }}
+  .coin-wrap.caught .coin .face {{ box-shadow: inset 0 0 0 7px #d9a93a, inset 0 0 0 9px #fff0b5, inset 0 0 0 12px #b8831c, 0 0 0 4px rgba(42,157,143,.35), 0 10px 22px rgba(0,0,0,.28); }}
+  @media (prefers-reduced-motion: reduce) {{ .caught-badge {{ transition:none; }} }}
   .body {{ padding:12px 14px 14px; }}
   .body h2 {{ margin:0 0 4px; font-size:17px; }}
   .meta {{ color:var(--muted); font-size:13px; margin:4px 0; }}
@@ -147,12 +164,79 @@ def render(rows: list[dict], meta: dict) -> str:
   <h1>🐾 Who do they look like?</h1>
   <p class="sub">Every adoptable dog and cat at <a href="{meta["shelter_url"]}">C.A.R.E. North Shore</a>: the shelter photo, the closest breed guess from a vision model, and a cartoon portrait drawn from the photo.</p>
   <p class="sub">{meta["count"]} pets · {meta["analyzed"]} with cartoons · updated {updated} · refreshes automatically from the shelter's list.</p>
+  <p class="counter">🏅 Caught <strong id="caught-n">0</strong> / {meta["analyzed"]} <span class="meta">· flick or tap a coin to spin it and catch the pet · <a href="#" id="reset">reset</a></span></p>
 </header>
 {banner}
 <nav><a href="#dogs">Dogs ({len(dogs)})</a><a href="#cats">Cats ({len(cats)})</a></nav>
 <section id="dogs"><h2>Dogs</h2><div class="grid">{"".join(_card(p) for p in dogs)}</div></section>
 <section id="cats"><h2>Cats</h2><div class="grid">{"".join(_card(p) for p in cats)}</div></section>
 <footer>Breed guesses are a model's best visual estimate, not a DNA test. Listing data and photos belong to C.A.R.E. North Shore via Shelterluv.</footer>
+<script>
+(function () {{
+  // --- "caught" state lives only in this browser; the page itself never changes ---
+  const KEY = 'caught-pets';
+  const load = () => {{ try {{ return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }} catch (e) {{ return new Set(); }} }};
+  const save = (set) => {{ try {{ localStorage.setItem(KEY, JSON.stringify([...set])); }} catch (e) {{}} }};
+  let caught = load();
+  const counter = document.getElementById('caught-n');
+  const ids = [...document.querySelectorAll('.coin[data-id]')].map(c => c.dataset.id);
+  caught = new Set([...caught].filter(id => ids.includes(id)));  // drop pets no longer listed
+  const paint = () => {{
+    counter.textContent = caught.size;
+    document.querySelectorAll('.coin[data-id]').forEach(c => c.parentElement.classList.toggle('caught', caught.has(c.dataset.id)));
+  }};
+  paint();
+  document.getElementById('reset').addEventListener('click', (e) => {{ e.preventDefault(); caught = new Set(); save(caught); paint(); }});
+
+  // --- coin physics: drag to spin, flick for momentum, tap for a quick spin, settles on a face ---
+  const SNAP_V = 90, FRICTION = 1.6, TAP_V = 1500, CATCH_DEG = 360;
+  document.querySelectorAll('.coin[data-id]').forEach(coin => {{
+    let angle = 0, v = 0, raf = null, last = 0, dragging = false, startX = 0, lastX = 0, lastT = 0, spun = 0;
+    const render = () => coin.style.transform = `rotateY(${{angle}}deg)`;
+    const catchIt = () => {{
+      if (caught.has(coin.dataset.id)) return;
+      caught.add(coin.dataset.id); save(caught); paint();
+      if (navigator.vibrate) navigator.vibrate(30);
+    }};
+    const step = (t) => {{
+      const dt = Math.min(0.05, (t - last) / 1000 || 0.016); last = t;
+      if (Math.abs(v) > SNAP_V) {{
+        angle += v * dt; spun += Math.abs(v * dt);
+        v *= Math.exp(-FRICTION * dt);
+      }} else {{
+        const target = Math.round(angle / 180) * 180;
+        const d = target - angle;
+        if (Math.abs(d) < 0.3) {{ angle = target; v = 0; render(); raf = null; if (spun >= CATCH_DEG) catchIt(); spun = 0; return; }}
+        angle += d * Math.min(1, 10 * dt); v = 0;
+      }}
+      render(); raf = requestAnimationFrame(step);
+    }};
+    const go = () => {{ if (!raf) {{ last = performance.now(); raf = requestAnimationFrame(step); }} }};
+    const spin = (speed) => {{ v = speed; go(); }};
+
+    coin.addEventListener('pointerdown', (e) => {{
+      dragging = true; coin.classList.add('dragging'); coin.setPointerCapture(e.pointerId);
+      startX = lastX = e.clientX; lastT = performance.now(); v = 0;
+      if (raf) {{ cancelAnimationFrame(raf); raf = null; }}
+    }});
+    coin.addEventListener('pointermove', (e) => {{
+      if (!dragging) return;
+      const now = performance.now(), dx = e.clientX - lastX, dt = Math.max(1, now - lastT) / 1000;
+      angle += dx * 0.8; spun += Math.abs(dx * 0.8); v = (dx * 0.8) / dt; lastX = e.clientX; lastT = now; render();
+    }});
+    const release = (e) => {{
+      if (!dragging) return;
+      dragging = false; coin.classList.remove('dragging');
+      if (Math.abs(e.clientX - startX) < 6) v = TAP_V * (Math.random() < 0.5 ? -1 : 1);  // a tap = flick
+      if (performance.now() - lastT > 80) v = 0;  // held still before letting go
+      go();
+    }};
+    coin.addEventListener('pointerup', release);
+    coin.addEventListener('pointercancel', release);
+    coin.addEventListener('keydown', (e) => {{ if (e.key === 'Enter' || e.key === ' ') {{ e.preventDefault(); spin(TAP_V); }} }});
+  }});
+}})();
+</script>
 </body>
 </html>
 """
