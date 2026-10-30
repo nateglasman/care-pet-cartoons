@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50284",
   "cover_photo_id": 46410567,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (solid black)",
+        "confidence": 0.8,
+        "reason": "Short, dense, solid black coat with no white markings, average lean build, and moderate wedge-shaped head typical of a random-bred shorthair."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Bombay mix",
+        "confidence": 0.15,
+        "reason": "Glossy all-black coat, black nose leather, and rounded face give a Bombay-like look, though the greenish rather than copper eyes make a purebred Bombay unlikely."
+      },
+      {
+        "breed": "Oriental Shorthair mix",
+        "confidence": 0.05,
+        "reason": "Large, upright, widely set ears and a slender young frame hint at a slightly Oriental type, but the features are not extreme."
       }
     ],
-    "appearance": "(mock) A Black cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young, slender black cat with a short, sleek, solid black coat that shows faint rusty-brown undertones on the chest in the light, and no white markings anywhere. He has large, tall, upright triangular ears set wide on his head, round pale yellow-green eyes, a black nose leather, and prominent white-tipped whiskers. His build is lean and leggy like an adolescent, with a long thin black tail held up in a gentle curve.",
+    "fun_fact": "Sleek black cats like Valentino are often called 'house panthers', a miniature jungle cat to curl up on your couch!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Valentino. Keep its real appearance: (mock) A Black cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (solid black) mix named Valentino. Keep its real appearance: A young, slender black cat with a short, sleek, solid black coat that shows faint rusty-brown undertones on the chest in the light, and no white markings anywhere. He has large, tall, upright triangular ears set wide on his head, round pale yellow-green eyes, a black nose leather, and prominent white-tipped whiskers. His build is lean and leggy like an adolescent, with a long thin black tail held up in a gentle curve. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50284.jpg",
-  "cartoon_file": "CAIL-A-50284.jpg",
+  "cartoon_file": "CAIL-A-50284.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.5,
-  "analyzed_at": 1793379115
+  "seconds": 25.8,
+  "analyzed_at": 1793390053
 }

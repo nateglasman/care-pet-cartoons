@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50350",
   "cover_photo_id": 50351695,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown mackerel tabby)",
+        "confidence": 0.85,
+        "reason": "Short dense coat with classic brown-gray mackerel striping, forehead 'M' marking, and an average lean kitten build typical of a random-bred shorthair."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Shorthair mix",
+        "confidence": 0.08,
+        "reason": "The silver-brown tabby coloring and rounded face echo American Shorthair traits, though the striping and build are more typical of a domestic mix."
+      },
+      {
+        "breed": "Egyptian Mau mix",
+        "confidence": 0.03,
+        "reason": "Large ears and greenish-gold eyes give a slightly Mau-like look, but the coat shows stripes rather than true spots."
       }
     ],
-    "appearance": "(mock) A Brown cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young kitten with a short brown-gray mackerel tabby coat: dark black stripes on the back and sides, a bold 'M' on the forehead, dark lines running from the outer corners of the eyes across the cheeks, and stripes forming necklace rings on the chest. The muzzle, chin, and chest are white-cream, with a warm tan-orange patch on the bridge of the nose above a small dark gray nose, and the large upright pink-lined ears are tall and slightly pointed. Big round pale green-gold eyes give an alert, wide-eyed expression, and the kitten wears a thin red collar while crouched on a speckled rug.",
+    "fun_fact": "Mackerel tabbies get their name from their fish-skeleton-like stripes, and their friendly, adaptable personalities make them wonderful family companions\u2014especially paired with a bonded buddy like Olaf!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Ozzie (k2026). Keep its real appearance: (mock) A Brown cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown mackerel tabby) mix named Ozzie (k2026). Keep its real appearance: A young kitten with a short brown-gray mackerel tabby coat: dark black stripes on the back and sides, a bold 'M' on the forehead, dark lines running from the outer corners of the eyes across the cheeks, and stripes forming necklace rings on the chest. The muzzle, chin, and chest are white-cream, with a warm tan-orange patch on the bridge of the nose above a small dark gray nose, and the large upright pink-lined ears are tall and slightly pointed. Big round pale green-gold eyes give an alert, wide-eyed expression, and the kitten wears a thin red collar while crouched on a speckled rug. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50350.jpg",
-  "cartoon_file": "CAIL-A-50350.jpg",
+  "cartoon_file": "CAIL-A-50350.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.2,
-  "analyzed_at": 1793379109
+  "seconds": 28.6,
+  "analyzed_at": 1793389766
 }

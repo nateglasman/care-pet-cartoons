@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50381",
   "cover_photo_id": 51981642,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (solid black)",
+        "confidence": 0.8,
+        "reason": "Glossy, short, solid black coat with a medium build and no distinctive pedigree features points to a classic domestic shorthair."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Bombay mix",
+        "confidence": 0.15,
+        "reason": "The sleek jet-black coat and rounded head resemble a Bombay, though the green-yellow eyes and slender face are less typical of the breed."
+      },
+      {
+        "breed": "Oriental Shorthair mix",
+        "confidence": 0.05,
+        "reason": "Fairly large, upright ears and a slim, elegant neck hint at a faint oriental-type influence."
       }
     ],
-    "appearance": "(mock) A Black cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A slender, medium-sized cat with a short, glossy, solid jet-black coat that shines with silvery highlights where the light hits, especially on the face and chest. She has large, upright triangular ears with pinkish-tan inner skin, pale yellow-green almond eyes, a black nose, long white-and-black whiskers, and a few faint grizzled gray hairs around the muzzle and chin. She sits upright and poised with a long neck and neat front paws together, head turned slightly over her shoulder.",
+    "fun_fact": "Black domestic shorthairs are famously sleek and affectionate, like having a miniature panther who loves lap time!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Kate (Zaija). Keep its real appearance: (mock) A Black cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (solid black) mix named Kate (Zaija). Keep its real appearance: A slender, medium-sized cat with a short, glossy, solid jet-black coat that shines with silvery highlights where the light hits, especially on the face and chest. She has large, upright triangular ears with pinkish-tan inner skin, pale yellow-green almond eyes, a black nose, long white-and-black whiskers, and a few faint grizzled gray hairs around the muzzle and chin. She sits upright and poised with a long neck and neat front paws together, head turned slightly over her shoulder. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50381.jpg",
-  "cartoon_file": "CAIL-A-50381.jpg",
+  "cartoon_file": "CAIL-A-50381.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.5,
-  "analyzed_at": 1793379104
+  "seconds": 25.8,
+  "analyzed_at": 1793389452
 }

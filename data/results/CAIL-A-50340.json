@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50340",
   "cover_photo_id": 51927078,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (black-and-white bicolor / tuxedo)",
+        "confidence": 0.85,
+        "reason": "Short, dense coat with a classic black-and-white bicolor pattern, white chest, legs, and muzzle, and a moderate, non-extreme build typical of random-bred shorthairs."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (bicolor with 'mustache' marking)",
+        "confidence": 0.1,
+        "reason": "The distinctive black spot on the upper lip is a common quirky placement of white-spotting in random-bred bicolor cats rather than a breed trait."
+      },
+      {
+        "breed": "Turkish Van mix",
+        "confidence": 0.05,
+        "reason": "High amount of white with dark patches on the head and body hints at a strong white-spotting gene, though the black covers too much of the back for a true van pattern."
       }
     ],
-    "appearance": "(mock) A Black cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A slender young kitten with a short, glossy black-and-white coat: a black cap covers the top of the head, both ears, and around the eyes, split by a white inverted-V blaze running up the forehead, and a black mantle drapes over the back and shoulders and down the outer front leg. The chest, belly, muzzle, and all four paws are bright white, with a small black 'mustache' smudge on the left side of the upper lip just beside a pink nose. She has large, upright pinkish-lined ears, round golden-amber eyes, long white whiskers, and an alert, slightly head-tilted expression.",
+    "fun_fact": "Tuxedo-patterned cats like Pam are famous for their dapper 'formal wear' looks and outgoing, playful personalities\u2014she's always dressed for a new adventure!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Pam. Keep its real appearance: (mock) A Black cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (black-and-white bicolor / tuxedo) mix named Pam. Keep its real appearance: A slender young kitten with a short, glossy black-and-white coat: a black cap covers the top of the head, both ears, and around the eyes, split by a white inverted-V blaze running up the forehead, and a black mantle drapes over the back and shoulders and down the outer front leg. The chest, belly, muzzle, and all four paws are bright white, with a small black 'mustache' smudge on the left side of the upper lip just beside a pink nose. She has large, upright pinkish-lined ears, round golden-amber eyes, long white whiskers, and an alert, slightly head-tilted expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50340.jpg",
-  "cartoon_file": "CAIL-A-50340.jpg",
+  "cartoon_file": "CAIL-A-50340.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.7,
-  "analyzed_at": 1793379110
+  "seconds": 27.5,
+  "analyzed_at": 1793389793
 }

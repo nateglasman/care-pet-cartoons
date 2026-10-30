@@ -1,6 +1,7 @@
 {
   "pet_id": "CAIL-A-50368",
   "cover_photo_id": 51872269,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
@@ -8,24 +9,29 @@
       {
         "breed": "Labrador Retriever",
         "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "reason": "Cream/yellow short dense coat, broad head, black nose, friendly open-mouthed expression, and otter-like tail suggest Yellow Lab ancestry."
       },
       {
-        "breed": "Border Collie",
+        "breed": "Jindo / Korean Village Dog",
         "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "reason": "Creamy white coat with lighter body, somewhat foxy face shape, and medium athletic build are typical of Jindo-type mixes often seen in rescue."
+      },
+      {
+        "breed": "Great Pyrenees",
+        "confidence": 0.15,
+        "reason": "Mostly white coat with tan-tinged ears and large paws hint at a white livestock guardian contribution."
       }
     ],
-    "appearance": "(mock) A White dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young, medium-to-large puppy with a short, dense creamy-white coat that warms to pale buttery tan on the ears, top of the head, and tail. Her ears are soft, semi-floppy and fold outward at the tips like little wings, framing a broad face with dark brown almond eyes, a large black nose, black lips, and a happy open-mouthed grin showing a pink tongue. She sits upright with a deep white chest, sturdy straight legs, and big oversized white paws, wearing a thin teal collar.",
+    "fun_fact": "Labrador Retrievers have been America's favorite family dog for decades thanks to their sunny, people-loving personalities!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Veronica. Keep its real appearance: (mock) A White dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Labrador Retriever mix named Veronica. Keep its real appearance: A young, medium-to-large puppy with a short, dense creamy-white coat that warms to pale buttery tan on the ears, top of the head, and tail. Her ears are soft, semi-floppy and fold outward at the tips like little wings, framing a broad face with dark brown almond eyes, a large black nose, black lips, and a happy open-mouthed grin showing a pink tongue. She sits upright with a deep white chest, sturdy straight legs, and big oversized white paws, wearing a thin teal collar. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50368.jpg",
-  "cartoon_file": "CAIL-A-50368.jpg",
+  "cartoon_file": "CAIL-A-50368.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.7,
-  "analyzed_at": 1793379122
+  "seconds": 28.9,
+  "analyzed_at": 1793390555
 }

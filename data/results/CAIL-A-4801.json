@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-4801",
   "cover_photo_id": 40023504,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Labrador Retriever",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Jack Russell Terrier (Broken/Rough Coat)",
+        "confidence": 0.5,
+        "reason": "Small, sturdy terrier build with a mostly white wiry coat, tan-tinged face, and expressive dark eyes typical of rough-coated Jack Russells."
       },
       {
-        "breed": "Border Collie",
+        "breed": "Chihuahua",
         "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "reason": "The large, upright, thin brown ears that flare outward and the small rounded head suggest Chihuahua influence."
+      },
+      {
+        "breed": "Wire Fox Terrier",
+        "confidence": 0.15,
+        "reason": "The scruffy, wiry white coat with beard and eyebrow furnishings resembles wire-haired terrier breeds."
       }
     ],
-    "appearance": "(mock) A Brown dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A small, scruffy dog with a wiry, tousled coat that is mostly white with pale tan/wheaten shading across the forehead and cheeks, and long wispy furnishings forming a beard and whiskery eyebrows. Large, upright, triangular ears are smooth reddish-brown on the backs with white wisps of fur at the edges, set wide and slightly flared. Round, glossy dark-brown eyes with darker gray-brown 'eyeliner' patches above them, a shiny black nose, and an open, happy mouth with a pink tongue; wearing a green harness with a gold heart-shaped tag.",
+    "fun_fact": "Jack Russell Terriers are bundles of clever energy who turn every walk into an adventure and every day into a game!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Arty. Keep its real appearance: (mock) A Brown dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Jack Russell Terrier (Broken/Rough Coat) mix named Arty. Keep its real appearance: A small, scruffy dog with a wiry, tousled coat that is mostly white with pale tan/wheaten shading across the forehead and cheeks, and long wispy furnishings forming a beard and whiskery eyebrows. Large, upright, triangular ears are smooth reddish-brown on the backs with white wisps of fur at the edges, set wide and slightly flared. Round, glossy dark-brown eyes with darker gray-brown 'eyeliner' patches above them, a shiny black nose, and an open, happy mouth with a pink tongue; wearing a green harness with a gold heart-shaped tag. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-4801.jpg",
-  "cartoon_file": "CAIL-A-4801.jpg",
+  "cartoon_file": "CAIL-A-4801.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.6,
-  "analyzed_at": 1793379117
+  "seconds": 28.6,
+  "analyzed_at": 1793390170
 }

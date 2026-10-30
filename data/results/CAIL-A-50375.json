@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50375",
   "cover_photo_id": 51695117,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (gray and white / blue bicolor)",
+        "confidence": 0.8,
+        "reason": "A short, dense solid gray coat with a white chest locket, white belly spot, and white-tipped paws is the classic random-bred blue-and-white pattern."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Russian Blue mix",
+        "confidence": 0.12,
+        "reason": "The plush blue-gray coat and large upright ears suggest it, but the white markings rule out a purebred Russian Blue."
+      },
+      {
+        "breed": "Chartreux mix",
+        "confidence": 0.05,
+        "reason": "The solid blue-gray coloring resembles a Chartreux, though the slender kitten build and white patches point to a mix."
       }
     ],
-    "appearance": "(mock) A Grey cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young kitten with a short, soft, solid blue-gray coat, a white bib on the chest, a small white patch on the belly, and white mittens on the front paws. It has large, upright, pointed ears with pink inner skin, round blue-gray kitten eyes, a gray nose, and long white whiskers. Its build is small and slender with a wedge-shaped face, and it sits upright looking curiously at the viewer.",
+    "fun_fact": "Gray-and-white domestic shorthairs are healthy, adaptable all-rounders, so Carter could be just as happy cuddling on the couch as chasing toys across the floor!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Carter (k2026). Keep its real appearance: (mock) A Grey cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (gray and white / blue bicolor) mix named Carter (k2026). Keep its real appearance: A young kitten with a short, soft, solid blue-gray coat, a white bib on the chest, a small white patch on the belly, and white mittens on the front paws. It has large, upright, pointed ears with pink inner skin, round blue-gray kitten eyes, a gray nose, and long white whiskers. Its build is small and slender with a wedge-shaped face, and it sits upright looking curiously at the viewer. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50375.jpg",
-  "cartoon_file": "CAIL-A-50375.jpg",
+  "cartoon_file": "CAIL-A-50375.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.7,
-  "analyzed_at": 1793379094
+  "seconds": 29.3,
+  "analyzed_at": 1793389042
 }

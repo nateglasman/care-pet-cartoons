@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50396",
   "cover_photo_id": 52066023,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Labrador Retriever",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Shih Tzu",
+        "confidence": 0.4,
+        "reason": "Small, sturdy body with a long, wavy coat, a beard and mustache, a gold-and-cream coat with darker shading on the ears, and a short broad muzzle all point to Shih Tzu."
       },
       {
-        "breed": "Border Collie",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Poodle (Toy/Miniature)",
+        "confidence": 0.3,
+        "reason": "The crimped, curly texture of the wet coat suggests poodle ancestry, as in a Shih-Poo."
+      },
+      {
+        "breed": "Lhasa Apso",
+        "confidence": 0.2,
+        "reason": "The shaggy parted coat, drop ears feathered with darker tips, and compact low-set frame resemble a Lhasa Apso."
       }
     ],
-    "appearance": "(mock) A Brown dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "Fluffy is a small, compact dog with a shaggy, curly-wavy coat (damp in this photo) in a tan-and-gold color with cream highlights on the face and dark brown-black tipping on the long, hanging drop ears. Round dark-brown eyes peek out from under a scruffy fringe, set above a short muzzle with a black nose and a messy cream beard and mustache. The legs are short and sturdy, covered in long, tousled furnishings, giving an endearing ragamuffin look.",
+    "fun_fact": "Shih Tzus were bred as royal lap companions in ancient China, so cuddling is literally in their job description!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Fluffy. Keep its real appearance: (mock) A Brown dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Shih Tzu mix named Fluffy. Keep its real appearance: Fluffy is a small, compact dog with a shaggy, curly-wavy coat (damp in this photo) in a tan-and-gold color with cream highlights on the face and dark brown-black tipping on the long, hanging drop ears. Round dark-brown eyes peek out from under a scruffy fringe, set above a short muzzle with a black nose and a messy cream beard and mustache. The legs are short and sturdy, covered in long, tousled furnishings, giving an endearing ragamuffin look. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50396.jpg",
-  "cartoon_file": "CAIL-A-50396.jpg",
+  "cartoon_file": "CAIL-A-50396.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.6,
-  "analyzed_at": 1793379119
+  "seconds": 28.4,
+  "analyzed_at": 1793390284
 }

@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50344",
   "cover_photo_id": 50679712,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown tabby and white)",
+        "confidence": 0.8,
+        "reason": "Short dense coat with classic brown mackerel tabby striping on the back and head combined with a white chest, muzzle blaze, belly and paws is the typical random-bred bicolor tabby pattern."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Munchkin mix",
+        "confidence": 0.12,
+        "reason": "The legs look noticeably short relative to the body as she crouches, though this could simply be posture."
+      },
+      {
+        "breed": "Oriental Shorthair mix",
+        "confidence": 0.08,
+        "reason": "Very large, tall, wide-set ears and a slender wedge-shaped face hint at some Oriental-type influence."
       }
     ],
-    "appearance": "(mock) A Brown cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A slim, small-to-medium shorthaired cat with a brown-gray mackerel tabby coat on her back, sides, legs and head, and crisp white on her chest, belly, muzzle, an inverted-V blaze between the eyes, and all four paws. She has very large, upright, pointed ears with pale inner fur, big round green-gold eyes, a pink nose with a brown-tabby patch around it, a faint tan tinge on her chin, and long, abundant white whiskers. Her legs appear short and her stance low and compact, with tabby stripes running down her forelegs to neat white mittens.",
+    "fun_fact": "Tabby-and-white cats are famous for their one-of-a-kind patterns, so Savannah's striped coat and white blaze are truly hers alone!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Savannah. Keep its real appearance: (mock) A Brown cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby and white) mix named Savannah. Keep its real appearance: A slim, small-to-medium shorthaired cat with a brown-gray mackerel tabby coat on her back, sides, legs and head, and crisp white on her chest, belly, muzzle, an inverted-V blaze between the eyes, and all four paws. She has very large, upright, pointed ears with pale inner fur, big round green-gold eyes, a pink nose with a brown-tabby patch around it, a faint tan tinge on her chin, and long, abundant white whiskers. Her legs appear short and her stance low and compact, with tabby stripes running down her forelegs to neat white mittens. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50344.jpg",
-  "cartoon_file": "CAIL-A-50344.jpg",
+  "cartoon_file": "CAIL-A-50344.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.5,
-  "analyzed_at": 1793379112
+  "seconds": 28.7,
+  "analyzed_at": 1793389909
 }

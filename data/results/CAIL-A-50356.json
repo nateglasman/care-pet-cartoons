@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50356",
   "cover_photo_id": 50450432,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Labrador Retriever",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Pit Bull Terrier / American Staffordshire Terrier",
+        "confidence": 0.65,
+        "reason": "Broad blocky head, wide muzzle with a strong jaw, short sleek fawn-and-white coat, and a stocky, muscular build are classic bully-breed traits."
       },
       {
-        "breed": "Border Collie",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Staffordshire Bull Terrier",
+        "confidence": 0.15,
+        "reason": "Compact, sturdy body with a short muzzle and pronounced cheek muscles fits a Staffy influence."
+      },
+      {
+        "breed": "Boxer",
+        "confidence": 0.1,
+        "reason": "Fawn coat with a white chest and blaze, slightly darker muzzle shading, and naturally large erect ears could suggest some Boxer in the mix."
       }
     ],
-    "appearance": "(mock) A Beige dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A compact, muscular medium-sized dog with a short, glossy fawn (light tan) coat, a white blaze running from forehead down the muzzle, and a broad white chest and white-tipped paws. Her large, naturally upright pointed ears are pink inside, her eyes are warm amber-brown with soft grayish-dusky shading around them and on the muzzle, and her black nose sits above a muzzle with pink freckled patches on the lips. She wears a pink collar with a silver tag and is shown sitting attentively, looking up with an earnest expression.",
+    "fun_fact": "Pit bull\u2013type dogs are famous for their big smiles, wiggly bodies, and boundless love for their people!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Tiki. Keep its real appearance: (mock) A Beige dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a American Pit Bull Terrier / American Staffordshire Terrier mix named Tiki. Keep its real appearance: A compact, muscular medium-sized dog with a short, glossy fawn (light tan) coat, a white blaze running from forehead down the muzzle, and a broad white chest and white-tipped paws. Her large, naturally upright pointed ears are pink inside, her eyes are warm amber-brown with soft grayish-dusky shading around them and on the muzzle, and her black nose sits above a muzzle with pink freckled patches on the lips. She wears a pink collar with a silver tag and is shown sitting attentively, looking up with an earnest expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50356.jpg",
-  "cartoon_file": "CAIL-A-50356.jpg",
+  "cartoon_file": "CAIL-A-50356.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.2,
-  "analyzed_at": 1793379121
+  "seconds": 28.4,
+  "analyzed_at": 1793390495
 }

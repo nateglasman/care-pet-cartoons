@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50345",
   "cover_photo_id": 50433142,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Labrador Retriever",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Boxer",
+        "confidence": 0.5,
+        "reason": "The fawn-brindle coat with a white blaze and chest, slightly shortened muzzle, dark mask around the mouth, and loose upper lips (flews) are classic Boxer traits."
       },
       {
-        "breed": "Border Collie",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Pit Bull Terrier / American Staffordshire Terrier",
+        "confidence": 0.35,
+        "reason": "The broad, wedge-shaped head, muscular cheeks, rose/semi-folded ears, and stocky medium build suggest bully-terrier ancestry."
+      },
+      {
+        "breed": "American Bulldog",
+        "confidence": 0.15,
+        "reason": "The white facial markings, sturdy chest, and moderately short, blocky muzzle could also reflect American Bulldog influence."
       }
     ],
-    "appearance": "(mock) A Red/Mahogany dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "Mina is a muscular, medium-sized dog with a short, glossy fawn coat overlaid with subtle dark brindle striping, a white blaze running from the forehead down the bridge of the nose, a white muzzle, and a broad white chest patch. She has a blocky head, a moderately short muzzle with a black nose, slightly droopy lips with dark pigment, and warm, deep brown almond-shaped eyes; her thin ears are semi-erect and fold over at the tips, with the right ear perked higher and flipped open to show its pink inside. In the photo she sits upright on a gray car seat wearing a teal martingale collar with a silver ring and a pink leash.",
+    "fun_fact": "Boxers are famous for their playful 'kidney bean' wiggle dance when they're happy, and they stay goofy, loving companions well into adulthood!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Mina. Keep its real appearance: (mock) A Red/Mahogany dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Boxer mix named Mina. Keep its real appearance: Mina is a muscular, medium-sized dog with a short, glossy fawn coat overlaid with subtle dark brindle striping, a white blaze running from the forehead down the bridge of the nose, a white muzzle, and a broad white chest patch. She has a blocky head, a moderately short muzzle with a black nose, slightly droopy lips with dark pigment, and warm, deep brown almond-shaped eyes; her thin ears are semi-erect and fold over at the tips, with the right ear perked higher and flipped open to show its pink inside. In the photo she sits upright on a gray car seat wearing a teal martingale collar with a silver ring and a pink leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50345.jpg",
-  "cartoon_file": "CAIL-A-50345.jpg",
+  "cartoon_file": "CAIL-A-50345.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.6,
-  "analyzed_at": 1793379120
+  "seconds": 33.1,
+  "analyzed_at": 1793390405
 }

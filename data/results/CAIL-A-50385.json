@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50385",
   "cover_photo_id": 51872530,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Labrador Retriever",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Chihuahua",
+        "confidence": 0.45,
+        "reason": "Small, fine-boned build with large upright triangular ears, a short tapered muzzle, and big dark round eyes are classic Chihuahua traits."
       },
       {
-        "breed": "Border Collie",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Jack Russell Terrier",
+        "confidence": 0.3,
+        "reason": "The predominantly white body with a black-and-tan tricolor head, a narrow white blaze, and a black body patch resembles a tricolor terrier pattern."
+      },
+      {
+        "breed": "Papillon",
+        "confidence": 0.15,
+        "reason": "The slightly longer, wispy coat on the chest and tail, combined with large erect fringed ears and the tricolor pattern, hints at Papillon influence."
       }
     ],
-    "appearance": "(mock) A White dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A small, slender dog with a mostly white, slightly wiry medium-short coat lightly ticked with faint gray-tan speckles on the legs, a single bold black patch on the shoulder/side, and a curled-up tail patterned black and tan at the base. Its head is tricolor: a black mask over both eyes and cheeks with tan eyebrow dots and tan cheek markings, a narrow white blaze running up the forehead, a white speckled muzzle, and a black nose. It has very large, erect triangular ears that are tan on the inside and fringed, big round dark-brown eyes, and wears a teal collar with a silver bone-shaped tag attached to an orange leash.",
+    "fun_fact": "Chihuahuas may be tiny, but they have big personalities and often form devoted bonds with their favorite person!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Jack. Keep its real appearance: (mock) A White dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Chihuahua mix named Jack. Keep its real appearance: A small, slender dog with a mostly white, slightly wiry medium-short coat lightly ticked with faint gray-tan speckles on the legs, a single bold black patch on the shoulder/side, and a curled-up tail patterned black and tan at the base. Its head is tricolor: a black mask over both eyes and cheeks with tan eyebrow dots and tan cheek markings, a narrow white blaze running up the forehead, a white speckled muzzle, and a black nose. It has very large, erect triangular ears that are tan on the inside and fringed, big round dark-brown eyes, and wears a teal collar with a silver bone-shaped tag attached to an orange leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50385.jpg",
-  "cartoon_file": "CAIL-A-50385.jpg",
+  "cartoon_file": "CAIL-A-50385.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.1,
-  "analyzed_at": 1793379119
+  "seconds": 31.7,
+  "analyzed_at": 1793390343
 }

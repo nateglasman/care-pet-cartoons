@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50348",
   "cover_photo_id": 51403720,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown mackerel tabby)",
+        "confidence": 0.85,
+        "reason": "Short dense coat with narrow vertical black stripes over a warm brown-gray base, classic forehead 'M', and an average lean build typical of a random-bred shorthair."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Shorthair mix",
+        "confidence": 0.08,
+        "reason": "The crisp brown-silver tabby striping and rounded face resemble American Shorthair coloring, though the build is lighter and more slender."
+      },
+      {
+        "breed": "Abyssinian mix",
+        "confidence": 0.04,
+        "reason": "Large, tall ears and a warm ticked tone along the legs and belly hint at a slight oriental/Aby influence."
       }
     ],
-    "appearance": "(mock) A Brown cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young, slender kitten with a short brown mackerel tabby coat: narrow black stripes run vertically down her sides over a warm sandy-gray base, with ringed legs, a banded tail, and a bold 'M' and dark streaks on her forehead. She has large, upright pinkish-lined ears that look oversized for her head, round yellow-green eyes rimmed in black, a brick-pink nose outlined in dark, and a white chin and muzzle with pale cream whiskers. Her paws show darker brown pads and soles, and she lies curled in a soft charcoal-gray plush bed.",
+    "fun_fact": "Mackerel tabbies get their name from their fish-bone-like stripes, and every tabby wears its own signature 'M' right on its forehead!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Lucy (k2026). Keep its real appearance: (mock) A Brown cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown mackerel tabby) mix named Lucy (k2026). Keep its real appearance: A young, slender kitten with a short brown mackerel tabby coat: narrow black stripes run vertically down her sides over a warm sandy-gray base, with ringed legs, a banded tail, and a bold 'M' and dark streaks on her forehead. She has large, upright pinkish-lined ears that look oversized for her head, round yellow-green eyes rimmed in black, a brick-pink nose outlined in dark, and a white chin and muzzle with pale cream whiskers. Her paws show darker brown pads and soles, and she lies curled in a soft charcoal-gray plush bed. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50348.jpg",
-  "cartoon_file": "CAIL-A-50348.jpg",
+  "cartoon_file": "CAIL-A-50348.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.8,
-  "analyzed_at": 1793379106
+  "seconds": 30.0,
+  "analyzed_at": 1793389537
 }

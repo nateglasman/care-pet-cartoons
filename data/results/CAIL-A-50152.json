@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50152",
   "cover_photo_id": 40827914,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown tabby)",
+        "confidence": 0.6,
+        "reason": "Classic brown mackerel/ticked tabby coat with dense medium-short fur, slender build, and no breed-specific traits points to a typical domestic shorthair."
       },
       {
-        "breed": "Maine Coon mix",
+        "breed": "Domestic Medium Hair (brown tabby)",
         "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "reason": "The fur looks slightly fluffy and longer on the chest, cheeks, and haunches, suggesting a medium-length coat."
+      },
+      {
+        "breed": "Abyssinian mix",
+        "confidence": 0.15,
+        "reason": "Large, tall, wide-set ears, warm ticked agouti fur, and a lean wedge-shaped face hint at some Abyssinian-like influence."
       }
     ],
-    "appearance": "(mock) A Torbie cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A slender, medium-sized brown tabby with a warm, ticked coat of golden-tan, cinnamon, and black-brown stripes, slightly fluffy on the chest and haunches, with a soft white chin, muzzle, and throat patch. She has large, tall, pointed ears with pinkish inner skin and a light dusting of fur, round sage-green eyes rimmed in dark liner, a brick-pink nose, and long white whiskers. Her face is a gentle wedge with faint tabby 'M' forehead markings and thin dark lines running from the eye corners across the cheeks.",
+    "fun_fact": "Brown tabbies like Tiffany wear a signature 'M' on their foreheads, so she comes with her own built-in monogram!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Tiffany (c2026). Keep its real appearance: (mock) A Torbie cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby) mix named Tiffany (c2026). Keep its real appearance: A slender, medium-sized brown tabby with a warm, ticked coat of golden-tan, cinnamon, and black-brown stripes, slightly fluffy on the chest and haunches, with a soft white chin, muzzle, and throat patch. She has large, tall, pointed ears with pinkish inner skin and a light dusting of fur, round sage-green eyes rimmed in dark liner, a brick-pink nose, and long white whiskers. Her face is a gentle wedge with faint tabby 'M' forehead markings and thin dark lines running from the eye corners across the cheeks. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50152.jpg",
-  "cartoon_file": "CAIL-A-50152.jpg",
+  "cartoon_file": "CAIL-A-50152.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.7,
-  "analyzed_at": 1793379114
+  "seconds": 31.1,
+  "analyzed_at": 1793389999
 }

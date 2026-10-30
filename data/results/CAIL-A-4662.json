@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-4662",
   "cover_photo_id": 44324053,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown tabby with white)",
+        "confidence": 0.85,
+        "reason": "Short, ticked brown-gray tabby coat with forehead stripes and a white blaze, muzzle, and chest is the classic random-bred tabby-and-white pattern."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Oriental Shorthair mix",
+        "confidence": 0.08,
+        "reason": "Very large, tall ears set on a slender, wedge-leaning head with a lean build hint at some Oriental-type influence."
+      },
+      {
+        "breed": "Abyssinian mix",
+        "confidence": 0.04,
+        "reason": "The finely ticked, agouti-flecked texture on the body and big ears loosely echo an Abyssinian look."
       }
     ],
-    "appearance": "(mock) A Brown cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A slender, short-haired brown tabby-and-white cat with a finely ticked, salt-and-pepper brown-gray coat on the back and sides, dark tabby stripes on the forehead, and a black-ringed tail. A narrow white blaze runs up the center of the face between the eyes, widening into a white muzzle, chin, and full white chest/bib, with a warm ginger-tan patch on the bridge of the nose above a pink-brick nose. Very large, upright pointed ears with pinkish insides and long white ear tufts, wide pale celery-green eyes outlined in dark rims, and long white whiskers give an alert, slightly wide-eyed expression.",
+    "fun_fact": "Brown tabby-and-white cats like Gabriel wear one of the oldest coat patterns in feline history, and the classic 'M' on the forehead makes every tabby instantly recognizable!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Gabriel. Keep its real appearance: (mock) A Brown cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby with white) mix named Gabriel. Keep its real appearance: A slender, short-haired brown tabby-and-white cat with a finely ticked, salt-and-pepper brown-gray coat on the back and sides, dark tabby stripes on the forehead, and a black-ringed tail. A narrow white blaze runs up the center of the face between the eyes, widening into a white muzzle, chin, and full white chest/bib, with a warm ginger-tan patch on the bridge of the nose above a pink-brick nose. Very large, upright pointed ears with pinkish insides and long white ear tufts, wide pale celery-green eyes outlined in dark rims, and long white whiskers give an alert, slightly wide-eyed expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-4662.jpg",
-  "cartoon_file": "CAIL-A-4662.jpg",
+  "cartoon_file": "CAIL-A-4662.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.7,
-  "analyzed_at": 1793379098
+  "seconds": 29.5,
+  "analyzed_at": 1793389220
 }

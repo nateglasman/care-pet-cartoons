@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50317",
   "cover_photo_id": 50517717,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (solid gray/blue)",
+        "confidence": 0.6,
+        "reason": "A uniform blue-gray coat on a typical moggy build with a moderately wedge-shaped face is most consistent with a solid blue domestic shorthair."
       },
       {
-        "breed": "Maine Coon mix",
+        "breed": "Russian Blue mix",
         "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "reason": "The dense, plush silvery-gray coat, large upright ears, and green eyes echo Russian Blue traits, though the coat lacks the strong silver tipping and the eyes are more yellow-green than vivid emerald."
+      },
+      {
+        "breed": "Chartreux mix",
+        "confidence": 0.1,
+        "reason": "The sturdy body and woolly blue-gray coat hint at Chartreux, but the face is not as round and the eyes are greenish rather than copper."
       }
     ],
-    "appearance": "(mock) A Grey cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "Maria is a solid blue-gray shorthaired cat with a dense, plush coat that shows a faint silvery sheen and slightly darker shading along the forehead, with no white markings. She has large, tall, slightly pointed upright ears with thin pinkish-gray inner skin, almond-shaped yellow-green (chartreuse) eyes with a calm, half-lidded expression, a slate-gray nose leather, and long white whiskers. Her build is medium and solid with a broad chest, and her face is a moderate wedge with full cheeks.",
+    "fun_fact": "Blue-coated cats like Maria are often admired for their velvety, plush fur that feels as soft as it looks!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Maria (aka Ahjumma). Keep its real appearance: (mock) A Grey cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (solid gray/blue) mix named Maria (aka Ahjumma). Keep its real appearance: Maria is a solid blue-gray shorthaired cat with a dense, plush coat that shows a faint silvery sheen and slightly darker shading along the forehead, with no white markings. She has large, tall, slightly pointed upright ears with thin pinkish-gray inner skin, almond-shaped yellow-green (chartreuse) eyes with a calm, half-lidded expression, a slate-gray nose leather, and long white whiskers. Her build is medium and solid with a broad chest, and her face is a moderate wedge with full cheeks. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50317.jpg",
-  "cartoon_file": "CAIL-A-50317.jpg",
+  "cartoon_file": "CAIL-A-50317.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.1,
-  "analyzed_at": 1793379106
+  "seconds": 27.6,
+  "analyzed_at": 1793389565
 }

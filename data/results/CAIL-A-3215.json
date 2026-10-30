@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-3215",
   "cover_photo_id": 42524183,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (gray and white bicolor)",
+        "confidence": 0.65,
+        "reason": "Dense short-to-medium gray coat with a white muzzle, chest, and inverted-V blaze between the eyes is the classic random-bred bicolor pattern."
       },
       {
-        "breed": "Maine Coon mix",
+        "breed": "Domestic Medium Hair (gray and white)",
         "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "reason": "Slightly longer, wispy fur tufting from the ears and along the cheeks hints at a medium-length coat."
+      },
+      {
+        "breed": "Turkish Angora mix",
+        "confidence": 0.1,
+        "reason": "Large, tall, upright ears with feathery ear furnishings and a fine-boned wedge-ish face show faint Angora-type traits."
       }
     ],
-    "appearance": "(mock) A White cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A gray-and-white bicolor cat with a solid slate-blue-gray cap, ears, and back, and a crisp white inverted-V blaze that runs up from the muzzle to a narrow point between the ears, flowing into a white muzzle, chin, chest, and front legs. Large, tall, pointed ears with pinkish inner skin and wispy pale tufts frame a moderately wedge-shaped face with round golden-amber eyes, a soft pink nose with a darker rose tip, and long white whiskers. The coat is short to medium and plush, with a slight dark smudge of gray at the inner corners of the eyes along the edges of the blaze.",
+    "fun_fact": "Gray-and-white bicolor cats like Gaia are famous for their striking 'masked' faces, and every one has a blaze pattern that's completely unique!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Gaia. Keep its real appearance: (mock) A White cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (gray and white bicolor) mix named Gaia. Keep its real appearance: A gray-and-white bicolor cat with a solid slate-blue-gray cap, ears, and back, and a crisp white inverted-V blaze that runs up from the muzzle to a narrow point between the ears, flowing into a white muzzle, chin, chest, and front legs. Large, tall, pointed ears with pinkish inner skin and wispy pale tufts frame a moderately wedge-shaped face with round golden-amber eyes, a soft pink nose with a darker rose tip, and long white whiskers. The coat is short to medium and plush, with a slight dark smudge of gray at the inner corners of the eyes along the edges of the blaze. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-3215.jpg",
-  "cartoon_file": "CAIL-A-3215.jpg",
+  "cartoon_file": "CAIL-A-3215.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.8,
-  "analyzed_at": 1793379100
+  "seconds": 32.1,
+  "analyzed_at": 1793389282
 }

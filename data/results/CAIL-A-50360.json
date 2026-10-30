@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50360",
   "cover_photo_id": 51873369,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Labrador Retriever",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Chihuahua",
+        "confidence": 0.5,
+        "reason": "Small size, large upright triangular ears, rounded apple-ish skull, and short muzzle with big dark eyes are classic Chihuahua traits."
       },
       {
-        "breed": "Border Collie",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Boston Terrier",
+        "confidence": 0.2,
+        "reason": "Dark brindle coat with a white chest blaze, white muzzle stripe, and erect bat-like ears suggest Boston Terrier influence."
+      },
+      {
+        "breed": "Miniature Pinscher",
+        "confidence": 0.15,
+        "reason": "The sleek short coat, fine legs, and alert erect ears fit a Min Pin contribution."
       }
     ],
-    "appearance": "(mock) A Black dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A small, fine-boned dog with a short, dark black-brindle coat, a white chest patch, a thin white stripe on the chin and a white dab at the top of the nose, plus one fully white front paw and lower leg while the other front paw is dark with a little white on the toes. He has very large, upright, pointed triangular ears, a rounded head, a short tapered muzzle with light grizzled gray around the lips, and round, dark brown, soulful eyes. He wears a bright blue collar with a silver bone-shaped tag and has a slim, long black tail.",
+    "fun_fact": "Chihuahuas are the world's smallest dog breed but carry giant personalities and fierce loyalty to their favorite people!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Bonchon. Keep its real appearance: (mock) A Black dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Chihuahua mix named Bonchon. Keep its real appearance: A small, fine-boned dog with a short, dark black-brindle coat, a white chest patch, a thin white stripe on the chin and a white dab at the top of the nose, plus one fully white front paw and lower leg while the other front paw is dark with a little white on the toes. He has very large, upright, pointed triangular ears, a rounded head, a short tapered muzzle with light grizzled gray around the lips, and round, dark brown, soulful eyes. He wears a bright blue collar with a silver bone-shaped tag and has a slim, long black tail. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50360.jpg",
-  "cartoon_file": "CAIL-A-50360.jpg",
+  "cartoon_file": "CAIL-A-50360.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.6,
-  "analyzed_at": 1793379118
+  "seconds": 28.1,
+  "analyzed_at": 1793390198
 }

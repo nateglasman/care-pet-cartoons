@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50211",
   "cover_photo_id": 43326707,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (tuxedo)",
+        "confidence": 0.85,
+        "reason": "Short, dense black coat with a crisp white blaze, muzzle, chest bib, and white-tipped paws is the classic tuxedo bicolor pattern on a typical moggy build."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Shorthair mix",
+        "confidence": 0.1,
+        "reason": "Sturdy, medium-boned body and rounded face with full cheeks loosely resemble American Shorthair structure."
+      },
+      {
+        "breed": "Oriental/Siamese-influenced mix",
+        "confidence": 0.05,
+        "reason": "Fairly large, tall, upright ears hint at a slight Oriental influence, though the face and body are otherwise typical domestic."
       }
     ],
-    "appearance": "(mock) A Black cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "Miller is a medium-sized, solidly built tuxedo cat with a glossy short black coat, a white inverted-V blaze running up between the eyes, a white muzzle, chin, and chest bib, and small white 'mitten' tips on the front toes. He has large, upright black ears with slightly pointed tips, greenish-yellow (chartreuse) eyes with a calm, half-lidded expression, a bright pink nose, and long, abundant white whiskers fanning out from his white muzzle. He is shown lying loaf-style with front paws extended forward on a pale gray towel.",
+    "fun_fact": "Tuxedo cats always come dressed for the occasion, and legend says they have a knack for charming everyone they meet!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Miller. Keep its real appearance: (mock) A Black cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (tuxedo) mix named Miller. Keep its real appearance: Miller is a medium-sized, solidly built tuxedo cat with a glossy short black coat, a white inverted-V blaze running up between the eyes, a white muzzle, chin, and chest bib, and small white 'mitten' tips on the front toes. He has large, upright black ears with slightly pointed tips, greenish-yellow (chartreuse) eyes with a calm, half-lidded expression, a bright pink nose, and long, abundant white whiskers fanning out from his white muzzle. He is shown lying loaf-style with front paws extended forward on a pale gray towel. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50211.jpg",
-  "cartoon_file": "CAIL-A-50211.jpg",
+  "cartoon_file": "CAIL-A-50211.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.1,
-  "analyzed_at": 1793379107
+  "seconds": 28.1,
+  "analyzed_at": 1793389653
 }

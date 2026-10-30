@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50179",
   "cover_photo_id": 47814644,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown mackerel tabby)",
+        "confidence": 0.85,
+        "reason": "Short dense coat with classic brown-gray mackerel striping, an 'M' on the forehead, and an average moggy build point to a random-bred shorthair tabby."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Shorthair mix",
+        "confidence": 0.08,
+        "reason": "The bold dark tabby markings on a silvery-brown ground resemble American Shorthair patterning, though the kitten's lean frame and large ears are less typical."
+      },
+      {
+        "breed": "Abyssinian mix",
+        "confidence": 0.04,
+        "reason": "The large, upright, slightly pointed ears and warm tawny tones around the muzzle and legs hint at a possible ticked-breed influence."
       }
     ],
-    "appearance": "(mock) A Brown cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young, slender kitten with a short brown mackerel tabby coat: dark charcoal stripes over a grayish-brown base, warm tan-ochre tints on the cheeks, muzzle, inner legs and paws, and a cream-white chin. She has very large, upright ears with pinkish insides and fine ear furnishings, round amber-green eyes rimmed in dark lines, a brick-pink nose outlined in brown, and a crisp tabby 'M' on her forehead with dark stripes running back over the head. She wears a thin purple collar and has striped forelegs with tan, tufted paws.",
+    "fun_fact": "No two tabbies share exactly the same stripes, so Ginger Rogers' coat is a one-of-a-kind masterpiece!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Ginger Rogers. Keep its real appearance: (mock) A Brown cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown mackerel tabby) mix named Ginger Rogers. Keep its real appearance: A young, slender kitten with a short brown mackerel tabby coat: dark charcoal stripes over a grayish-brown base, warm tan-ochre tints on the cheeks, muzzle, inner legs and paws, and a cream-white chin. She has very large, upright ears with pinkish insides and fine ear furnishings, round amber-green eyes rimmed in dark lines, a brick-pink nose outlined in brown, and a crisp tabby 'M' on her forehead with dark stripes running back over the head. She wears a thin purple collar and has striped forelegs with tan, tufted paws. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50179.jpg",
-  "cartoon_file": "CAIL-A-50179.jpg",
+  "cartoon_file": "CAIL-A-50179.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.6,
-  "analyzed_at": 1793379101
+  "seconds": 32.6,
+  "analyzed_at": 1793389341
 }

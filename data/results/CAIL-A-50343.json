@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50343",
   "cover_photo_id": 51404530,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (torbie / tortoiseshell tabby)",
+        "confidence": 0.8,
+        "reason": "Short-to-medium dense coat blending brown mackerel-tabby striping on the head with patchy orange and black tortoiseshell mottling across the back and tail, typical of a random-bred torbie."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Medium Hair (torbie)",
+        "confidence": 0.15,
+        "reason": "The coat on the body looks slightly plush and fluffy, which could suggest a medium-length coat."
+      },
+      {
+        "breed": "American Shorthair mix",
+        "confidence": 0.05,
+        "reason": "Rounded face, sturdy medium build, and tabby markings loosely resemble American Shorthair type."
       }
     ],
-    "appearance": "(mock) A Torbie cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A medium-sized, sturdy torbie (tortoiseshell-tabby) cat with a brindled coat of warm brown, ginger-orange, and black patches mottled together, brightest orange across the shoulders and lower back with a dark black-brown streak running down the spine and a mostly black tail. Her face is light tan with fine dark tabby stripes forming an 'M' on the forehead, a ginger blaze beside a pink nose, white whiskers, and a creamy muzzle and chin. She has large, round, yellow-green eyes and upright medium triangular ears with pinkish insides, shown here glancing back over her shoulder.",
+    "fun_fact": "Torbie cats like Piper combine tortoiseshell colors with tabby stripes, so every one wears a one-of-a-kind coat, and they're famous for their spunky, 'tortitude'-filled personalities!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Piper (c2026). Keep its real appearance: (mock) A Torbie cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (torbie / tortoiseshell tabby) mix named Piper (c2026). Keep its real appearance: A medium-sized, sturdy torbie (tortoiseshell-tabby) cat with a brindled coat of warm brown, ginger-orange, and black patches mottled together, brightest orange across the shoulders and lower back with a dark black-brown streak running down the spine and a mostly black tail. Her face is light tan with fine dark tabby stripes forming an 'M' on the forehead, a ginger blaze beside a pink nose, white whiskers, and a creamy muzzle and chin. She has large, round, yellow-green eyes and upright medium triangular ears with pinkish insides, shown here glancing back over her shoulder. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50343.jpg",
-  "cartoon_file": "CAIL-A-50343.jpg",
+  "cartoon_file": "CAIL-A-50343.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.6,
-  "analyzed_at": 1793379111
+  "seconds": 28.9,
+  "analyzed_at": 1793389851
 }

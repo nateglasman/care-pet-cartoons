@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50367",
   "cover_photo_id": 51872040,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Labrador Retriever",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Great Pyrenees",
+        "confidence": 0.45,
+        "reason": "The solid white, medium-length plush coat, dark eye rims, and sturdy large-breed puppy build strongly suggest a white livestock guardian breed."
       },
       {
-        "breed": "Border Collie",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Labrador Retriever",
+        "confidence": 0.3,
+        "reason": "The broad head, soft folded ears, friendly open-mouthed expression, and shorter, smoother face coat resemble a cream or white Lab."
+      },
+      {
+        "breed": "White Shepherd / German Shepherd",
+        "confidence": 0.15,
+        "reason": "The semi-erect, folding ears with slight lift at the base and a slightly longer muzzle hint at shepherd ancestry."
       }
     ],
-    "appearance": "(mock) A White dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "Vera is a young, large-breed puppy with a solid creamy-white, soft, medium-short double coat that looks plush on the chest and a fluffy tail curled to one side. She has a broad head with floppy, triangular ears that fold forward at the tips, warm almond-shaped dark brown eyes, and a dusky brownish-black nose. Her muzzle is medium length, her pink tongue peeks out in a happy grin, and she sits upright on sturdy legs wearing a green collar clipped to an orange leash.",
+    "fun_fact": "Great Pyrenees are gentle giants famous for watching over their flocks, so Vera may grow up to be your family's loyal, cuddly guardian!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Vera. Keep its real appearance: (mock) A White dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Great Pyrenees mix named Vera. Keep its real appearance: Vera is a young, large-breed puppy with a solid creamy-white, soft, medium-short double coat that looks plush on the chest and a fluffy tail curled to one side. She has a broad head with floppy, triangular ears that fold forward at the tips, warm almond-shaped dark brown eyes, and a dusky brownish-black nose. Her muzzle is medium length, her pink tongue peeks out in a happy grin, and she sits upright on sturdy legs wearing a green collar clipped to an orange leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50367.jpg",
-  "cartoon_file": "CAIL-A-50367.jpg",
+  "cartoon_file": "CAIL-A-50367.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.6,
-  "analyzed_at": 1793379121
+  "seconds": 30.9,
+  "analyzed_at": 1793390526
 }

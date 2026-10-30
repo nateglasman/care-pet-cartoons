@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-5107",
   "cover_photo_id": 38773197,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown tabby and white)",
+        "confidence": 0.85,
+        "reason": "Short dense coat with a brown mackerel tabby pattern on the back and sides plus a white muzzle, chest, belly, and paws is the classic random-bred tabby-and-white look."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Shorthair mix",
+        "confidence": 0.1,
+        "reason": "The bold dark tabby striping and sturdy medium build hint at American Shorthair-type ancestry, though the slim leggy frame argues against a purebred."
+      },
+      {
+        "breed": "European Shorthair-type mix",
+        "confidence": 0.05,
+        "reason": "The wedge-shaped head with large upright ears and lean, athletic body resemble a European Shorthair type."
       }
     ],
-    "appearance": "(mock) A Brown cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A lean, leggy young adult shorthair with a brown mackerel tabby coat of dark vertical stripes over a warm gray-brown base on the back, sides, and upper legs, and a long, upright tail ringed in dark bands that ends in a black tip curling forward. The face has a tabby cap and cheeks with a white blaze running from the forehead down over a pink nose and white muzzle, a small dark speck on the left side of the muzzle, large round golden-yellow eyes, and tall triangular ears with pinkish insides. The chest, belly, and all four paws are bright white, with the front legs white up to the elbow and the hind legs showing white socks below tabby-striped upper legs.",
+    "fun_fact": "Tabby-and-white cats like Burt come in a nearly endless variety of patterns, so no two are ever exactly alike!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Burt (c2026). Keep its real appearance: (mock) A Brown cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby and white) mix named Burt (c2026). Keep its real appearance: A lean, leggy young adult shorthair with a brown mackerel tabby coat of dark vertical stripes over a warm gray-brown base on the back, sides, and upper legs, and a long, upright tail ringed in dark bands that ends in a black tip curling forward. The face has a tabby cap and cheeks with a white blaze running from the forehead down over a pink nose and white muzzle, a small dark speck on the left side of the muzzle, large round golden-yellow eyes, and tall triangular ears with pinkish insides. The chest, belly, and all four paws are bright white, with the front legs white up to the elbow and the hind legs showing white socks below tabby-striped upper legs. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-5107.jpg",
-  "cartoon_file": "CAIL-A-5107.jpg",
+  "cartoon_file": "CAIL-A-5107.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.7,
-  "analyzed_at": 1793379094
+  "seconds": 30.4,
+  "analyzed_at": 1793389013
 }

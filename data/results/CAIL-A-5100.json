@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-5100",
   "cover_photo_id": 42914834,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown tabby and white / bicolor)",
+        "confidence": 0.8,
+        "reason": "Short dense coat, mostly white body with a brown tabby cap over the head and ears, a tabby patch on the back, and a dark ringed tabby tail are classic random-bred bicolor markings."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (van/harlequin pattern)",
+        "confidence": 0.12,
+        "reason": "White dominates the body, with color concentrated on the head cap and tail plus a small back patch, approaching a van-like distribution."
+      },
+      {
+        "breed": "Turkish Van mix",
+        "confidence": 0.05,
+        "reason": "Color restricted largely to the head and tail on a white body loosely resembles the Turkish Van pattern, though the coat is too short and plush to suggest much Van ancestry."
       }
     ],
-    "appearance": "(mock) A Calico cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A medium-sized, sturdy shorthaired cat with a mostly white coat, a brown-gray tabby 'cap' across the top of the head and around both ears, a gray tabby patch on the left shoulder and back, and a dark charcoal-and-brown ringed tabby tail curled around the front paws. The face is mostly white with a soft rounded muzzle, a pink nose, and an inverted-V white blaze rising between the eyes into the tabby cap, framing large round green-gold eyes. Her ears are medium-large and upright with pinkish insides, her chest is fluffy and white, and she sits upright with a calm, slightly curious expression.",
+    "fun_fact": "Bicolor tabby-and-white Domestic Shorthairs like Gaby are known for their hardy health and easygoing, adaptable personalities, making them wonderful companions for almost any home!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Gaby. Keep its real appearance: (mock) A Calico cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby and white / bicolor) mix named Gaby. Keep its real appearance: A medium-sized, sturdy shorthaired cat with a mostly white coat, a brown-gray tabby 'cap' across the top of the head and around both ears, a gray tabby patch on the left shoulder and back, and a dark charcoal-and-brown ringed tabby tail curled around the front paws. The face is mostly white with a soft rounded muzzle, a pink nose, and an inverted-V white blaze rising between the eyes into the tabby cap, framing large round green-gold eyes. Her ears are medium-large and upright with pinkish insides, her chest is fluffy and white, and she sits upright with a calm, slightly curious expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-5100.jpg",
-  "cartoon_file": "CAIL-A-5100.jpg",
+  "cartoon_file": "CAIL-A-5100.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.7,
-  "analyzed_at": 1793379099
+  "seconds": 29.3,
+  "analyzed_at": 1793389250
 }

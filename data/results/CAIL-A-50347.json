@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50347",
   "cover_photo_id": 51403356,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (tortoiseshell)",
+        "confidence": 0.85,
+        "reason": "Short, dense coat of mostly black with brindled patches of tan/cinnamon on the shoulders, flank and a streak on the forehead is a classic tortoiseshell pattern on a random-bred shorthair."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Medium Hair (tortoiseshell)",
+        "confidence": 0.1,
+        "reason": "The coat looks slightly fluffy, as kitten fur often does, so a somewhat longer coat may develop as she matures."
+      },
+      {
+        "breed": "Bombay mix",
+        "confidence": 0.05,
+        "reason": "The predominantly black coat and round eyes are faintly Bombay-like, but the tortie patches and greenish-gold eyes point to a domestic mix."
       }
     ],
-    "appearance": "(mock) A Tortoise cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young, slender tortoiseshell kitten with a predominantly jet-black short coat, brindled with muted tan, caramel and cinnamon patches across the shoulder, flank and chest, plus a thin tan streak running from the forehead down the bridge of the nose. She has large, upright, slightly pointed ears with pinkish-gray inner skin and sparse black ear tufts, round pale greenish-gold eyes with big dark pupils, a small black nose, and long white-and-black whiskers. Her face is a small, rounded wedge with a slightly wide-eyed, curious expression.",
+    "fun_fact": "Tortoiseshell cats are almost always female and are famous for their spunky 'tortitude,' a big personality packed into a beautifully swirled coat!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Ethel. Keep its real appearance: (mock) A Tortoise cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (tortoiseshell) mix named Ethel. Keep its real appearance: A young, slender tortoiseshell kitten with a predominantly jet-black short coat, brindled with muted tan, caramel and cinnamon patches across the shoulder, flank and chest, plus a thin tan streak running from the forehead down the bridge of the nose. She has large, upright, slightly pointed ears with pinkish-gray inner skin and sparse black ear tufts, round pale greenish-gold eyes with big dark pupils, a small black nose, and long white-and-black whiskers. Her face is a small, rounded wedge with a slightly wide-eyed, curious expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50347.jpg",
-  "cartoon_file": "CAIL-A-50347.jpg",
+  "cartoon_file": "CAIL-A-50347.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.8,
-  "analyzed_at": 1793379097
+  "seconds": 29.5,
+  "analyzed_at": 1793389191
 }

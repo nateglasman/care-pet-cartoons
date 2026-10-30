@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50276",
   "cover_photo_id": 52114975,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Siamese mix (lynx point)",
+        "confidence": 0.65,
+        "reason": "Pale cream body with darker tabby-striped points on the face and ears, pale blue eyes, large tall ears and a slender wedge-shaped head all point to Siamese ancestry with a tabby (lynx) point pattern."
       },
       {
-        "breed": "Maine Coon mix",
+        "breed": "Domestic Shorthair (colorpoint tabby)",
         "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "reason": "Her short dense coat and moderate build suggest a random-bred shorthair that carries the colorpoint gene rather than a show-type Siamese."
+      },
+      {
+        "breed": "Balinese/Tonkinese-type mix",
+        "confidence": 0.1,
+        "reason": "Her slightly softer, plush coat and light seal-lynx shading could reflect another pointed breed in the mix."
       }
     ],
-    "appearance": "(mock) A Lynx cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A slim young cat with a pale cream to light fawn short coat that shades slightly darker on her back and haunches, and a lynx (tabby) point pattern of soft grey-brown stripes on her forehead, cheeks and around large, tall, pink-lined ears. She has round pale aqua-blue eyes rimmed in dark liner, a rosy-pink nose with a tan bridge, a white muzzle and chin with long white whiskers, and faint mascara lines running from the eyes. Her build is lean and elegant with a wedge-shaped face, and she sits upright with a gentle, curious expression.",
+    "fun_fact": "Siamese-type cats are famously chatty and affectionate, so Eileen and her bonded buddy Wally are sure to keep their new family company!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Eileen. Keep its real appearance: (mock) A Lynx cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Siamese mix (lynx point) mix named Eileen. Keep its real appearance: A slim young cat with a pale cream to light fawn short coat that shades slightly darker on her back and haunches, and a lynx (tabby) point pattern of soft grey-brown stripes on her forehead, cheeks and around large, tall, pink-lined ears. She has round pale aqua-blue eyes rimmed in dark liner, a rosy-pink nose with a tan bridge, a white muzzle and chin with long white whiskers, and faint mascara lines running from the eyes. Her build is lean and elegant with a wedge-shaped face, and she sits upright with a gentle, curious expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50276.jpg",
-  "cartoon_file": "CAIL-A-50276.jpg",
+  "cartoon_file": "CAIL-A-50276.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.8,
-  "analyzed_at": 1793379096
+  "seconds": 30.5,
+  "analyzed_at": 1793389130
 }

@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50175",
   "cover_photo_id": 47814402,
+  "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (brown tabby with white)",
+        "confidence": 0.85,
+        "reason": "Short dense coat with classic brown-gray mackerel/spotted tabby striping, an 'M' on the forehead, and a white chest and white paws are typical of a random-bred domestic shorthair."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Shorthair mix",
+        "confidence": 0.08,
+        "reason": "The silvery-brown tabby pattern and rounded face hint at American Shorthair-type coloring, though the lean kitten build is more generic."
+      },
+      {
+        "breed": "Egyptian Mau mix",
+        "confidence": 0.04,
+        "reason": "Some broken, spot-like markings on the body and large alert ears loosely resemble Mau traits, but this is a weak signal."
       }
     ],
-    "appearance": "(mock) A Brown cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young, slender kitten with a short brown-gray tabby coat featuring dark mackerel stripes on the legs and flanks, a bold 'M' on the forehead, dark lines running from the eyes across the cheeks, and warm buff tones around the muzzle and eyes. She has a crisp white bib on her chest and neat white mitten paws, a pink nose outlined in darker skin, and large, upright, wide-set triangular ears with pink insides and light tufts. Her almond-shaped eyes are golden-green with a soft, slightly wary expression, and she lies loaf-style with front paws extended.",
+    "fun_fact": "Brown tabbies like Grace Kelly wear the famous 'M' on their foreheads, a classic mark that makes every tabby look like royalty!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Domestic Shorthair (tabby) mix named Grace Kelly. Keep its real appearance: (mock) A Brown cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby with white) mix named Grace Kelly. Keep its real appearance: A young, slender kitten with a short brown-gray tabby coat featuring dark mackerel stripes on the legs and flanks, a bold 'M' on the forehead, dark lines running from the eyes across the cheeks, and warm buff tones around the muzzle and eyes. She has a crisp white bib on her chest and neat white mitten paws, a pink nose outlined in darker skin, and large, upright, wide-set triangular ears with pink insides and light tufts. Her almond-shaped eyes are golden-green with a soft, slightly wary expression, and she lies loaf-style with front paws extended. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50175.jpg",
-  "cartoon_file": "CAIL-A-50175.jpg",
+  "cartoon_file": "CAIL-A-50175.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.5,
-  "analyzed_at": 1793379102
+  "seconds": 28.6,
+  "analyzed_at": 1793389369
 }

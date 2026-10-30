@@ -1,31 +1,37 @@
 {
   "pet_id": "CAIL-A-50371",
   "cover_photo_id": 51872494,
+  "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Labrador Retriever",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Siberian Husky",
+        "confidence": 0.4,
+        "reason": "The dense double coat, black saddle with cream underside, and husky-style facial mask with pale muzzle and brow spots point to husky ancestry."
       },
       {
-        "breed": "Border Collie",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "German Shepherd Dog",
+        "confidence": 0.3,
+        "reason": "The black-and-tan coloring with tan eyebrow pips, the longer muzzle, and the sturdy medium build resemble a shepherd."
+      },
+      {
+        "breed": "Australian Cattle Dog / Kelpie",
+        "confidence": 0.15,
+        "reason": "The tan points on the cheeks and legs, the moderate size, and the folded semi-erect ears suggest herding-dog influence."
       }
     ],
-    "appearance": "(mock) A Black dog with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A medium-sized, sturdy dog with a thick black coat over the head, back, and body, a cream-to-tan muzzle, cheeks, chest, and legs, and distinct tan eyebrow spots above warm dark-brown eyes. The ears are triangular but soft, folding forward at the tips, and the black muzzle is broad with a large black nose and a slightly grizzled, whiskery chin. The cream chest blaze extends to a white bib, and the lower legs are pale tan with white paws.",
+    "fun_fact": "Siberian Huskies are famously friendly, chatty dogs who would rather howl a hello than bark at strangers!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series. It is a Labrador Retriever mix named Hutch. Keep its real appearance: (mock) A Black dog with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, full head and shoulders centered in frame, simple warm single-color background, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Siberian Husky mix named Hutch. Keep its real appearance: A medium-sized, sturdy dog with a thick black coat over the head, back, and body, a cream-to-tan muzzle, cheeks, chest, and legs, and distinct tan eyebrow spots above warm dark-brown eyes. The ears are triangular but soft, folding forward at the tips, and the black muzzle is broad with a large black nose and a slightly grizzled, whiskery chin. The cream chest blaze extends to a white bib, and the lower legs are pale tan with white paws. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50371.jpg",
-  "cartoon_file": "CAIL-A-50371.jpg",
+  "cartoon_file": "CAIL-A-50371.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.1,
-  "analyzed_at": 1793379119
+  "seconds": 27.1,
+  "analyzed_at": 1793390311
 }

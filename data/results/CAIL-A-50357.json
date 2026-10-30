@@ -7,26 +7,31 @@
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (tabby)",
-        "confidence": 0.55,
-        "reason": "(mock) placeholder guess"
+        "breed": "Domestic Shorthair (calico tabby / caliby with white)",
+        "confidence": 0.8,
+        "reason": "Short dense coat with brown mackerel tabby striping, patches of orange on the cheeks and paws, and a white muzzle, chest, and paws mark a classic tortoiseshell-tabby-with-white pattern common in random-bred cats."
       },
       {
-        "breed": "Maine Coon mix",
-        "confidence": 0.25,
-        "reason": "(mock) placeholder guess"
+        "breed": "American Shorthair mix",
+        "confidence": 0.12,
+        "reason": "The tabby striping on the legs and compact, sturdy-looking body resemble American Shorthair traits, though the large ears and slender face point away from purebred."
+      },
+      {
+        "breed": "Oriental Shorthair mix",
+        "confidence": 0.08,
+        "reason": "Notably large, tall, wide-set ears and a fine, wedge-leaning face hint at a slimmer Oriental-type influence."
       }
     ],
-    "appearance": "(mock) A Brown cat with bright eyes and a friendly expression.",
-    "fun_fact": "(mock) Set real API keys or enable Replit AI Integrations to get a real answer."
+    "appearance": "A young, slender shorthaired cat with a brown-gray mackerel tabby coat striped darkly across the forehead and legs, accented by soft apricot-orange patches on both cheeks around the eyes and on the toes. She has a crisp white blaze running down the nose to a white muzzle, a fluffy white bib covering the chest, and white front paws tinged with orange, plus a pink nose. Her ears are very large and upright with pale pink interiors, and her big round eyes are green-hazel, giving her a sweet, curious expression.",
+    "fun_fact": "Calico-tabby cats like Angela, often nicknamed 'calibies,' are almost always female and are known for their one-of-a-kind patchwork coats and spunky personalities!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (tabby) mix named Angela (2026). Keep its real appearance: (mock) A Brown cat with bright eyes and a friendly expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (calico tabby / caliby with white) mix named Angela (2026). Keep its real appearance: A young, slender shorthaired cat with a brown-gray mackerel tabby coat striped darkly across the forehead and legs, accented by soft apricot-orange patches on both cheeks around the eyes and on the toes. She has a crisp white blaze running down the nose to a white muzzle, a fluffy white bib covering the chest, and white front paws tinged with orange, plus a pink nose. Her ears are very large and upright with pale pink interiors, and her big round eyes are green-hazel, giving her a sweet, curious expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50357.jpg",
   "cartoon_file": "CAIL-A-50357.webp",
   "models": {
-    "breed": "mock",
-    "cartoon": "mock"
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 0.2,
-  "analyzed_at": 1793388849
+  "seconds": 29.5,
+  "analyzed_at": 1793388925
 }
