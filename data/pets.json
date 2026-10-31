@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793450554,
-  "count": 56,
+  "synced_at": 1793482866,
+  "count": 53,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -59,29 +59,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/e67c4d953649c7def9d052752b431362/ac0f717435a2745da2162941087d77c5.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50357"
-    },
-    {
-      "id": "CAIL-A-50332",
-      "name": "Augusta",
-      "species": "Cat",
-      "sex": "Female",
-      "age_group": "Adult Cat",
-      "shelter_breed": "Domestic Medium Hair",
-      "shelter_secondary_breed": null,
-      "color": "Grey",
-      "location": "Cat Catio",
-      "attributes": [
-        "No small children"
-      ],
-      "cover_photo_id": 50507634,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/f8a436e67a6c4199f966bd908d8ddb19/588d4d24b2216379b3821e0e118bbce6.jpeg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/f8a436e67a6c4199f966bd908d8ddb19/588d4d24b2216379b3821e0e118bbce6.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/fc20eff8cedb547e6cee35e9730f6067/cc87ae0d862c3c3b7d1da86d402cff10.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/60e1eb3c174df8884d03ec4553821f23/ee778005e8cf8c1aea38478f1f1ca7c0.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/1f55fa29c3bc00d86ccf17e2faf61579/42ed7d1a2b2cdd0618bfbea8a95eb0ff.jpeg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50332"
     },
     {
       "id": "CAIL-A-50377",
@@ -405,73 +382,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/8ab215cfdb4d14bdbada75d41d677d96/42111967d142958a337c9ec17f2b9cb7.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50179"
-    },
-    {
-      "id": "CAIL-A-50175",
-      "name": "Grace Kelly",
-      "species": "Cat",
-      "sex": "Female",
-      "age_group": "Adult Cat",
-      "shelter_breed": "Domestic Shorthair",
-      "shelter_secondary_breed": null,
-      "color": "Brown",
-      "location": "Cat Catio",
-      "attributes": [
-        "Good with Cats",
-        "Good with Kids",
-        "Lap Cat",
-        "Likes to Play"
-      ],
-      "cover_photo_id": 47814402,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/09fbfabebf1365b3255427d500fc54a4/e1b553ac1e472c6516c5d747f454bb18.jpg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/09fbfabebf1365b3255427d500fc54a4/e1b553ac1e472c6516c5d747f454bb18.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/09bdac90e7cb69db1e4930fdf92d1cf0/696b279f0bbc5306b42648919e49aa60.png",
-        "https://new-s3.shelterluv.com/profile-pictures/7f96affe714a9137ff015070b44484bc/236110914a9e0e76fd8fccdced4fa883.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/74ec6c0da3134e12e05f0768beb68879/7541bc64bcdcc01e1c4356a38f7919c8.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/ccde709d3975d738749b059b907cfbbc/b72ec7354afe3f04cb2eebe9b0febd11.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/a0a3bb93871feac806f64df21724f1d1/eda030380e935fa8365965f969994c52.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/2dd4e3041946c1fb235dd8f6b82ca62f/3b37aa03fa53462fefe533ba3d2db3b2.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/4a3a55f2a5f6eb4cb3891f42ff24483f/32f78a70e1b397abb8bd7f0364d3f8bb.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/1015dd02bd3506837abd03323122e6f7/1c4b53dbf105df51d5742e3ee4e2c202.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/9281771594ccbf78260d10fd83f2e71c/22c1ab6b800659a93f3eaa04cdd88885.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/f8f92669618f44cdfbc466a2a908e640/ad3e762e6fadb4668941b2fccae761a7.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/1e9e2e31c16a8f2ee98f47e9bb4af1d9/5d6c2d9d574b5d9f543049dc301cd032.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/d55be1c3b0e26fd7c6d1185d164d0e97/14fad88f0bc94f85408a6d2e90e53ae9.jpg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50175"
-    },
-    {
-      "id": "CAIL-A-50177",
-      "name": "Greta Garbo",
-      "species": "Cat",
-      "sex": "Female",
-      "age_group": "Adult Cat",
-      "shelter_breed": "Domestic Shorthair",
-      "shelter_secondary_breed": null,
-      "color": "Brown",
-      "location": "Cat Catio",
-      "attributes": [
-        "Good with Cats",
-        "Good with Kids",
-        "Lap Cat",
-        "Likes to Play"
-      ],
-      "cover_photo_id": 48011420,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/48f404c6c43d80404809532586a34d28/ca615e0b86b133e38e3f193391343b90.png",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/48f404c6c43d80404809532586a34d28/ca615e0b86b133e38e3f193391343b90.png",
-        "https://new-s3.shelterluv.com/profile-pictures/b90ca330d544bdf013bbf2ff79880f40/2de08ecd22759e38ad48d97d08eed422.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/90e0e2d02cc27d7494ab1675170b10b1/5efec871ab51a8588d710292b02e7dab.png",
-        "https://new-s3.shelterluv.com/profile-pictures/07839e7a343d41c7050e6d7e0b508c7a/2bd433be60e67f05e8abb41553edde26.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/7d5c8b2141dbe47c4621abebd0922b4c/4ca729c5c15cc3ca63709d6e79a3f74a.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/dd6c4c05b9559d3064b79c0a6d5c0062/55949cbf7dd03b13820fd7517a4ad2de.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/6491dc2f0d2c54c6b11f633e17e03bd7/68afcae99bc26d0c5521e0ecb225ed18.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/fa8bc104e3501e7dfcd99e4555ab2f9f/11c26e7691b17428778c40aa77d0fef7.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/1cc32606f9f39d0d6fcc757551bceffd/8148ee974affa93711a34f817dc6c29f.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/a3bfbd1bd765a97c9027fa3ddc731c5d/b3a7b3acae35aa77759335a926dab14c.jpg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50177"
     },
     {
       "id": "CAIL-A-50178",
