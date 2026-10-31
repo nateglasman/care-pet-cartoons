@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793388895,
-  "count": 58,
+  "synced_at": 1793425940,
+  "count": 56,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -141,64 +141,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/53d9d97580c5159f7c452a617c3f2c56/07290d801734784640b272caf6559a63.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-5107"
-    },
-    {
-      "id": "CAIL-A-50375",
-      "name": "Carter (k2026)",
-      "species": "Cat",
-      "sex": "Male",
-      "age_group": "Kitten",
-      "shelter_breed": "Domestic Shorthair",
-      "shelter_secondary_breed": null,
-      "color": "Grey",
-      "location": "Foster Home",
-      "attributes": [
-        "Bonded",
-        "Good with Cats",
-        "Good with Kids",
-        "Lap Cat",
-        "Likes to Play"
-      ],
-      "cover_photo_id": 51695117,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/07b8e7ed8f9fe455412ee0bfb192e207/17a6ce31c9ff8f5b74b79acd0cb4a356.png",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/07b8e7ed8f9fe455412ee0bfb192e207/17a6ce31c9ff8f5b74b79acd0cb4a356.png",
-        "https://new-s3.shelterluv.com/profile-pictures/4a2db35dcbb537fad98c636ad3b2fbf6/060bfe93589e866f2bc72b1a03736d70.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/b244d241b0e65015320b1aa6b1f1a2cc/c634d65ba8d21563c949570bfc65edae.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/ea3b25223ecfb13ef046da5f1dbd59e9/cd7845e483636cc6795a9e07439980bf.png",
-        "https://new-s3.shelterluv.com/profile-pictures/69b3b8479dcc54e63a46b0d4af7787f6/56d94475a8708caf0f80c2ef56e1085e.png",
-        "https://new-s3.shelterluv.com/profile-pictures/4b5ae8d27f4abdd79efa556e5b7f67a4/b1b2b93000c5b5beb40a1980521cc626.png"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50375"
-    },
-    {
-      "id": "CAIL-A-50373",
-      "name": "Celine",
-      "species": "Cat",
-      "sex": "Female",
-      "age_group": "Kitten",
-      "shelter_breed": "Domestic Shorthair",
-      "shelter_secondary_breed": null,
-      "color": "Brown",
-      "location": "Foster Home",
-      "attributes": [
-        "Bonded",
-        "Good with Cats",
-        "Good with Kids",
-        "Lap Cat",
-        "Likes to Play",
-        "Loves Brushing"
-      ],
-      "cover_photo_id": 51815601,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/40e11bde52bfbbc831f0cc416efc204e/8ff06b0cbba854cf394a5f3b5a68f8ac.png",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/40e11bde52bfbbc831f0cc416efc204e/8ff06b0cbba854cf394a5f3b5a68f8ac.png",
-        "https://new-s3.shelterluv.com/profile-pictures/9a64177910b06b4e87c057f10535655f/3277571c886034ddb068f1447d495e6a.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/dc8c408a062aa3a16fcf22532bc44f26/315ce158965fbce06f8f4a11ce41590b.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/ba52bad592aee2523d4fd6f98ab1f750/09665d8cc0af5f4f8106810bfb2423dc.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/b57710be3a976f645141ede27eec35db/4928a9678f49eaf73c7858575322035a.png"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50373"
     },
     {
       "id": "CAIL-A-50250",
