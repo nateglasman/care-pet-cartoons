@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793482866,
+  "synced_at": 1793513803,
   "count": 53,
   "pets": [
     {
@@ -8,7 +8,7 @@
       "name": "Addison (k2026)",
       "species": "Cat",
       "sex": "Female",
-      "age_group": "Kitten",
+      "age_group": "Adult Cat",
       "shelter_breed": "Domestic Shorthair",
       "shelter_secondary_breed": null,
       "color": "Brown",
@@ -777,7 +777,7 @@
       "name": "Paulina",
       "species": "Cat",
       "sex": "Female",
-      "age_group": "Kitten",
+      "age_group": "Adult Cat",
       "shelter_breed": "Domestic Shorthair",
       "shelter_secondary_breed": null,
       "color": "Grey",
