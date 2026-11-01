@@ -1,0 +1,74 @@
+/* ---------- Bath game overlay ---------- */
+#bath { position: fixed; inset: 0; z-index: 50; background: rgba(20, 30, 50, .72); backdrop-filter: blur(4px); display: grid; place-items: center; padding: 12px; }
+#bath[hidden] { display: none; }
+body.bath-open { overflow: hidden; }
+.bath-stage { position: relative; width: min(440px, 100%); background: linear-gradient(180deg, #e8f4ff 0%, #d4e9fb 100%); border-radius: 22px; padding: 14px 14px 18px; box-shadow: 0 24px 60px rgba(0,0,0,.35); color: #1f2a3a; }
+.bath-close { position: absolute; top: 10px; right: 10px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: rgba(0,0,0,.08); font-size: 16px; cursor: pointer; color: inherit; }
+.bath-title { margin: 4px 36px 6px 4px; font-size: 18px; }
+.bath-scene { position: relative; height: 320px; border-radius: 16px; overflow: hidden; touch-action: none; cursor: none; user-select: none; -webkit-user-select: none;
+  background: linear-gradient(180deg, #bfe3ff 0%, #a9d6f5 55%, #9fcdea 56%, #8dbfdf 100%); }
+.bath-scene::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 56%; background: repeating-linear-gradient(90deg, rgba(255,255,255,.18) 0 28px, transparent 28px 30px); }
+.bath-scene::after  { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 44%; background: linear-gradient(180deg, #7fb6d8, #6aa3c8); }
+
+/* steam */
+.steam { position: absolute; left: 50%; top: 20px; width: 220px; margin-left: -110px; height: 120px; pointer-events: none; }
+.steam i { position: absolute; bottom: 0; width: 46px; height: 46px; border-radius: 50%; background: rgba(255,255,255,.55); filter: blur(10px); animation: steam 3.2s ease-in-out infinite; opacity: 0; }
+.steam i:nth-child(1) { left: 20px; animation-delay: 0s; }
+.steam i:nth-child(2) { left: 90px; animation-delay: 1.1s; }
+.steam i:nth-child(3) { left: 160px; animation-delay: 2.1s; }
+@keyframes steam { 0% { transform: translateY(40px) scale(.6); opacity: 0; } 30% { opacity: .8; } 100% { transform: translateY(-90px) scale(1.5); opacity: 0; } }
+
+/* tub */
+.tub { position: absolute; left: 50%; bottom: 34px; width: 330px; margin-left: -165px; height: 190px; z-index: 2; }
+.tub-back, .tub-front { position: absolute; left: 0; right: 0; bottom: 0; border-radius: 26px 26px 110px 110px / 26px 26px 80px 80px; }
+.tub-back { top: 0; background: linear-gradient(180deg, #ffffff, #e9eef5 60%, #d7dfe9); box-shadow: inset 0 -30px 40px rgba(120,140,170,.25); z-index: 1; }
+.bath-pet { position: absolute; left: 50%; bottom: 34px; width: 215px; height: 215px; margin-left: -105px; object-fit: contain; z-index: 2; transform-origin: 50% 90%; filter: drop-shadow(0 6px 6px rgba(0,0,0,.18)); }
+.bath-scene.scrubbing .bath-pet { animation: wiggle .35s ease-in-out infinite; }
+@keyframes wiggle { 0%,100% { transform: rotate(-2.5deg) translateY(0); } 50% { transform: rotate(2.5deg) translateY(-3px); } }
+.dirt { position: absolute; left: 50%; bottom: 34px; width: 215px; height: 215px; margin-left: -105px; z-index: 4; pointer-events: none; }
+.dirt i { position: absolute; width: 34px; height: 26px; border-radius: 50%; background: radial-gradient(circle at 40% 40%, rgba(92,64,36,.85), rgba(92,64,36,.35) 60%, transparent 72%); filter: blur(1px); transition: opacity .3s; }
+.water { position: absolute; left: 6px; right: 6px; top: 44%; bottom: 0; z-index: 3; border-radius: 0 0 100px 100px / 0 0 70px 70px; overflow: hidden;
+  background: linear-gradient(180deg, rgba(130,200,245,.55), rgba(80,160,225,.75)); }
+.water .wave { position: absolute; top: -8px; left: 0; width: 200%; height: 24px;
+  background: radial-gradient(circle at 10px 10px, #fff 7px, transparent 8px) 0 0/40px 20px repeat-x, radial-gradient(circle at 30px 6px, #fff 9px, transparent 10px) 0 0/40px 20px repeat-x;
+  animation: wave 2.4s linear infinite; }
+@keyframes wave { to { transform: translateX(-40px); } }
+.tub-front { top: 60%; background: linear-gradient(180deg, #f7f9fc, #dfe6ef 70%, #c9d3e0); z-index: 5; box-shadow: 0 10px 20px rgba(0,0,0,.18), inset 0 10px 14px rgba(255,255,255,.9); }
+.tub-front::before { content: ""; position: absolute; top: -10px; left: -6px; right: -6px; height: 22px; border-radius: 14px; background: linear-gradient(180deg, #ffffff, #e2e8f0); box-shadow: 0 3px 6px rgba(0,0,0,.12); }
+.foam { position: absolute; left: 10px; right: 10px; top: -4px; height: 30px; z-index: 6; pointer-events: none; opacity: 0; transition: opacity .6s;
+  background: radial-gradient(circle at 12px 14px, #fff 11px, transparent 12px) 0 0/30px 30px repeat-x, radial-gradient(circle at 28px 8px, #fff 9px, transparent 10px) 0 0/30px 30px repeat-x; }
+.feet { position: absolute; left: 40px; right: 40px; bottom: 22px; height: 16px; z-index: 1; }
+.feet::before, .feet::after { content: ""; position: absolute; bottom: 0; width: 40px; height: 16px; border-radius: 0 0 14px 14px; background: #c9b27a; }
+.feet::before { left: 0; } .feet::after { right: 0; }
+.faucet { position: absolute; left: 50%; margin-left: 128px; bottom: 205px; width: 20px; height: 70px; background: linear-gradient(90deg, #cfd6df, #f4f7fa, #b9c3cf); border-radius: 8px 8px 4px 4px; z-index: 1; }
+.faucet::after { content: ""; position: absolute; left: -26px; top: 6px; width: 40px; height: 14px; border-radius: 8px; background: linear-gradient(180deg, #f4f7fa, #b9c3cf); }
+
+/* bubbles */
+.bubbles { position: absolute; inset: 0; z-index: 7; pointer-events: none; overflow: hidden; }
+.bubble { position: absolute; border-radius: 50%; background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.95), rgba(210,235,255,.55) 45%, rgba(160,210,255,.25) 70%, rgba(255,255,255,0) 72%); box-shadow: inset -2px -3px 6px rgba(255,255,255,.7), 0 0 0 1px rgba(255,255,255,.5); animation: float var(--t, 1.6s) ease-out forwards; }
+@keyframes float { 0% { transform: translate(0,0) scale(.5); opacity: 0; } 15% { opacity: 1; transform: translate(0,-6px) scale(1); } 100% { transform: translate(var(--dx, 0px), -140px) scale(1.15); opacity: 0; } }
+
+/* brush under the finger */
+.brush { position: absolute; z-index: 9; width: 64px; height: 64px; margin: -40px 0 0 -14px; pointer-events: none; transform: rotate(-28deg); transition: transform .12s; opacity: 0; }
+.bath-scene.pointer-in .brush { opacity: 1; }
+.bath-scene.scrubbing .brush { animation: scrub .22s ease-in-out infinite; }
+@keyframes scrub { 0%,100% { transform: rotate(-34deg) translate(0,0); } 50% { transform: rotate(-20deg) translate(4px,3px); } }
+
+/* meter + messages */
+.bath-meter { height: 14px; margin: 12px 4px 6px; background: rgba(0,0,0,.08); border-radius: 7px; overflow: hidden; }
+.bath-meter i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #5ec8ff, #2a9d8f); transition: width .15s linear; }
+.bath-msg { margin: 0 4px; font-size: 14px; display: flex; justify-content: space-between; gap: 8px; }
+.bath-msg strong { color: #2a9d8f; }
+.bath-done { display: none; margin: 10px auto 0; padding: 9px 18px; border: 0; border-radius: 999px; background: #e4572e; color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.bath-stage.clean .bath-done { display: block; }
+.bath-stage.clean .bath-scene { cursor: default; }
+.sparkle { position: absolute; z-index: 8; font-size: 22px; animation: sparkle 1.4s ease-out forwards; pointer-events: none; }
+@keyframes sparkle { 0% { transform: scale(0) rotate(0); opacity: 0; } 30% { opacity: 1; } 100% { transform: scale(1.4) rotate(40deg) translateY(-30px); opacity: 0; } }
+.bath-stage.clean .bath-pet { animation: happy .6s ease-in-out 3; filter: drop-shadow(0 0 14px rgba(255,255,255,.95)); }
+@keyframes happy { 0%,100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-18px) scale(1.04); } }
+
+/* card bits */
+.bath-btn { margin-top: 8px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink); font: inherit; cursor: pointer; }
+.bath-btn:hover { border-color: #5ec8ff; }
+.pill.bathed { background: #d6f3ff; color: #1b6e8f; }
+@media (prefers-reduced-motion: reduce) { .steam i, .water .wave, .bath-scene.scrubbing .bath-pet, .bath-scene.scrubbing .brush { animation: none; } }
