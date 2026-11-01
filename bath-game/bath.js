@@ -1,6 +1,17 @@
-/* Bath game: scrub the pet for NEED seconds of real scrubbing. State lives in this browser only. */
+/* Bath mini-game: scrub the pet for NEED seconds of real scrubbing.
+ *
+ * Public API (window.BathGame):
+ *   BathGame.open({ id, name, image, onDone })   open the tub with this pet's cartoon
+ *   BathGame.close()
+ *   BathGame.isBathed(id)                        true if this browser has bathed the pet
+ *   BathGame.reset()                             forget all baths in this browser
+ *   BathGame.NEED                                seconds of scrubbing required (default 25)
+ *
+ * Any element with class "bath-btn" and data-id / data-name / data-src is wired automatically.
+ * "Bathed" state is remembered in localStorage only; nothing is sent anywhere.
+ */
 (function () {
-  const NEED = 25;                 // seconds of active scrubbing required
+  const NEED = Number(document.currentScript?.dataset?.seconds) || 25;   // <script src="bath.js" data-seconds="10"> to override
   const KEY = 'bathed-pets';
   const load = () => { try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); } catch (e) { return new Set(); } };
   const save = (s) => { try { localStorage.setItem(KEY, JSON.stringify([...s])); } catch (e) {} };
@@ -45,10 +56,12 @@
   const meter = el.querySelector('.bath-meter i'), hint = el.querySelector('.bath-hint'), time = el.querySelector('.bath-time');
   const nameEl = el.querySelector('.bath-title span');
 
-  let current = null, progress = 0, down = false, lastMove = 0, lastBubble = 0, raf = null, lastT = 0, px = 0, py = 0, done = false;
+  let current = null, onDone = null, progress = 0, down = false, lastMove = 0, lastBubble = 0, raf = null, lastT = 0, px = 0, py = 0, done = false;
 
-  function open(id, name, src) {
-    current = id; progress = 0; done = false; down = false;
+  function open(opts) {
+    const { id, name, image, onDone: cb } = opts;
+    const src = image;
+    current = id; onDone = cb || null; progress = 0; done = false; down = false;
     nameEl.textContent = name; pet.src = src;
     stage.classList.remove('clean'); scene.classList.remove('scrubbing', 'pointer-in');
     bubbles.innerHTML = ''; meter.style.width = '0%'; foam.style.opacity = 0;
@@ -118,6 +131,7 @@
     }
     if (navigator.vibrate) navigator.vibrate([40, 60, 40]);
     bathed.add(current); save(bathed); paint();
+    if (onDone) { try { onDone(current); } catch (e) { console.error(e); } }
   }
 
   // ---------- input ----------
@@ -147,8 +161,14 @@
       if (pill) pill.hidden = !was;
     });
   }
-  document.querySelectorAll('.bath-btn').forEach(b => b.addEventListener('click', () => open(b.dataset.id, b.dataset.name, b.dataset.src)));
+  document.querySelectorAll('.bath-btn').forEach(b => b.addEventListener('click', () => open({ id: b.dataset.id, name: b.dataset.name, image: b.dataset.src })));
   paint();
+
+  window.BathGame = {
+    open, close, NEED,
+    isBathed: (id) => bathed.has(id),
+    reset: () => { bathed = new Set(); save(bathed); paint(); },
+  };
   // deep link for testing / sharing: index.html#bath-CAIL-A-50246
   const m = location.hash.match(/^#bath-(.+)$/);
   if (m) { const b = document.querySelector(`.bath-btn[data-id="${CSS.escape(m[1])}"]`); if (b) b.click(); }

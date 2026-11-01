@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bath Demo</title>
+<link rel="stylesheet" href="bath.css">
+<style>
+  body { margin: 0; padding: 24px 16px; font: 15px/1.45 system-ui, sans-serif; background: #f6f4ef; color: #1f1d1a; }
+  .card { max-width: 320px; margin: 0 auto; background: #fff; border: 1px solid #e6e1d8; border-radius: 14px; padding: 16px; text-align: center; }
+  .token { width: 200px; height: 200px; border-radius: 50%; margin: 0 auto 10px; display: grid; place-items: center; cursor: pointer;
+           background: radial-gradient(circle at 35% 30%, #fff1c2, #f3c64f 45%, #c99324 100%); box-shadow: inset 0 0 0 7px #d9a93a, inset 0 0 0 9px #fff0b5, 0 8px 18px rgba(0,0,0,.25); }
+  .token img { width: 85%; height: 85%; object-fit: contain; pointer-events: none; }
+  .pill { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px; background: #d6f3ff; color: #1b6e8f; }
+  p { color: #6b665e; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <!-- The token: tapping it opens the bath with the SAME cartoon image. -->
+  <div class="token" id="token"><img src="../data/cartoons/CAIL-A-50367.webp" alt="Vera"></div>
+  <h2 style="margin:4px 0">Vera <span class="pill bathed" hidden>🫧 bathed</span></h2>
+  <p>Tap the token, or the button, to run the bath.</p>
+  <button class="bath-btn" data-id="CAIL-A-50367" data-name="Vera" data-src="../data/cartoons/CAIL-A-50367.webp">🛁 Give a bath</button>
+  <p><a href="#" id="reset">reset bathed state</a></p>
+</div>
+
+<script src="bath.js" data-seconds="25"></script>
+<script>
+  // Opening from your own element (the token) via the API:
+  document.getElementById('token').addEventListener('click', () => BathGame.open({
+    id: 'CAIL-A-50367',
+    name: 'Vera',
+    image: '../data/cartoons/CAIL-A-50367.webp',
+    onDone: (id) => console.log('bathed', id),
+  }));
+  document.getElementById('reset').addEventListener('click', (e) => { e.preventDefault(); BathGame.reset(); });
+</script>
+</body>
+</html>

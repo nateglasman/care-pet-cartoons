@@ -21,7 +21,7 @@ from .pipeline import load_result
 from .shelter import load_pets
 
 SITE_DIR = config.ROOT / "site"
-ASSETS_DIR = config.ROOT / "app" / "site_assets"
+ASSETS_DIR = config.ROOT / "bath-game"  # standalone mini-game package, also used by the Replit app
 
 
 def build(out_dir: Path = SITE_DIR) -> dict:
@@ -51,7 +51,7 @@ def build(out_dir: Path = SITE_DIR) -> dict:
         "shelter_url": "https://www.carenorthshore.org",
     }
     for asset in ASSETS_DIR.iterdir():
-        if asset.is_file():
+        if asset.suffix in (".css", ".js"):
             shutil.copy(asset, out_dir / asset.name)
     (out_dir / "pets.json").write_text(json.dumps({"meta": meta, "pets": rows}, indent=1))
     (out_dir / "index.html").write_text(render(rows, meta))

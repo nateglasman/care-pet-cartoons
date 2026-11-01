@@ -68,7 +68,7 @@ body.bath-open { overflow: hidden; }
 @keyframes happy { 0%,100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-18px) scale(1.04); } }
 
 /* card bits */
-.bath-btn { margin-top: 8px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink); font: inherit; cursor: pointer; }
+.bath-btn { margin-top: 8px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line, #d9d4ca); background: var(--card, #fff); color: var(--ink, #1f1d1a); font: inherit; cursor: pointer; }
 .bath-btn:hover { border-color: #5ec8ff; }
 .pill.bathed { background: #d6f3ff; color: #1b6e8f; }
 @media (prefers-reduced-motion: reduce) { .steam i, .water .wave, .bath-scene.scrubbing .bath-pet, .bath-scene.scrubbing .brush { animation: none; } }
