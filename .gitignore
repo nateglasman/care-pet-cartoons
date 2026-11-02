@@ -9,3 +9,5 @@ site/
 .pythonlibs/
 .cache/
 .upm/
+# visit-verify reference photo cache (re-downloaded on demand)
+visit-verify/.cache/
