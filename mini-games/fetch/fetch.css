@@ -1,0 +1,50 @@
+/* ---------- Fetch: flick the tennis ball, the token runs it down and brings it back ---------- */
+#fetch { position: fixed; inset: 0; z-index: 50; background: rgba(20, 30, 50, .72); backdrop-filter: blur(4px); display: grid; place-items: center; padding: 12px; }
+#fetch[hidden] { display: none; }
+body.fetch-open { overflow: hidden; }
+.fetch-stage { position: relative; width: min(460px, 100%); background: linear-gradient(180deg, #eaf6ff 0%, #d9eefc 100%); border-radius: 22px; padding: 14px 14px 18px; box-shadow: 0 24px 60px rgba(0,0,0,.35); color: #1f2a3a; }
+.fetch-close { position: absolute; top: 10px; right: 10px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: rgba(0,0,0,.08); font-size: 16px; cursor: pointer; color: inherit; z-index: 3; }
+.fetch-title { margin: 4px 36px 6px 4px; font-size: 18px; }
+.fetch-scene { position: relative; height: 380px; border-radius: 16px; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none;
+  background: linear-gradient(180deg, #bfe3ff 0%, #d7efff 18%, #7cc26a 18.5%, #8fd07a 45%, #a6dd8e 100%); }
+.fetch-scene::before { content: ""; position: absolute; left: 0; right: 0; top: 18%; height: 6px; background: repeating-linear-gradient(90deg, #a77b4d 0 6px, #c99a66 6px 8px); opacity: .8; }  /* fence line */
+.fetch-scene::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 30%; background: repeating-linear-gradient(0deg, rgba(255,255,255,.06) 0 2px, transparent 2px 14px); pointer-events: none; }
+.fetch-tree { position: absolute; top: 4%; font-size: 34px; pointer-events: none; filter: drop-shadow(0 4px 2px rgba(0,0,0,.15)); }
+.fetch-sun { position: absolute; top: 6%; right: 8%; width: 36px; height: 36px; border-radius: 50%; background: radial-gradient(circle, #fff6b0, #ffd84a 60%, rgba(255,216,74,0) 70%); pointer-events: none; }
+.fetch-hand { position: absolute; left: 50%; bottom: 6px; width: 70px; height: 40px; margin-left: -35px; border-radius: 30px 30px 10px 10px; background: radial-gradient(circle at 50% 30%, #f6d1b5, #e8b795); box-shadow: 0 -2px 6px rgba(0,0,0,.12) inset; z-index: 2; }
+.fetch-hand::before { content: ""; position: absolute; left: 10px; right: 10px; top: 10px; height: 10px; border-top: 2px solid rgba(0,0,0,.08); border-radius: 50%; }
+.ball { position: absolute; width: 28px; height: 28px; margin: -14px 0 0 -14px; border-radius: 50%; z-index: 5; cursor: grab; touch-action: none;
+  background: radial-gradient(circle at 35% 30%, #f3ff8a, #cde63a 55%, #9fb81e 100%); box-shadow: inset -2px -3px 4px rgba(0,0,0,.2); }
+.ball::before { content: ""; position: absolute; inset: 3px; border-radius: 50%; border: 2px solid rgba(255,255,255,.75); border-left-color: transparent; border-right-color: transparent; transform: rotate(-25deg); }
+.ball.flying { cursor: default; }
+.ball-shadow { position: absolute; width: 28px; height: 10px; margin: -5px 0 0 -14px; border-radius: 50%; background: rgba(0,0,0,.25); z-index: 1; filter: blur(1px); }
+.fetch-dog { position: absolute; width: 74px; height: 74px; margin: -37px 0 0 -37px; border-radius: 50%; z-index: 4; pointer-events: none;
+  background: radial-gradient(circle at 35% 30%, #fff1c2 0%, #f3c64f 45%, #c99324 100%); box-shadow: inset 0 0 0 4px #d9a93a, inset 0 0 0 5px #fff0b5, 0 6px 10px rgba(0,0,0,.28); }
+.fetch-dog img { width: 100%; height: 100%; object-fit: contain; padding: 6px; display: block; border-radius: 50%; transition: transform .15s; }
+.fetch-dog.flip img { transform: scaleX(-1); }
+.fetch-dog.running { animation: gallop .28s ease-in-out infinite; }
+@keyframes gallop { 0%,100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-6px) rotate(4deg); } }
+.fetch-dog.wag { animation: wag .4s ease-in-out infinite; }
+@keyframes wag { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
+.fetch-dog .mouth-ball { position: absolute; right: -6px; bottom: 8px; width: 18px; height: 18px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #f3ff8a, #cde63a 55%, #9fb81e 100%); display: none; }
+.fetch-dog.carrying .mouth-ball { display: block; }
+.fetch-dog .bubble { position: absolute; left: 50%; bottom: 100%; transform: translate(-50%, -4px); white-space: nowrap; font: 600 11px/1 system-ui, sans-serif; background: #fff; color: #333; padding: 4px 8px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,.2); opacity: 0; transition: opacity .2s; }
+.fetch-dog .bubble.show { opacity: 1; }
+.aim { position: absolute; z-index: 6; pointer-events: none; }
+.aim line { stroke: rgba(255,255,255,.9); stroke-width: 3; stroke-dasharray: 6 5; stroke-linecap: round; }
+.dust { position: absolute; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; background: rgba(255,255,255,.7); animation: dust .6s ease-out forwards; pointer-events: none; z-index: 3; }
+@keyframes dust { to { transform: translate(var(--dx, 0), -14px) scale(2.2); opacity: 0; } }
+.fetch-hud { display: flex; justify-content: space-between; gap: 8px; margin: 10px 4px 0; font-size: 14px; }
+.fetch-hud strong { color: #2a9d8f; }
+.fetch-meter { height: 12px; margin: 8px 4px 6px; background: rgba(0,0,0,.08); border-radius: 6px; overflow: hidden; }
+.fetch-meter i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #cde63a, #2a9d8f); transition: width .25s; }
+.fetch-msg { margin: 0 4px; font-size: 14px; min-height: 1.4em; }
+.fetch-done { display: none; margin: 10px auto 0; padding: 9px 18px; border: 0; border-radius: 999px; background: #e4572e; color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.fetch-stage.finished .fetch-done { display: block; }
+.fetch-sparkle { position: absolute; z-index: 8; font-size: 22px; animation: fetch-sparkle 1.4s ease-out forwards; pointer-events: none; }
+@keyframes fetch-sparkle { 0% { transform: scale(0); opacity: 0; } 30% { opacity: 1; } 100% { transform: scale(1.4) translateY(-30px); opacity: 0; } }
+.fetch-btn { margin-top: 8px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line, #d9d4ca); background: var(--card, #fff); color: var(--ink, #1f1d1a); font: inherit; cursor: pointer; }
+.fetch-btn:hover { border-color: #cde63a; }
+.pill.played { background: #f3f8d2; color: #5c6b12; }
+.pill.played[hidden] { display: none; }
+@media (prefers-reduced-motion: reduce) { .fetch-dog.running, .fetch-dog.wag { animation: none; } }

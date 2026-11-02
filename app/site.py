@@ -21,7 +21,8 @@ from .pipeline import load_result
 from .shelter import load_pets
 
 SITE_DIR = config.ROOT / "site"
-ASSETS_DIR = config.ROOT / "bath-game"  # standalone mini-game package, also used by the Replit app
+# Standalone mini-game packages (css + js copied into the site; also used by the Replit app)
+GAME_DIRS = [config.ROOT / "mini-games" / d for d in ("bath", "walk", "fetch", "feed")]
 
 
 def build(out_dir: Path = SITE_DIR) -> dict:
@@ -50,9 +51,10 @@ def build(out_dir: Path = SITE_DIR) -> dict:
         "mock": mock,
         "shelter_url": "https://www.carenorthshore.org",
     }
-    for asset in ASSETS_DIR.iterdir():
-        if asset.suffix in (".css", ".js"):
-            shutil.copy(asset, out_dir / asset.name)
+    for game_dir in GAME_DIRS:
+        for asset in game_dir.iterdir():
+            if asset.suffix in (".css", ".js"):
+                shutil.copy(asset, out_dir / asset.name)
     (out_dir / "pets.json").write_text(json.dumps({"meta": meta, "pets": rows}, indent=1))
     (out_dir / "index.html").write_text(render(rows, meta))
     (out_dir / ".nojekyll").write_text("")
@@ -77,10 +79,19 @@ def _card(p: dict) -> str:
             f'<div class="face back"><img src="img/{pid}.jpg" alt="Photo of {e(p["name"])}" loading="lazy" draggable="false"></div>'
             f'</div><div class="caught-badge">caught ✓</div><div class="hint">flick to spin</div></div>'
         )
-        mixed = ('<span class="pill">mix</span>' if b["is_mixed"] else "") + '<span class="pill bathed" hidden>🫧 bathed</span>'
+        mixed = ('<span class="pill">mix</span>' if b["is_mixed"] else "") + (
+            '<span class="pill bathed" hidden>🫧 bathed</span><span class="pill walked" hidden>🐾 walked</span>'
+            '<span class="pill played" hidden>🎾 played</span><span class="pill fed" hidden>🥣 fed</span>'
+        )
+        attrs = f'data-id="{pid}" data-name="{e(p["name"])}" data-src="cartoons/{pid}.webp"'
         body = (
             f'{guesses}<p class="fact">{e(b["fun_fact"])}</p>'
-            f'<button class="bath-btn" data-id="{pid}" data-name="{e(p["name"])}" data-src="cartoons/{pid}.webp">🛁 Give a bath</button>'
+            f'<div class="games">'
+            f'<button class="bath-btn" {attrs}>🛁 Give a bath</button>'
+            f'<button class="walk-btn" {attrs}>🦮 Walk</button>'
+            f'<button class="fetch-btn" {attrs}>🎾 Play fetch</button>'
+            f'<button class="feed-btn" {attrs} data-species="{e(p["species"])}" data-size-label="{e(p.get("shelter_breed") or "")}">🥣 Feed</button>'
+            f'</div>'
         )
     else:
         coin = (
@@ -119,6 +130,9 @@ def render(rows: list[dict], meta: dict) -> str:
 <title>Breed Cartoons</title>
 <meta name="description" content="Closest breed guess and a cartoon portrait for every adoptable dog and cat at C.A.R.E. North Shore.">
 <link rel="stylesheet" href="bath.css">
+<link rel="stylesheet" href="walk.css">
+<link rel="stylesheet" href="fetch.css">
+<link rel="stylesheet" href="feed.css">
 <style>
   :root {{ --bg:#f6f4ef; --card:#fff; --ink:#1f1d1a; --muted:#6b665e; --accent:#e4572e; --ok:#2a9d8f; --line:#e6e1d8; --warn:#fff3cd; --warn-ink:#664d03; }}
   @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --bg:#17161a; --card:#232227; --ink:#f1efe9; --muted:#a39d93; --line:#34323a; --warn:#4a3b00; --warn-ink:#ffe69c; }} }}
@@ -159,11 +173,14 @@ def render(rows: list[dict], meta: dict) -> str:
   .meta {{ color:var(--muted); font-size:13px; margin:4px 0; }}
   .meta a {{ color:var(--accent); }}
   .pill {{ display:inline-block; font-size:11px; padding:2px 8px; border-radius:999px; background:var(--line); color:var(--muted); vertical-align:middle; }}
+  .pill[hidden] {{ display:none; }}
   .guess {{ display:flex; justify-content:space-between; margin-top:6px; }}
   .pct {{ color:var(--muted); }}
   .bar {{ height:6px; background:var(--line); border-radius:3px; overflow:hidden; }}
   .bar i {{ display:block; height:100%; background:var(--ok); }}
   .fact {{ font-size:13px; font-style:italic; margin:8px 0 0; }}
+  .games {{ display:flex; flex-wrap:wrap; gap:6px; }}
+  .games button {{ margin-top:8px; }}
   footer {{ max-width:1200px; margin:0 auto; padding:24px 16px 40px; color:var(--muted); font-size:13px; }}
 </style>
 </head>
@@ -246,6 +263,9 @@ def render(rows: list[dict], meta: dict) -> str:
 }})();
 </script>
 <script src="bath.js"></script>
+<script src="walk.js"></script>
+<script src="fetch.js"></script>
+<script src="feed.js"></script>
 </body>
 </html>
 """

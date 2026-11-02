@@ -12,16 +12,17 @@
            background: radial-gradient(circle at 35% 30%, #fff1c2, #f3c64f 45%, #c99324 100%); box-shadow: inset 0 0 0 7px #d9a93a, inset 0 0 0 9px #fff0b5, 0 8px 18px rgba(0,0,0,.25); }
   .token img { width: 85%; height: 85%; object-fit: contain; pointer-events: none; }
   .pill { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px; background: #d6f3ff; color: #1b6e8f; }
+  .pill[hidden] { display: none; }
   p { color: #6b665e; font-size: 13px; }
 </style>
 </head>
 <body>
 <div class="card">
   <!-- The token: tapping it opens the bath with the SAME cartoon image. -->
-  <div class="token" id="token"><img src="../data/cartoons/CAIL-A-50367.webp" alt="Vera"></div>
+  <div class="token" id="token"><img src="../../data/cartoons/CAIL-A-50367.webp" alt="Vera"></div>
   <h2 style="margin:4px 0">Vera <span class="pill bathed" hidden>🫧 bathed</span></h2>
   <p>Tap the token, or the button, to run the bath.</p>
-  <button class="bath-btn" data-id="CAIL-A-50367" data-name="Vera" data-src="../data/cartoons/CAIL-A-50367.webp">🛁 Give a bath</button>
+  <button class="bath-btn" data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp">🛁 Give a bath</button>
   <p><a href="#" id="reset">reset bathed state</a></p>
 </div>
 
@@ -31,7 +32,7 @@
   document.getElementById('token').addEventListener('click', () => BathGame.open({
     id: 'CAIL-A-50367',
     name: 'Vera',
-    image: '../data/cartoons/CAIL-A-50367.webp',
+    image: '../../data/cartoons/CAIL-A-50367.webp',
     onDone: (id) => console.log('bathed', id),
   }));
   document.getElementById('reset').addEventListener('click', (e) => { e.preventDefault(); BathGame.reset(); });
