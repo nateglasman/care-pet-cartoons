@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793643553,
-  "count": 54,
+  "synced_at": 1793655910,
+  "count": 53,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -1480,31 +1480,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/bd8f0806c26c5738be64a3c5571ddb1b/9df584309d1f918275644a4963054080.png"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50367"
-    },
-    {
-      "id": "CAIL-A-50368",
-      "name": "Veronica",
-      "species": "Dog",
-      "sex": "Female",
-      "age_group": "Young",
-      "shelter_breed": "Mixed Breed (Large)",
-      "shelter_secondary_breed": null,
-      "color": "White",
-      "location": "Main Dog Kennel",
-      "attributes": [
-        "Good with Dogs",
-        "Good with Kids"
-      ],
-      "cover_photo_id": 51872269,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/9ee8c8549a1813b11cb1536d6f2b0f07/5b7b3b39d2cd156e1d58aa34ab3d3ec2.png",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/9ee8c8549a1813b11cb1536d6f2b0f07/5b7b3b39d2cd156e1d58aa34ab3d3ec2.png",
-        "https://new-s3.shelterluv.com/profile-pictures/43837ce7e7df768e8a1287b1671c119f/d9b8c5bb10821bdfb69e738ddfd8a985.png",
-        "https://new-s3.shelterluv.com/profile-pictures/5a3e28b7ea67127177fb023475e80db8/cf0edb56e75f3d4bc45cca4a1be5004b.png",
-        "https://new-s3.shelterluv.com/profile-pictures/ed0f3c2f8ef2bc814f30a75324212c14/880bdd9dfeeb2b2b5266ababb0b197d4.png",
-        "https://new-s3.shelterluv.com/profile-pictures/080f04a0deda699edcc9bb0d05e0fe16/193ae9c731daaa6eb1e4e789a8069af0.jpg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50368"
     }
   ]
 }
