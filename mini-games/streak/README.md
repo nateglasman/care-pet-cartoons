@@ -7,10 +7,13 @@ shinier, then turns platinum, then holographic, then legendary. Miss a day and
 it drops back to gold. Every task and every completed day pays XP, which is
 what the leaderboard ranks.
 
-Everything here is plain CSS + JS with no dependencies. `demo.html` shows all
-five tiers side by side and lets you simulate any streak length on Vera's
-token (open it from the repo root with any static server, e.g.
-`python3 -m http.server`, then `/mini-games/streak/demo.html`).
+Everything here is plain CSS + JS with no dependencies, and the folder is
+self-contained: `demo.html` shows all five tiers side by side and lets you
+simulate any streak length on Vera's token (serve this folder with any static
+server, e.g. `python3 -m http.server`, and open `demo.html`). `cartoons/`
+holds six sample stickers for the demo only; the app uses its own
+`/cartoons/{pet_id}.webp`. When the folder sits next to `bath/ walk/ fetch/
+feed/` the demo also wires the four games in.
 
 **Use the cartoon from the token.** The tiers are a finish *on the token*, not
 new artwork: the same transparent sticker at `/cartoons/{pet_id}.webp` sits on
@@ -72,7 +75,8 @@ makes a long streak worth protecting without making new users hopeless.
 |---|---|
 | `streak.css` | the five tier finishes (`streak-gold`, `streak-shiny`, `streak-platinum`, `streak-holo`, `streak-legendary`), the streak chip, the toast, the level-up flash |
 | `streak.js` | the rules above: streak/freeze/XP bookkeeping, tier lookup, DOM helpers, leaderboard summary, QA helpers |
-| `demo.html` | gallery of the five tiers + an interactive Vera with the four games wired in and a streak slider |
+| `demo.html` | gallery of the five tiers + an interactive Vera with a streak slider (and the four games when they sit next to this folder) |
+| `cartoons/` | six sample stickers for the demo |
 
 ## Integration
 

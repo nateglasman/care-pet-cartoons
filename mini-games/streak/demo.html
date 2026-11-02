@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Streak Tiers Demo</title>
-<link rel="stylesheet" href="../bath/bath.css">
-<link rel="stylesheet" href="../walk/walk.css">
-<link rel="stylesheet" href="../fetch/fetch.css">
-<link rel="stylesheet" href="../feed/feed.css">
+<link rel="stylesheet" href="../bath/bath.css" onerror="this.remove()">
+<link rel="stylesheet" href="../walk/walk.css" onerror="this.remove()">
+<link rel="stylesheet" href="../fetch/fetch.css" onerror="this.remove()">
+<link rel="stylesheet" href="../feed/feed.css" onerror="this.remove()">
 <link rel="stylesheet" href="streak.css">
 <style>
   body { margin: 0; padding: 24px 16px 60px; font: 15px/1.45 system-ui, sans-serif; background: #f6f4ef; color: #1f1d1a; }
@@ -41,7 +41,7 @@
 <body>
 <div class="wrap">
   <h1>Streak tiers</h1>
-  <p>Care for a pet every day (bath + walk + fetch + feed) and its token levels up. Miss a day and it drops back to Gold.</p>
+  <p>Open this file through any static server (e.g. <code>python3 -m http.server</code> in this folder). Care for a pet every day (bath + walk + fetch + feed) and its token levels up. Miss a day and it drops back to Gold.</p>
 
   <div class="tiers" id="gallery"></div>
 
@@ -49,17 +49,17 @@
   <div class="play">
     <div>
       <div class="coin" id="vera" data-streak-id="CAIL-A-50367" data-id="CAIL-A-50367" data-name="Vera">
-        <div class="face front"><img src="../../data/cartoons/CAIL-A-50367.webp" alt="Vera" draggable="false"></div>
+        <div class="face front"><img src="cartoons/CAIL-A-50367.webp" alt="Vera" draggable="false"></div>
       </div>
       <div style="text-align:center"><span data-streak-chip="CAIL-A-50367"></span></div>
     </div>
     <div>
       <div class="stat">⭐ <b data-streak-xp>0</b> XP &nbsp;·&nbsp; today: <span id="today"></span></div>
       <div class="games">
-        <button class="bath-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp">🛁 Bath</button>
-        <button class="walk-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp">🦮 Walk</button>
-        <button class="fetch-btn" data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp">🎾 Fetch</button>
-        <button class="feed-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp" data-species="Dog" data-size-label="Mixed Breed (Large)">🥣 Feed</button>
+        <button class="bath-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="cartoons/CAIL-A-50367.webp">🛁 Bath</button>
+        <button class="walk-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="cartoons/CAIL-A-50367.webp">🦮 Walk</button>
+        <button class="fetch-btn" data-id="CAIL-A-50367" data-name="Vera" data-src="cartoons/CAIL-A-50367.webp">🎾 Fetch</button>
+        <button class="feed-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="cartoons/CAIL-A-50367.webp" data-species="Dog" data-size-label="Mixed Breed (Large)">🥣 Feed</button>
         <span class="pill bathed" hidden>🫧</span><span class="pill walked" hidden>🐾</span><span class="pill played" hidden>🎾</span><span class="pill fed" hidden>🥣</span>
       </div>
       <p style="margin:12px 0 4px">QA shortcuts (what the real app would never expose):</p>
@@ -84,10 +84,11 @@
   </ul>
 </div>
 
-<script src="../bath/bath.js"></script>
-<script src="../walk/walk.js"></script>
-<script src="../fetch/fetch.js"></script>
-<script src="../feed/feed.js"></script>
+<!-- the four games are optional here: present when this folder sits next to bath/ walk/ fetch/ feed/, hidden otherwise -->
+<script src="../bath/bath.js" onerror="document.querySelector('.games').style.display = 'none'"></script>
+<script src="../walk/walk.js" onerror="document.querySelector('.games').style.display = 'none'"></script>
+<script src="../fetch/fetch.js" onerror="document.querySelector('.games').style.display = 'none'"></script>
+<script src="../feed/feed.js" onerror="document.querySelector('.games').style.display = 'none'"></script>
 <script src="streak.js"></script>
 <script>
   const ID = 'CAIL-A-50367';
@@ -95,7 +96,7 @@
   // gallery: one coin per tier, class applied directly (no streak data involved)
   document.getElementById('gallery').innerHTML = Streak.TIERS.map((t, i) => `
     <div class="tier">
-      <div class="coin streak-${t.key}"><div class="face front"><img src="../../data/cartoons/${PETS[i][0]}.webp" alt="${PETS[i][1]}" draggable="false"></div></div>
+      <div class="coin streak-${t.key}"><div class="face front"><img src="cartoons/${PETS[i][0]}.webp" alt="${PETS[i][1]}" draggable="false"></div></div>
       <div><b>${t.emoji} ${t.name}</b></div>
       <div class="req">${t.min === 0 ? 'no streak' : t.min + '+ day streak'}</div>
       <div class="mult">×${t.mult} XP</div>
@@ -110,9 +111,9 @@
   }
   sim.addEventListener('input', () => { Streak.simulate(ID, +sim.value); refresh(); });
   document.getElementById('care').addEventListener('click', () => { Streak.TASKS.forEach(k => Streak.complete(ID, k, k === 'walk' ? { meters: 640 } : k === 'fetch' ? { bestThrowMeters: 23 } : {})); refresh(); });
-  document.getElementById('skip').addEventListener('click', () => { Streak.rewind(ID, 1); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g].reset()); refresh(); });
-  document.getElementById('skip2').addEventListener('click', () => { Streak.rewind(ID, 2); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g].reset()); refresh(); });
-  document.getElementById('reset').addEventListener('click', () => { Streak.reset(); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g].reset()); refresh(); });
+  document.getElementById('skip').addEventListener('click', () => { Streak.rewind(ID, 1); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g] && window[g].reset()); refresh(); });
+  document.getElementById('skip2').addEventListener('click', () => { Streak.rewind(ID, 2); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g] && window[g].reset()); refresh(); });
+  document.getElementById('reset').addEventListener('click', () => { Streak.reset(); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g] && window[g].reset()); refresh(); });
   document.addEventListener('streak:change', refresh);
   refresh();
 </script>
