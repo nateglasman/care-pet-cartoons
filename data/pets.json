@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793574741,
+  "synced_at": 1793591490,
   "count": 53,
   "pets": [
     {
@@ -392,7 +392,7 @@
       "shelter_breed": "Domestic Shorthair",
       "shelter_secondary_breed": null,
       "color": "Brown",
-      "location": "Foster Home",
+      "location": "Cat Catio",
       "attributes": [
         "Good with Cats",
         "Good with Kids",
@@ -999,7 +999,7 @@
       "shelter_breed": "Domestic Shorthair",
       "shelter_secondary_breed": null,
       "color": "Brown",
-      "location": "Foster Home",
+      "location": "Cat Catio",
       "attributes": [
         "Good with Cats",
         "Good with Kids",
