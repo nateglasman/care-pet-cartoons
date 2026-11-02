@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50120",
+  "cover_photo_id": 38734039,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Cat",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Domestic Shorthair (tuxedo / black-and-white)",
+        "confidence": 0.85,
+        "reason": "Short, glossy black coat with a white muzzle blaze, white chest, belly patch, and white paws is the classic tuxedo bicolor pattern on a typical moderate-build domestic cat."
+      },
+      {
+        "breed": "Oriental Shorthair mix",
+        "confidence": 0.08,
+        "reason": "The fairly large, upright ears, slim build, and slightly wedge-shaped face hint at a lighter, more angular type."
+      },
+      {
+        "breed": "Bombay mix",
+        "confidence": 0.04,
+        "reason": "The sleek, close-lying jet-black coat with bright green-gold eyes resembles Bombay coloring, though the white markings rule out a purebred."
+      }
+    ],
+    "appearance": "A slender, medium-sized shorthaired tuxedo cat with a sleek jet-black coat, a narrow white blaze running up between the eyes to the forehead, a white muzzle with a pink nose, long white whiskers, and a bright white bib extending down the chest and onto the inner front legs, plus a small white patch on the belly. All four paws wear neat white 'socks' (the front left sock reaching slightly higher), and she has large, upright, black triangular ears with light inner tufts and striking almond-shaped yellow-green eyes. Her long black tail and lean, graceful build give her an elegant, alert look as she lounges sphinx-like with front legs stretched out.",
+    "fun_fact": "Tuxedo cats always come dressed for a formal party, and their sharp black-and-white suits are famous for matching their big, charming personalities!"
+  },
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (tuxedo / black-and-white) mix named Jackie (c2026). Keep its real appearance: A slender, medium-sized shorthaired tuxedo cat with a sleek jet-black coat, a narrow white blaze running up between the eyes to the forehead, a white muzzle with a pink nose, long white whiskers, and a bright white bib extending down the chest and onto the inner front legs, plus a small white patch on the belly. All four paws wear neat white 'socks' (the front left sock reaching slightly higher), and she has large, upright, black triangular ears with light inner tufts and striking almond-shaped yellow-green eyes. Her long black tail and lean, graceful build give her an elegant, alert look as she lounges sphinx-like with front legs stretched out. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50120.jpg",
+  "cartoon_file": "CAIL-A-50120.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 41.4,
+  "analyzed_at": 1793642784
+}
