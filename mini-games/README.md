@@ -11,6 +11,7 @@ build step. Each game uses the **cartoon from the pet's token**.
 | `walk/` | 🦮 Walk the dog | lead the token around a stylized map of Skokie from C.A.R.E., visit 3 spots, come home | `{ meters, spots }` |
 | `fetch/` | 🎾 Play fetch | flick the tennis ball, the token brings it back, 5 times | `{ fetches, bestThrowMeters }` |
 | `feed/` | 🥣 Feed | scoop the right portion for the pet's size, serve, pet it while it eats | `{ portion }` |
+| `streak/` | 🔥 Streaks & tiers | not a game: do all four in a day to build the pet's streak; the token turns Shiny Gold → Platinum → Holo → Legendary at 1 / 10 / 30 / 50 days, XP for a leaderboard | – |
 
 Each folder has `<game>.css`, `<game>.js`, a `demo.html` you can open in a
 browser, and its own README with tuning knobs. `demo.html` in this folder runs
@@ -37,6 +38,8 @@ the tub, on the map, in the park and at the bowl.
    <script src="/static/walk.js"></script>
    <script src="/static/fetch.js"></script>
    <script src="/static/feed.js"></script>
+   <link rel="stylesheet" href="/static/streak.css">   <!-- optional: streaks, XP, token tiers -->
+   <script src="/static/streak.js"></script>
    ```
 
 2. Open a game from your own UI (the token, a menu, a quest card):
@@ -80,6 +83,8 @@ Deep links open a game on page load when a matching button exists:
 `#bath-<id>`, `#walk-<id>`, `#fetch-<id>`, `#feed-<id>`.
 
 ## Suggested points (the game's call)
+
+`streak/streak.js` implements this table (plus multipliers and milestones); see its README.
 
 | Action | Points | Notes |
 |---|---|---|

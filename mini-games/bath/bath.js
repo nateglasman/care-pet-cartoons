@@ -132,6 +132,7 @@
     if (navigator.vibrate) navigator.vibrate([40, 60, 40]);
     bathed.add(current); save(bathed); paint();
     if (onDone) { try { onDone(current); } catch (e) { console.error(e); } }
+    document.dispatchEvent(new CustomEvent('petcare:done', { detail: { game: 'bath', id: current, stats: {} } }));
   }
 
   // ---------- input ----------

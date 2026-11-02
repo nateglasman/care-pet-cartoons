@@ -118,7 +118,9 @@
     for (let i = 0; i < 14; i++) { const s = document.createElement('span'); s.className = 'feed-sparkle'; s.textContent = ['✨', '🦴', '💛'][i % 3]; s.style.left = (20 + Math.random() * (r.width - 40)) + 'px'; s.style.top = (20 + Math.random() * (r.height - 60)) + 'px'; s.style.animationDelay = (Math.random() * .8) + 's'; scene.appendChild(s); s.addEventListener('animationend', () => s.remove()); }
     if (navigator.vibrate) navigator.vibrate([40, 60, 40]);
     done.add(current); save(done); paint();
-    if (onDone) { try { onDone(current, { portion: sizeName }); } catch (e) { console.error(e); } }
+    const stats = { portion: sizeName };
+    if (onDone) { try { onDone(current, stats); } catch (e) { console.error(e); } }
+    document.dispatchEvent(new CustomEvent('petcare:done', { detail: { game: 'feed', id: current, stats } }));
   }
 
   // ---------- input ----------

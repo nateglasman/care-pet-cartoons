@@ -22,7 +22,7 @@ from .shelter import load_pets
 
 SITE_DIR = config.ROOT / "site"
 # Standalone mini-game packages (css + js copied into the site; also used by the Replit app)
-GAME_DIRS = [config.ROOT / "mini-games" / d for d in ("bath", "walk", "fetch", "feed")]
+GAME_DIRS = [config.ROOT / "mini-games" / d for d in ("bath", "walk", "fetch", "feed", "streak")]
 
 
 def build(out_dir: Path = SITE_DIR) -> dict:
@@ -74,10 +74,10 @@ def _card(p: dict) -> str:
             for g in b["guesses"]
         )
         coin = (
-            f'<div class="coin-wrap"><div class="coin" data-id="{pid}" tabindex="0" role="button" aria-label="Spin {e(p["name"])}\'s coin">'
+            f'<div class="coin-wrap"><div class="coin" data-id="{pid}" data-streak-id="{pid}" tabindex="0" role="button" aria-label="Spin {e(p["name"])}\'s coin">'
             f'<div class="face front"><img src="cartoons/{pid}.webp" alt="Cartoon of {e(p["name"])}" loading="lazy" draggable="false"></div>'
             f'<div class="face back"><img src="img/{pid}.jpg" alt="Photo of {e(p["name"])}" loading="lazy" draggable="false"></div>'
-            f'</div><div class="caught-badge">caught ✓</div><div class="hint">flick to spin</div></div>'
+            f'</div><div class="caught-badge">caught ✓</div><div class="hint">flick to spin</div><div class="streak-row" data-streak-chip="{pid}"></div></div>'
         )
         mixed = ('<span class="pill">mix</span>' if b["is_mixed"] else "") + (
             '<span class="pill bathed" hidden>🫧 bathed</span><span class="pill walked" hidden>🐾 walked</span>'
@@ -133,6 +133,7 @@ def render(rows: list[dict], meta: dict) -> str:
 <link rel="stylesheet" href="walk.css">
 <link rel="stylesheet" href="fetch.css">
 <link rel="stylesheet" href="feed.css">
+<link rel="stylesheet" href="streak.css">
 <style>
   :root {{ --bg:#f6f4ef; --card:#fff; --ink:#1f1d1a; --muted:#6b665e; --accent:#e4572e; --ok:#2a9d8f; --line:#e6e1d8; --warn:#fff3cd; --warn-ink:#664d03; }}
   @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --bg:#17161a; --card:#232227; --ink:#f1efe9; --muted:#a39d93; --line:#34323a; --warn:#4a3b00; --warn-ink:#ffe69c; }} }}
@@ -166,7 +167,8 @@ def render(rows: list[dict], meta: dict) -> str:
   .hint {{ font-size:11px; color:var(--muted); margin-top:6px; }}
   .caught-badge {{ position:absolute; top:10px; right:12px; font-size:11px; font-weight:700; padding:3px 9px; border-radius:999px; background:var(--ok); color:#fff; opacity:0; transform:scale(.6); transition:all .35s cubic-bezier(.2,1.4,.4,1); }}
   .coin-wrap.caught .caught-badge {{ opacity:1; transform:scale(1); }}
-  .coin-wrap.caught .coin .face {{ box-shadow: inset 0 0 0 7px #d9a93a, inset 0 0 0 9px #fff0b5, inset 0 0 0 12px #b8831c, 0 0 0 4px rgba(42,157,143,.35), 0 10px 22px rgba(0,0,0,.28); }}
+  .coin-wrap.caught .coin .face {{ box-shadow: var(--sk-ring, inset 0 0 0 7px #d9a93a, inset 0 0 0 9px #fff0b5, inset 0 0 0 12px #b8831c), var(--sk-glow, 0 0 0 0 transparent), 0 0 0 4px rgba(42,157,143,.35), 0 10px 22px rgba(0,0,0,.28); }}
+  .streak-row {{ margin-top: 6px; min-height: 20px; }}
   @media (prefers-reduced-motion: reduce) {{ .caught-badge {{ transition:none; }} }}
   .body {{ padding:12px 14px 14px; }}
   .body h2 {{ margin:0 0 4px; font-size:17px; }}
@@ -189,7 +191,7 @@ def render(rows: list[dict], meta: dict) -> str:
   <h1>🐾 Who do they look like?</h1>
   <p class="sub">Every adoptable dog and cat at <a href="{meta["shelter_url"]}">C.A.R.E. North Shore</a>: the shelter photo, the closest breed guess from a vision model, and a cartoon portrait drawn from the photo.</p>
   <p class="sub">{meta["count"]} pets · {meta["analyzed"]} with cartoons · updated {updated} · refreshes automatically from the shelter's list.</p>
-  <p class="counter">🏅 Caught <strong id="caught-n">0</strong> / {meta["analyzed"]} <span class="meta">· flick or tap a coin to spin it and catch the pet · <a href="#" id="reset">reset</a></span></p>
+  <p class="counter">🏅 Caught <strong id="caught-n">0</strong> / {meta["analyzed"]} · ⭐ <strong data-streak-xp>0</strong> XP <span class="meta">· flick or tap a coin to spin it and catch the pet · <a href="#" id="reset">reset</a></span></p>
 </header>
 {banner}
 <nav><a href="#dogs">Dogs ({len(dogs)})</a><a href="#cats">Cats ({len(cats)})</a></nav>
@@ -266,6 +268,8 @@ def render(rows: list[dict], meta: dict) -> str:
 <script src="walk.js"></script>
 <script src="fetch.js"></script>
 <script src="feed.js"></script>
+<script src="streak.js"></script>
+<script>Streak.bindAll('.coin[data-id]');</script>
 </body>
 </html>
 """

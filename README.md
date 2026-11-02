@@ -54,7 +54,7 @@ touching the code:
 The page shows each pet as a spinnable coin: cartoon on the front, shelter
 photo on the back. Flick it to spin; the first spin "catches" the pet and the
 counter in the header remembers it in that browser. Each card also has the four
-care mini-games from `mini-games/` (bath, walk, fetch, feed). Bump `CARTOON_VERSION` in
+care mini-games from `mini-games/` (bath, walk, fetch, feed) plus the streak / XP / token-tier system in `mini-games/streak/`. Bump `CARTOON_VERSION` in
 `app/cartoon.py` whenever you change the cartoon prompt or format and every
 cartoon is regenerated on the next run.
 

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Streak Tiers Demo</title>
+<link rel="stylesheet" href="../bath/bath.css">
+<link rel="stylesheet" href="../walk/walk.css">
+<link rel="stylesheet" href="../fetch/fetch.css">
+<link rel="stylesheet" href="../feed/feed.css">
+<link rel="stylesheet" href="streak.css">
+<style>
+  body { margin: 0; padding: 24px 16px 60px; font: 15px/1.45 system-ui, sans-serif; background: #f6f4ef; color: #1f1d1a; }
+  h1 { font-size: 22px; margin: 0 0 4px; } h2 { font-size: 17px; margin: 26px 0 8px; }
+  p, li { color: #6b665e; font-size: 13px; }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; }
+  .tier { background: #fff; border: 1px solid #e6e1d8; border-radius: 14px; padding: 16px 10px 12px; text-align: center; }
+  .tier .req { font-size: 12px; color: #6b665e; margin: 2px 0 0; }
+  .tier .mult { font-size: 11px; color: #9a948a; }
+  /* the Pages coin markup, so the tiers are tested on the real token */
+  .coin { width: 150px; height: 150px; position: relative; margin: 0 auto 10px; }
+  .face { position: absolute; inset: 0; border-radius: 50%; overflow: hidden;
+          background: radial-gradient(circle at 35% 30%, #fff1c2 0%, #f3c64f 45%, #c99324 100%);
+          box-shadow: inset 0 0 0 7px #d9a93a, inset 0 0 0 9px #fff0b5, inset 0 0 0 12px #b8831c, 0 10px 22px rgba(0,0,0,.28); }
+  .face img { width: 100%; height: 100%; object-fit: contain; padding: 14px; display: block; box-sizing: border-box; }
+  .play { background: #fff; border: 1px solid #e6e1d8; border-radius: 14px; padding: 16px; display: grid; grid-template-columns: 220px 1fr; gap: 18px; align-items: start; }
+  .play .coin { width: 200px; height: 200px; }
+  .games, .qa { display: flex; flex-wrap: wrap; gap: 6px; }
+  .qa { margin-top: 10px; } .qa button, .games button { font: inherit; }
+  .games button { padding: 6px 10px; border-radius: 10px; border: 1px solid #ddd; background: #fafafa; cursor: pointer; }
+  .qa button { padding: 4px 9px; border-radius: 8px; border: 1px solid #ccc; background: #fff; cursor: pointer; font-size: 12px; }
+  input[type=range] { width: 100%; }
+  .stat { font-size: 14px; margin: 6px 0; } .stat b { font-size: 18px; }
+  .pill { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px; background: #eee; vertical-align: middle; }
+  .pill[hidden] { display: none; }
+  pre { background: #f1ede4; border-radius: 8px; padding: 10px; font-size: 11px; overflow: auto; max-height: 220px; }
+  @media (max-width: 600px) { .play { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Streak tiers</h1>
+  <p>Care for a pet every day (bath + walk + fetch + feed) and its token levels up. Miss a day and it drops back to Gold.</p>
+
+  <div class="tiers" id="gallery"></div>
+
+  <h2>Try it on Vera</h2>
+  <div class="play">
+    <div>
+      <div class="coin" id="vera" data-streak-id="CAIL-A-50367" data-id="CAIL-A-50367" data-name="Vera">
+        <div class="face front"><img src="../../data/cartoons/CAIL-A-50367.webp" alt="Vera" draggable="false"></div>
+      </div>
+      <div style="text-align:center"><span data-streak-chip="CAIL-A-50367"></span></div>
+    </div>
+    <div>
+      <div class="stat">⭐ <b data-streak-xp>0</b> XP &nbsp;·&nbsp; today: <span id="today"></span></div>
+      <div class="games">
+        <button class="bath-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp">🛁 Bath</button>
+        <button class="walk-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp">🦮 Walk</button>
+        <button class="fetch-btn" data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp">🎾 Fetch</button>
+        <button class="feed-btn"  data-id="CAIL-A-50367" data-name="Vera" data-src="../../data/cartoons/CAIL-A-50367.webp" data-species="Dog" data-size-label="Mixed Breed (Large)">🥣 Feed</button>
+        <span class="pill bathed" hidden>🫧</span><span class="pill walked" hidden>🐾</span><span class="pill played" hidden>🎾</span><span class="pill fed" hidden>🥣</span>
+      </div>
+      <p style="margin:12px 0 4px">QA shortcuts (what the real app would never expose):</p>
+      <label>Simulate streak: <b id="simv">0</b> days<input type="range" id="sim" min="0" max="60" value="0"></label>
+      <div class="qa">
+        <button id="care">✅ Finish all four tasks today</button>
+        <button id="skip">⏭ Pretend it's been 1 day since last care</button>
+        <button id="skip2">⏭⏭ 2 days (freeze test)</button>
+        <button id="reset">reset</button>
+      </div>
+      <p style="margin-top:12px">Leaderboard payload from <code>Streak.summary()</code>:</p>
+      <pre id="out"></pre>
+    </div>
+  </div>
+
+  <h2>Rules (as implemented)</h2>
+  <ul>
+    <li>A day counts when all four tasks are done for that pet on the same local calendar day.</li>
+    <li>Tiers: Gold (0) → Shiny Gold (1+) → Platinum (10+) → Holo (30+) → Legendary (50+). XP multipliers 1 / 1.1 / 1.25 / 1.5 / 2.</li>
+    <li>Task XP: feed 10, bath 15, fetch 15 (+1 per metre of best throw), walk 20 (+1 per 100 m). Full day +50. Milestones at 10 / 30 / 50 days: +100 / +300 / +500. All × tier multiplier.</li>
+    <li>Every 7 straight days banks a streak freeze (max 2) that covers one missed day automatically.</li>
+  </ul>
+</div>
+
+<script src="../bath/bath.js"></script>
+<script src="../walk/walk.js"></script>
+<script src="../fetch/fetch.js"></script>
+<script src="../feed/feed.js"></script>
+<script src="streak.js"></script>
+<script>
+  const ID = 'CAIL-A-50367';
+  const PETS = [['CAIL-A-4801','Arty'],['CAIL-A-50016','Bruno'],['CAIL-A-50385','Jack'],['CAIL-A-50371','Hutch'],['CAIL-A-50360','Bonchon']];
+  // gallery: one coin per tier, class applied directly (no streak data involved)
+  document.getElementById('gallery').innerHTML = Streak.TIERS.map((t, i) => `
+    <div class="tier">
+      <div class="coin streak-${t.key}"><div class="face front"><img src="../../data/cartoons/${PETS[i][0]}.webp" alt="${PETS[i][1]}" draggable="false"></div></div>
+      <div><b>${t.emoji} ${t.name}</b></div>
+      <div class="req">${t.min === 0 ? 'no streak' : t.min + '+ day streak'}</div>
+      <div class="mult">×${t.mult} XP</div>
+    </div>`).join('');
+
+  const sim = document.getElementById('sim'), simv = document.getElementById('simv');
+  function refresh() {
+    const s = Streak.state(ID);
+    simv.textContent = s.streak; sim.value = s.streak;
+    document.getElementById('today').textContent = Streak.TASKS.map(k => (s.today[k] ? '✅' : '◻️') + ' ' + k).join('  ');
+    document.getElementById('out').textContent = JSON.stringify(Streak.summary(), null, 1);
+  }
+  sim.addEventListener('input', () => { Streak.simulate(ID, +sim.value); refresh(); });
+  document.getElementById('care').addEventListener('click', () => { Streak.TASKS.forEach(k => Streak.complete(ID, k, k === 'walk' ? { meters: 640 } : k === 'fetch' ? { bestThrowMeters: 23 } : {})); refresh(); });
+  document.getElementById('skip').addEventListener('click', () => { Streak.rewind(ID, 1); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g].reset()); refresh(); });
+  document.getElementById('skip2').addEventListener('click', () => { Streak.rewind(ID, 2); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g].reset()); refresh(); });
+  document.getElementById('reset').addEventListener('click', () => { Streak.reset(); ['BathGame','WalkGame','FetchGame','FeedGame'].forEach(g => window[g].reset()); refresh(); });
+  document.addEventListener('streak:change', refresh);
+  refresh();
+</script>
+</body>
+</html>
