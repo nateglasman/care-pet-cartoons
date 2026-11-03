@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793688916,
+  "synced_at": 1793734329,
   "count": 51,
   "pets": [
     {
@@ -466,7 +466,7 @@
       "shelter_breed": "Domestic Shorthair",
       "shelter_secondary_breed": null,
       "color": "Black",
-      "location": "Foster Home",
+      "location": "Cat Catio",
       "attributes": [
         "Likes to Play"
       ],
