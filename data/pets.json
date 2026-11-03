@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793655910,
-  "count": 53,
+  "synced_at": 1793688916,
+  "count": 51,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -1181,43 +1181,6 @@
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50360"
     },
     {
-      "id": "CAIL-A-50016",
-      "name": "Bruno",
-      "species": "Dog",
-      "sex": "Male",
-      "age_group": "Adult",
-      "shelter_breed": "Mixed Breed (Large)",
-      "shelter_secondary_breed": null,
-      "color": "Grey",
-      "location": "Effie's Office",
-      "attributes": [
-        "Crate Trained",
-        "Good with Dogs",
-        "Completed Basic Obedience",
-        "Fenced Yard preferred",
-        "Potty Trained"
-      ],
-      "cover_photo_id": 32716840,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/a8e459813aced3ec71c82cb9d3d62d8f/196e55297c4348497aba5c90c4455774.JPG",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/a8e459813aced3ec71c82cb9d3d62d8f/196e55297c4348497aba5c90c4455774.JPG",
-        "https://new-s3.shelterluv.com/profile-pictures/ac62692705187968bd1f94c458e741dc/3d30725ef2a550000ae64134b5a0de22.JPG",
-        "https://new-s3.shelterluv.com/profile-pictures/ff6d5b2e7f449082e25c3c0f83c84d3a/e6228d3533b0e87bbba2d0a4255ae33a.JPG",
-        "https://new-s3.shelterluv.com/profile-pictures/adcd9ee0666b21ea34c8316d5fdacf6a/32cc1483032b81670fc4442cd26faa78.JPG",
-        "https://new-s3.shelterluv.com/profile-pictures/2a1f4c9903299de791d8d0f29a79e2b7/5384bac05e77511eaebac741a00dcfba.JPG",
-        "https://new-s3.shelterluv.com/profile-pictures/b2741c58010697e1c235489b7057f674/d11921a63f4cc64603b3af1e96ae8cff.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/01384c72c10f9831b702f952aac1def2/8e6d9acbfb7aff5e2c91f7f9084d6b6e.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/9e970dee3d50a8b6f7ea54ccf2b4d96b/03982ade2ce921d092cf575bf8772490.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/774a4cffa36d20aebf806923f3003753/5febab50d0aca11f3c273da4d0822359.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/c23b88be5c5471f493f4d3ab6428341b/e57c347abccf8d2233a336b2c618c2ff.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/fa923741fd5b5a3f19531dd75728efe1/a7a66b23ef03b0f9f18a1743737b7145.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/d3a81808266169324336a6814a443ccb/6bf5dff551b05de5fb65a796d0094b21.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/6b9f00f7302d22aa54a198863cc0f55e/d277a15e194de00b8e148c8b7204d19b.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/39ff2bb4fc32d7035209b909ad57830b/154381358079908aec3077599136aefa.jpeg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50016"
-    },
-    {
       "id": "CAIL-A-50361",
       "name": "Dahlia",
       "species": "Dog",
@@ -1259,29 +1222,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/4197a4727785f901985d793513a01510/b8d56a8a62453d8c6bc43c18975ecd3c.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50396"
-    },
-    {
-      "id": "CAIL-A-50371",
-      "name": "Hutch",
-      "species": "Dog",
-      "sex": "Male",
-      "age_group": "Adult",
-      "shelter_breed": "Husky",
-      "shelter_secondary_breed": "Husky",
-      "color": "Black",
-      "location": "Foster Home",
-      "attributes": [
-        "Good with Dogs",
-        "Good with Cats",
-        "Potty Trained"
-      ],
-      "cover_photo_id": 51872494,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/0df01baf8f32e4e168291804306a6dbc/44da8896e6ae3c42271133fe88d767b9.jpg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/0df01baf8f32e4e168291804306a6dbc/44da8896e6ae3c42271133fe88d767b9.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/56afd04246b8d4b428dd52d4aa155a0f/ae28f8e2a072c1ad181fcd2fbc938df7.jpeg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50371"
     },
     {
       "id": "CAIL-A-50385",
