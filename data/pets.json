@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793774071,
+  "synced_at": 1793821855,
   "count": 51,
   "pets": [
     {
@@ -1236,9 +1236,10 @@
       "color": "Brown",
       "location": "Main Dog Kennel",
       "attributes": [],
-      "cover_photo_id": 52066023,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/4197a4727785f901985d793513a01510/b8d56a8a62453d8c6bc43c18975ecd3c.jpeg",
+      "cover_photo_id": 52829921,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/55c727b3850b04fb52f55a628e3f28a7/ddf90cd5423a0c6ef2ffe3923bf4fdbc.jpg",
       "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/55c727b3850b04fb52f55a628e3f28a7/ddf90cd5423a0c6ef2ffe3923bf4fdbc.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/4197a4727785f901985d793513a01510/b8d56a8a62453d8c6bc43c18975ecd3c.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50396"
