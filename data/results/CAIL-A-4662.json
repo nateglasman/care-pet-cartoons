@@ -1,37 +1,37 @@
 {
   "pet_id": "CAIL-A-4662",
-  "cover_photo_id": 44324053,
+  "cover_photo_id": 52790404,
   "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (brown tabby with white)",
+        "breed": "Domestic Shorthair (brown tabby and white)",
         "confidence": 0.85,
-        "reason": "Short, ticked brown-gray tabby coat with forehead stripes and a white blaze, muzzle, and chest is the classic random-bred tabby-and-white pattern."
+        "reason": "Short, dense brown ticked/mackerel tabby coat with a white bib, muzzle, and facial blaze is the classic random-bred tabby-and-white pattern."
       },
       {
         "breed": "Oriental Shorthair mix",
         "confidence": 0.08,
-        "reason": "Very large, tall ears set on a slender, wedge-leaning head with a lean build hint at some Oriental-type influence."
+        "reason": "Very large, tall, wide-set ears and a slender, wedge-leaning face hint at some lean, oriental-type ancestry."
       },
       {
         "breed": "Abyssinian mix",
         "confidence": 0.04,
-        "reason": "The finely ticked, agouti-flecked texture on the body and big ears loosely echo an Abyssinian look."
+        "reason": "The finely agouti-ticked brown fur on the body and large ears are faintly reminiscent of Abyssinian coloring."
       }
     ],
-    "appearance": "A slender, short-haired brown tabby-and-white cat with a finely ticked, salt-and-pepper brown-gray coat on the back and sides, dark tabby stripes on the forehead, and a black-ringed tail. A narrow white blaze runs up the center of the face between the eyes, widening into a white muzzle, chin, and full white chest/bib, with a warm ginger-tan patch on the bridge of the nose above a pink-brick nose. Very large, upright pointed ears with pinkish insides and long white ear tufts, wide pale celery-green eyes outlined in dark rims, and long white whiskers give an alert, slightly wide-eyed expression.",
-    "fun_fact": "Brown tabby-and-white cats like Gabriel wear one of the oldest coat patterns in feline history, and the classic 'M' on the forehead makes every tabby instantly recognizable!"
+    "appearance": "A slender, short-haired brown tabby-and-white cat with finely ticked, grizzled brown-gray fur on the back and shoulders, dark tabby 'M' and pencil lines on the forehead, and a crisp white chest, bib, muzzle, and narrow white blaze running up between the eyes. The ears are very large, tall, and upright with pinkish insides and fine pale ear tufts, and the face has a soft orange-tan wash at the bridge of the nose above a pink-orange nose leather. The eyes are round, wide, and pale celery green, giving an alert, earnest expression, framed by long white whiskers; the tail shows dark bands with a black tip.",
+    "fun_fact": "Tabby-and-white cats like Gabriel are true originals\u2014no two have exactly the same pattern of stripes and white, so you're adopting a one-of-a-kind masterpiece!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby with white) mix named Gabriel. Keep its real appearance: A slender, short-haired brown tabby-and-white cat with a finely ticked, salt-and-pepper brown-gray coat on the back and sides, dark tabby stripes on the forehead, and a black-ringed tail. A narrow white blaze runs up the center of the face between the eyes, widening into a white muzzle, chin, and full white chest/bib, with a warm ginger-tan patch on the bridge of the nose above a pink-brick nose. Very large, upright pointed ears with pinkish insides and long white ear tufts, wide pale celery-green eyes outlined in dark rims, and long white whiskers give an alert, slightly wide-eyed expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby and white) mix named Gabriel. Keep its real appearance: A slender, short-haired brown tabby-and-white cat with finely ticked, grizzled brown-gray fur on the back and shoulders, dark tabby 'M' and pencil lines on the forehead, and a crisp white chest, bib, muzzle, and narrow white blaze running up between the eyes. The ears are very large, tall, and upright with pinkish insides and fine pale ear tufts, and the face has a soft orange-tan wash at the bridge of the nose above a pink-orange nose leather. The eyes are round, wide, and pale celery green, giving an alert, earnest expression, framed by long white whiskers; the tail shows dark bands with a black tip. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-4662.jpg",
   "cartoon_file": "CAIL-A-4662.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 29.5,
-  "analyzed_at": 1793389220
+  "seconds": 29.3,
+  "analyzed_at": 1793774101
 }

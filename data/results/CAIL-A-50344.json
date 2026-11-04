@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50344",
-  "cover_photo_id": 50679712,
+  "cover_photo_id": 52791354,
   "cartoon_version": 2,
   "breed": {
     "species": "Cat",
@@ -9,29 +9,29 @@
       {
         "breed": "Domestic Shorthair (brown tabby and white)",
         "confidence": 0.8,
-        "reason": "Short dense coat with classic brown mackerel tabby striping on the back and head combined with a white chest, muzzle blaze, belly and paws is the typical random-bred bicolor tabby pattern."
+        "reason": "Short dense coat with brown mackerel tabby striping on the back and head over a large white chest, belly, muzzle blaze and paws is the classic random-bred bicolor tabby pattern."
       },
       {
         "breed": "Munchkin mix",
         "confidence": 0.12,
-        "reason": "The legs look noticeably short relative to the body as she crouches, though this could simply be posture."
+        "reason": "The legs look notably short relative to the body in this crouched pose, which could hint at a short-legged Munchkin influence, though posture may exaggerate it."
       },
       {
-        "breed": "Oriental Shorthair mix",
+        "breed": "Oriental/Siamese mix",
         "confidence": 0.08,
-        "reason": "Very large, tall, wide-set ears and a slender wedge-shaped face hint at some Oriental-type influence."
+        "reason": "Very large, tall, wide-set ears and a fairly fine, wedge-leaning face give a slightly Oriental look."
       }
     ],
-    "appearance": "A slim, small-to-medium shorthaired cat with a brown-gray mackerel tabby coat on her back, sides, legs and head, and crisp white on her chest, belly, muzzle, an inverted-V blaze between the eyes, and all four paws. She has very large, upright, pointed ears with pale inner fur, big round green-gold eyes, a pink nose with a brown-tabby patch around it, a faint tan tinge on her chin, and long, abundant white whiskers. Her legs appear short and her stance low and compact, with tabby stripes running down her forelegs to neat white mittens.",
-    "fun_fact": "Tabby-and-white cats are famous for their one-of-a-kind patterns, so Savannah's striped coat and white blaze are truly hers alone!"
+    "appearance": "A slim, small-framed short-haired cat with a brown mackerel tabby coat on the back, sides, tail, and top of the head, and bright white on the chest, belly, lower face, and all four paws. The face has a white inverted-V blaze running up between the eyes to the forehead with a tabby patch over the nose bridge, a warm caramel-brown wash beside a pink nose and on the chin, very long white whiskers, and round pale green-gold eyes. Her ears are strikingly large, tall, and pointed with pale inner fur, and her legs appear short with tabby-striped upper legs ending in white mitten paws.",
+    "fun_fact": "Tabby-and-white cats like Savannah are one-of-a-kind, since no two ever share the exact same pattern of stripes and white patches!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby and white) mix named Savannah. Keep its real appearance: A slim, small-to-medium shorthaired cat with a brown-gray mackerel tabby coat on her back, sides, legs and head, and crisp white on her chest, belly, muzzle, an inverted-V blaze between the eyes, and all four paws. She has very large, upright, pointed ears with pale inner fur, big round green-gold eyes, a pink nose with a brown-tabby patch around it, a faint tan tinge on her chin, and long, abundant white whiskers. Her legs appear short and her stance low and compact, with tabby stripes running down her forelegs to neat white mittens. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby and white) mix named Savannah. Keep its real appearance: A slim, small-framed short-haired cat with a brown mackerel tabby coat on the back, sides, tail, and top of the head, and bright white on the chest, belly, lower face, and all four paws. The face has a white inverted-V blaze running up between the eyes to the forehead with a tabby patch over the nose bridge, a warm caramel-brown wash beside a pink nose and on the chin, very long white whiskers, and round pale green-gold eyes. Her ears are strikingly large, tall, and pointed with pale inner fur, and her legs appear short with tabby-striped upper legs ending in white mitten paws. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50344.jpg",
   "cartoon_file": "CAIL-A-50344.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 28.7,
-  "analyzed_at": 1793389909
+  "seconds": 28.3,
+  "analyzed_at": 1793774157
 }
