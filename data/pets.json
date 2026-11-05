@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793861767,
+  "synced_at": 1793908935,
   "count": 51,
   "pets": [
     {
@@ -33,32 +33,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/361d6c7bffddba92443c058f501a5812/48f5d7fa6b160e9cf3070e94fcf9252b.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50246"
-    },
-    {
-      "id": "CAIL-A-50357",
-      "name": "Angela (2026)",
-      "species": "Cat",
-      "sex": "Female",
-      "age_group": "Adult Cat",
-      "shelter_breed": "Domestic Shorthair",
-      "shelter_secondary_breed": null,
-      "color": "Brown",
-      "location": "Cat Catio",
-      "attributes": [
-        "Talkative",
-        "Lap Cat",
-        "Not Good with Cats"
-      ],
-      "cover_photo_id": 50335776,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/fc27f7ec8e6c86b315018b34a356d198/740c9527479516286b0e2232c8311d17.jpg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/fc27f7ec8e6c86b315018b34a356d198/740c9527479516286b0e2232c8311d17.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/49c22d4db4425e52f6c44a883ad15e33/50f0541263774ea2d6d01a4ed882a547.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/ff076e5d09bd0633757e7abe2c318596/46bb9d3910d6511ae58ef8a10e3a5bd4.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/e67c4d953649c7def9d052752b431362/ac0f717435a2745da2162941087d77c5.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/961af1a2b7fba29094841c8cf582aa15/aadd656206deb976af26b9c91db1f665.jpg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50357"
     },
     {
       "id": "CAIL-A-50377",
@@ -388,6 +362,38 @@
         "https://new-s3.shelterluv.com/profile-pictures/60b159899edb42a5d499be107f5b7772/3148bc9587c26b62928f4e4a53631bb8.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50179"
+    },
+    {
+      "id": "CAIL-A-50382",
+      "name": "Glenn (k2026)",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Kitten",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Foster Home",
+      "attributes": [
+        "Good with Cats",
+        "Good with Kids",
+        "Lap Cat",
+        "Likes to Play",
+        "Loves Brushing"
+      ],
+      "cover_photo_id": 52869402,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/5c85104983d5754d930d6f468806d325/590d286c1209edb25eef537d6eb0bda0.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/5c85104983d5754d930d6f468806d325/590d286c1209edb25eef537d6eb0bda0.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/ab44e7e13636d57345e81432dca9c53a/c1e389a50c7a6637a2b07f680308ef72.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/bafc591437afaab40aa244863dae453b/adc46bc0b3d73d3eb6701c8725487233.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/9f099b590bb4f4ecdef2413ad90e23a9/ee5d810bfa86dae8410d20545b6d1859.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/7e392d31b06357afb891c4283aa83d77/fbca902e8e83bc3b68e517ae527c63c9.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/01333ae1ee5717ae0ef80625b6702a3f/b4b78e890b28df7a5fd579c887e89cc7.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/d61159a0910a8027516f983c03ff6e53/aa294b1b12b4f5d7503137ece557903e.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/20fe5bf3d2e9705084a85f7f98ca9a1f/1a06858225d5500b3f18aa2511f6a8e4.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/4f94a67f5b79fd38e355f00b5246616d/c533281795501cff9ee742a3ca485760.png"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50382"
     },
     {
       "id": "CAIL-A-50178",
