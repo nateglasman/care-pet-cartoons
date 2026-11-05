@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1793821855,
+  "synced_at": 1793861767,
   "count": 51,
   "pets": [
     {
@@ -478,9 +478,10 @@
       "attributes": [
         "Likes to Play"
       ],
-      "cover_photo_id": 51981642,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/1c70542ea96ad96b2f490a94890037a0/dd1394007ffe964b2956d747bf31ebcb.jpeg",
+      "cover_photo_id": 52863293,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/9378a69ab1929bc6fccc911d11391a3e/087e06500b236aaba5edd0e24b31d61a.jpeg",
       "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/9378a69ab1929bc6fccc911d11391a3e/087e06500b236aaba5edd0e24b31d61a.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/1c70542ea96ad96b2f490a94890037a0/dd1394007ffe964b2956d747bf31ebcb.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/8039d563e55200cd3e7536694a7b0fb5/427a040fa385e8596fcac9e14a99e28e.jpeg"
       ],
