@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794057120,
+  "synced_at": 1794088573,
   "count": 51,
   "pets": [
     {
@@ -512,10 +512,10 @@
         "Dislikes Loud Noises and Sudden Movements",
         "Lap Cat"
       ],
-      "cover_photo_id": 48046468,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/61e2eca9b83aadd00ae8e9f724ea778a/6c0f0c57c653b1cc1fcb7dac10344318.jpg",
+      "cover_photo_id": 53009769,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/6635b5385db5727327f011fd0efaa7cf/29ea45674c64c74e73ee6edb7eb6c1b1.png",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/61e2eca9b83aadd00ae8e9f724ea778a/6c0f0c57c653b1cc1fcb7dac10344318.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/6635b5385db5727327f011fd0efaa7cf/29ea45674c64c74e73ee6edb7eb6c1b1.png",
         "https://new-s3.shelterluv.com/profile-pictures/d4c44276a618f17c1303647bdd79e0c0/3fa1985dfcb7f52ad000d06425cbf895.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/9a5656c6fb7d8e75de52c7580f70bd6a/ba0c3c0dca0e11133c38018751d2c9aa.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/a3a9cd3c244ff56100281eaf5bb48262/514df255b5b0f817c00629c36342e727.jpeg",
@@ -688,11 +688,12 @@
         "Likes to Play",
         "Special Dietary needs"
       ],
-      "cover_photo_id": 43326707,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/959dc9b224247a7dc712ba0c691ccaa6/778e3d950c500ca68c190050cde59ca3.jpeg",
+      "cover_photo_id": 53007048,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/60d7fda956d29e7f9dc67c0d6d61cf01/0b55415c7f29acc857d10c7c8d09c102.jpg",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/959dc9b224247a7dc712ba0c691ccaa6/778e3d950c500ca68c190050cde59ca3.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/60d7fda956d29e7f9dc67c0d6d61cf01/0b55415c7f29acc857d10c7c8d09c102.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/773c2b1f539d8117bc76b24b901b3de2/6f5c9953a12357ac215e6d32b5f09e0d.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/959dc9b224247a7dc712ba0c691ccaa6/778e3d950c500ca68c190050cde59ca3.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/d0968eb3175c733807c5d4d7e9a4bc98/be184b4943d23ba50751e3b3e5773628.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/fbd90c3cf3affafa3e0485a8934253c2/8aad886f9a72a01ff434066a19f9c07b.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/bc2e932b2f8fa5920434ff694db3b7a4/256792bbd3206811a3d3ed91120497f0.jpg"

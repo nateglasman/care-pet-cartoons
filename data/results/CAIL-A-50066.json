@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50066",
-  "cover_photo_id": 48046468,
+  "cover_photo_id": 53009769,
   "cartoon_version": 2,
   "breed": {
     "species": "Cat",
@@ -8,30 +8,30 @@
     "guesses": [
       {
         "breed": "Domestic Shorthair (brown mackerel tabby)",
-        "confidence": 0.8,
-        "reason": "Short dense brown-gray coat with narrow dark vertical stripes, an M marking on the forehead, ringed tail, and a medium, unremarkable build typical of a random-bred shorthair."
+        "confidence": 0.85,
+        "reason": "Short dense brown-gray coat with narrow dark vertical stripes, an 'M' on the forehead, and a ringed tail are classic mackerel tabby traits on a typical domestic build."
       },
       {
         "breed": "American Shorthair mix",
-        "confidence": 0.12,
-        "reason": "The classic brown tabby coloring and sturdy rounded paws hint at American Shorthair, though the face is narrower and less cobby than the breed standard."
+        "confidence": 0.1,
+        "reason": "Sturdy, compact body and rounded face with a tabby pattern loosely resemble the American Shorthair, though the pattern is not the classic swirled silver type."
       },
       {
-        "breed": "Abyssinian mix",
+        "breed": "Bengal mix",
         "confidence": 0.05,
-        "reason": "Large, tall, slightly pointed ears and a warm ticked-looking undercoat give a faint Abyssinian-like impression."
+        "reason": "Warm brownish tones and crisp leg barring hint faintly at Bengal influence, but there are no rosettes or glittered coat."
       }
     ],
-    "appearance": "A slender, medium-sized short-haired brown mackerel tabby with a warm grayish-brown coat, crisp dark stripes on her legs and flanks, a dark-ringed tail, and a bold 'M' and pale streaks on her forehead. She has large, upright ears with a slight rosy tint, round green-gold eyes outlined in dark rims, a brick-pink nose, and a creamy white muzzle and chin with long white whiskers. She sits upright and alert with a gentle head tilt, her tail curled around her front paws.",
-    "fun_fact": "Brown tabbies like Katrina wear the famous 'M' on their foreheads, a classic mark that makes every tabby look like a curious little detective!"
+    "appearance": "A slender-to-medium shorthaired brown mackerel tabby with a warm gray-brown ticked coat, dark charcoal stripes running down her sides, bold horizontal bars on her front legs, and a dark-ringed tail with a black tip. She has a classic 'M' marking on her forehead, dark-rimmed olive-green eyes, a brick-pink nose outlined in rust, a white-cream muzzle and chin with long white whiskers, and fairly large upright ears with pinkish inner ear and light tufts. Her face is gently rounded with a small chin and a sweet, slightly tilted, curious expression.",
+    "fun_fact": "The tabby 'M' on Katrina's forehead is a signature mark that legends say was given to tabbies as a blessing for their warmth and comfort!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown mackerel tabby) mix named Katrina. Keep its real appearance: A slender, medium-sized short-haired brown mackerel tabby with a warm grayish-brown coat, crisp dark stripes on her legs and flanks, a dark-ringed tail, and a bold 'M' and pale streaks on her forehead. She has large, upright ears with a slight rosy tint, round green-gold eyes outlined in dark rims, a brick-pink nose, and a creamy white muzzle and chin with long white whiskers. She sits upright and alert with a gentle head tilt, her tail curled around her front paws. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown mackerel tabby) mix named Katrina. Keep its real appearance: A slender-to-medium shorthaired brown mackerel tabby with a warm gray-brown ticked coat, dark charcoal stripes running down her sides, bold horizontal bars on her front legs, and a dark-ringed tail with a black tip. She has a classic 'M' marking on her forehead, dark-rimmed olive-green eyes, a brick-pink nose outlined in rust, a white-cream muzzle and chin with long white whiskers, and fairly large upright ears with pinkish inner ear and light tufts. Her face is gently rounded with a small chin and a sweet, slightly tilted, curious expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50066.jpg",
   "cartoon_file": "CAIL-A-50066.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 27.3,
-  "analyzed_at": 1793389480
+  "seconds": 28.6,
+  "analyzed_at": 1794088602
 }
