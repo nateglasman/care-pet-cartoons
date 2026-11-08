@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794144809,
+  "synced_at": 1794175972,
   "count": 51,
   "pets": [
     {
@@ -1242,7 +1242,7 @@
       "shelter_breed": "Mixed Breed (Small)",
       "shelter_secondary_breed": null,
       "color": "Brown",
-      "location": "Main Dog Kennel",
+      "location": "Foster Home",
       "attributes": [],
       "cover_photo_id": 52829921,
       "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/55c727b3850b04fb52f55a628e3f28a7/ddf90cd5423a0c6ef2ffe3923bf4fdbc.jpg",
