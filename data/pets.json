@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794206699,
-  "count": 51,
+  "synced_at": 1794263221,
+  "count": 50,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -889,27 +889,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/87a8e64178583494985f2ee92c653e21/b27fc3c25f3c9aa9e09094abc7fdb7bf.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50343"
-    },
-    {
-      "id": "CAIL-A-50386",
-      "name": "Ponzu",
-      "species": "Cat",
-      "sex": "Male",
-      "age_group": "Adult Cat",
-      "shelter_breed": "Domestic Shorthair",
-      "shelter_secondary_breed": null,
-      "color": "Black",
-      "location": "Cat Catio",
-      "attributes": [],
-      "cover_photo_id": 52504323,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/e1c5b2ea4f703f345882f0599f221a7a/466d0805a2413af300e100ff7a28f6d0.jpg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/e1c5b2ea4f703f345882f0599f221a7a/466d0805a2413af300e100ff7a28f6d0.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/b3a9a9b7ab41c8911ee105d306ffc530/f35130a1316943a4b46fa8fd5ac65118.JPG",
-        "https://new-s3.shelterluv.com/profile-pictures/0863e53f86c33c1a8fdf2fa633074a5e/09733f821322efecfaf0c886d75b0164.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/8705fc9df1fc867997dc711757598c9b/43c91fb4a4b8cb7bf6b00f00f670d580.jpg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50386"
     },
     {
       "id": "CAIL-A-50344",
