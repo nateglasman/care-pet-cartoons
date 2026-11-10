@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50361",
-  "cover_photo_id": 51873023,
+  "cover_photo_id": 51873054,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -9,29 +9,29 @@
       {
         "breed": "Boxer",
         "confidence": 0.5,
-        "reason": "Short blunt muzzle with loose upper lips (flews), slight underbite look, broad skull, and white chest/blaze pattern typical of boxer mixes."
-      },
-      {
-        "breed": "American Pit Bull Terrier / Staffordshire Terrier",
-        "confidence": 0.3,
-        "reason": "Sturdy medium build, smooth short coat, wide cheeks, and rose-to-floppy ears suggest bully-breed ancestry."
+        "reason": "The short square muzzle with loose, droopy flews, the pronounced stop, and the lean, deep-chested build strongly suggest Boxer, and a white coat with black patches is common in Boxer mixes."
       },
       {
         "breed": "Boston Terrier",
+        "confidence": 0.25,
+        "reason": "The crisp black-and-white pattern with a white blaze and chest, plus one upright bat-like ear, recalls a Boston Terrier."
+      },
+      {
+        "breed": "American Pit Bull Terrier",
         "confidence": 0.15,
-        "reason": "Black-and-white piebald coloring with a white blaze and dark eye patches resembles Boston Terrier markings."
+        "reason": "The broad skull, sturdy neck, and short sleek coat fit a pit bull-type contribution."
       }
     ],
-    "appearance": "A medium, muscular short-coated dog that is mostly white with large glossy black patches over both eyes and ears, split by a broad white blaze running up the forehead, and a black spot on the side of the muzzle and upper lip. Her ears are mismatched\u2014the left one stands half-up with a folded tip while the right flops down\u2014framing warm, round dark-brown eyes with a soulful, slightly worried upward gaze. She has a short, broad boxer-like muzzle with a black nose, soft drooping pink-and-black flews, white whiskers, and a white chest, wearing a teal blue collar with an orange leash.",
-    "fun_fact": "Boxers are famous for their goofy, bouncy 'kidney bean' wiggle when they're happy, and they stay playful puppies at heart for years!"
+    "appearance": "Dahlia is a medium-sized, short-coated dog, mostly white with black patches covering both ears, both eyes, and the sides of her muzzle, divided by a wide white blaze running up her forehead. Her left ear stands upright and slightly tilted, while her right ear folds down, giving her a quizzical look. She has warm amber-brown eyes, a black nose, a short square muzzle with soft pink-edged droopy lips and white whiskers, and a lean white chest; she wears a teal-blue collar with an orange leash.",
+    "fun_fact": "Boxers are famous for their goofy, bouncy playfulness and often stay puppy-like well into adulthood!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Boxer mix named Dahlia. Keep its real appearance: A medium, muscular short-coated dog that is mostly white with large glossy black patches over both eyes and ears, split by a broad white blaze running up the forehead, and a black spot on the side of the muzzle and upper lip. Her ears are mismatched\u2014the left one stands half-up with a folded tip while the right flops down\u2014framing warm, round dark-brown eyes with a soulful, slightly worried upward gaze. She has a short, broad boxer-like muzzle with a black nose, soft drooping pink-and-black flews, white whiskers, and a white chest, wearing a teal blue collar with an orange leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Boxer mix named Dahlia. Keep its real appearance: Dahlia is a medium-sized, short-coated dog, mostly white with black patches covering both ears, both eyes, and the sides of her muzzle, divided by a wide white blaze running up her forehead. Her left ear stands upright and slightly tilted, while her right ear folds down, giving her a quizzical look. She has warm amber-brown eyes, a black nose, a short square muzzle with soft pink-edged droopy lips and white whiskers, and a lean white chest; she wears a teal-blue collar with an orange leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50361.jpg",
   "cartoon_file": "CAIL-A-50361.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 29.7,
-  "analyzed_at": 1793390256
+  "seconds": 32.0,
+  "analyzed_at": 1794295587
 }

@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50345",
-  "cover_photo_id": 50433142,
+  "cover_photo_id": 53179905,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -9,29 +9,29 @@
       {
         "breed": "Boxer",
         "confidence": 0.5,
-        "reason": "The fawn-brindle coat with a white blaze and chest, slightly shortened muzzle, dark mask around the mouth, and loose upper lips (flews) are classic Boxer traits."
+        "reason": "The fawn-brindle coat with a white blaze and chest, the slightly shortened muzzle with dark mask shading, and the loose flews strongly suggest Boxer."
       },
       {
-        "breed": "American Pit Bull Terrier / American Staffordshire Terrier",
+        "breed": "American Staffordshire Terrier / Pit Bull Terrier",
         "confidence": 0.35,
-        "reason": "The broad, wedge-shaped head, muscular cheeks, rose/semi-folded ears, and stocky medium build suggest bully-terrier ancestry."
+        "reason": "The broad skull, muscular cheeks, semi-pricked folding ears, and sturdy medium build point to a bully-breed contribution."
       },
       {
         "breed": "American Bulldog",
         "confidence": 0.15,
-        "reason": "The white facial markings, sturdy chest, and moderately short, blocky muzzle could also reflect American Bulldog influence."
+        "reason": "The white facial blaze, wide head, and stocky chest could reflect some American Bulldog ancestry."
       }
     ],
-    "appearance": "Mina is a muscular, medium-sized dog with a short, glossy fawn coat overlaid with subtle dark brindle striping, a white blaze running from the forehead down the bridge of the nose, a white muzzle, and a broad white chest patch. She has a blocky head, a moderately short muzzle with a black nose, slightly droopy lips with dark pigment, and warm, deep brown almond-shaped eyes; her thin ears are semi-erect and fold over at the tips, with the right ear perked higher and flipped open to show its pink inside. In the photo she sits upright on a gray car seat wearing a teal martingale collar with a silver ring and a pink leash.",
-    "fun_fact": "Boxers are famous for their playful 'kidney bean' wiggle dance when they're happy, and they stay goofy, loving companions well into adulthood!"
+    "appearance": "A medium-sized, muscular dog with a short, glossy coat in warm fawn with faint dark brindle striping, a bold white blaze running up between the eyes and onto the muzzle, and a white chest and bib. She has a broad head, a moderately short muzzle with a dark-shaded mask, a black nose, soft drooping lips, and expressive dark brown almond eyes. Her ears are semi-erect rose/button style that flop over at the tips, with pinkish inner ears, and she wears a teal martingale collar with a silver ring.",
+    "fun_fact": "Boxers are known as the 'Peter Pans' of the dog world because they keep their playful, puppy-like spirit well into adulthood!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Boxer mix named Mina. Keep its real appearance: Mina is a muscular, medium-sized dog with a short, glossy fawn coat overlaid with subtle dark brindle striping, a white blaze running from the forehead down the bridge of the nose, a white muzzle, and a broad white chest patch. She has a blocky head, a moderately short muzzle with a black nose, slightly droopy lips with dark pigment, and warm, deep brown almond-shaped eyes; her thin ears are semi-erect and fold over at the tips, with the right ear perked higher and flipped open to show its pink inside. In the photo she sits upright on a gray car seat wearing a teal martingale collar with a silver ring and a pink leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Boxer mix named Mina. Keep its real appearance: A medium-sized, muscular dog with a short, glossy coat in warm fawn with faint dark brindle striping, a bold white blaze running up between the eyes and onto the muzzle, and a white chest and bib. She has a broad head, a moderately short muzzle with a dark-shaded mask, a black nose, soft drooping lips, and expressive dark brown almond eyes. Her ears are semi-erect rose/button style that flop over at the tips, with pinkish inner ears, and she wears a teal martingale collar with a silver ring. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50345.jpg",
   "cartoon_file": "CAIL-A-50345.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 33.1,
-  "analyzed_at": 1793390405
+  "seconds": 27.6,
+  "analyzed_at": 1794295614
 }

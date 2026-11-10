@@ -1,37 +1,37 @@
 {
   "pet_id": "CAIL-A-50356",
-  "cover_photo_id": 50450432,
+  "cover_photo_id": 50924491,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "American Pit Bull Terrier / American Staffordshire Terrier",
-        "confidence": 0.65,
-        "reason": "Broad blocky head, wide muzzle with a strong jaw, short sleek fawn-and-white coat, and a stocky, muscular build are classic bully-breed traits."
+        "breed": "American Staffordshire Terrier / Pit Bull Terrier",
+        "confidence": 0.6,
+        "reason": "Broad blocky head, muscular stocky build, short smooth fawn-and-white coat, and wide muzzle with a strong jaw are classic bully-breed traits."
       },
       {
         "breed": "Staffordshire Bull Terrier",
-        "confidence": 0.15,
-        "reason": "Compact, sturdy body with a short muzzle and pronounced cheek muscles fits a Staffy influence."
+        "confidence": 0.2,
+        "reason": "Compact, sturdy frame, pronounced cheek muscles, and a white blaze and chest on a fawn coat fit the Staffie type."
       },
       {
         "breed": "Boxer",
         "confidence": 0.1,
-        "reason": "Fawn coat with a white chest and blaze, slightly darker muzzle shading, and naturally large erect ears could suggest some Boxer in the mix."
+        "reason": "Fawn coat with white blaze and the slightly squared muzzle with dark mask shading around the mouth hint at some Boxer influence."
       }
     ],
-    "appearance": "A compact, muscular medium-sized dog with a short, glossy fawn (light tan) coat, a white blaze running from forehead down the muzzle, and a broad white chest and white-tipped paws. Her large, naturally upright pointed ears are pink inside, her eyes are warm amber-brown with soft grayish-dusky shading around them and on the muzzle, and her black nose sits above a muzzle with pink freckled patches on the lips. She wears a pink collar with a silver tag and is shown sitting attentively, looking up with an earnest expression.",
-    "fun_fact": "Pit bull\u2013type dogs are famous for their big smiles, wiggly bodies, and boundless love for their people!"
+    "appearance": "Medium-sized, stocky, muscular dog with a short, smooth fawn (light tan) coat, a broad white blaze running from forehead down the muzzle, and a white chest, front, and paws. Her large, upright, naturally erect ears are thin with pink insides and slightly folded tips, framing a broad head with amber-brown eyes, a black nose, and a dark gray muzzle mottled with pink patches on the upper lip. She wears a pink collar with a silver tag and is attached to a bright orange leash.",
+    "fun_fact": "Pit bull\u2013type dogs are famously affectionate goofballs who love nothing more than snuggling up with their favorite people!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a American Pit Bull Terrier / American Staffordshire Terrier mix named Tiki. Keep its real appearance: A compact, muscular medium-sized dog with a short, glossy fawn (light tan) coat, a white blaze running from forehead down the muzzle, and a broad white chest and white-tipped paws. Her large, naturally upright pointed ears are pink inside, her eyes are warm amber-brown with soft grayish-dusky shading around them and on the muzzle, and her black nose sits above a muzzle with pink freckled patches on the lips. She wears a pink collar with a silver tag and is shown sitting attentively, looking up with an earnest expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a American Staffordshire Terrier / Pit Bull Terrier mix named Tiki. Keep its real appearance: Medium-sized, stocky, muscular dog with a short, smooth fawn (light tan) coat, a broad white blaze running from forehead down the muzzle, and a white chest, front, and paws. Her large, upright, naturally erect ears are thin with pink insides and slightly folded tips, framing a broad head with amber-brown eyes, a black nose, and a dark gray muzzle mottled with pink patches on the upper lip. She wears a pink collar with a silver tag and is attached to a bright orange leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50356.jpg",
   "cartoon_file": "CAIL-A-50356.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 28.4,
-  "analyzed_at": 1793390495
+  "seconds": 25.0,
+  "analyzed_at": 1794295639
 }

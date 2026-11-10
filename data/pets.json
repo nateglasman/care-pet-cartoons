@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794263221,
+  "synced_at": 1794295555,
   "count": 50,
   "pets": [
     {
@@ -1196,18 +1196,18 @@
       "shelter_breed": "Mixed Breed (Medium)",
       "shelter_secondary_breed": null,
       "color": "Black",
-      "location": "Dog Isolation",
+      "location": "Main Dog Kennel",
       "attributes": [
         "Children over 12 years old",
         "Crate Trained"
       ],
-      "cover_photo_id": 51873023,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/f2d6ee99ef31086dea0340d7e44c247b/15b45c7b39915e774d687670efdd3fef.jpg",
+      "cover_photo_id": 51873054,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/5ec601a9370949cfad392db9760bb27d/1d8c2487602cba449db681c74ce46823.jpg",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/f2d6ee99ef31086dea0340d7e44c247b/15b45c7b39915e774d687670efdd3fef.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/e1746086b3bb39ce678690c456850bf4/ef0b3b6390a5e6717329cb8d4d770316.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/667f1de974bccff3089775f198a5adfe/233a790a92cac5ad677c76e13dce671c.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/5ec601a9370949cfad392db9760bb27d/1d8c2487602cba449db681c74ce46823.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/e1746086b3bb39ce678690c456850bf4/ef0b3b6390a5e6717329cb8d4d770316.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/f2d6ee99ef31086dea0340d7e44c247b/15b45c7b39915e774d687670efdd3fef.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/667f1de974bccff3089775f198a5adfe/233a790a92cac5ad677c76e13dce671c.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/e250e8f3513305b539f744aed7d1b0cc/7cf7bb1f7e95327aca3b8c2ceb0b77d9.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50361"
@@ -1244,7 +1244,8 @@
       "attributes": [
         "Crate Trained",
         "Housetrained",
-        "Suitable for an Apartment"
+        "Suitable for an Apartment",
+        "Good with Dogs"
       ],
       "cover_photo_id": 51872530,
       "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/2d6489b50f6528cebeb31e811f6532a4/a66fdd5a811b20c40cff01a95598a74b.jpg",
@@ -1316,17 +1317,20 @@
       "shelter_breed": "Mixed Breed (Medium)",
       "shelter_secondary_breed": null,
       "color": "Red/Mahogany",
-      "location": "Room 23 - Small Dog Room",
+      "location": "Dog Isolation",
       "attributes": [
         "Suitable for an Apartment",
         "Potty Trained"
       ],
-      "cover_photo_id": 50433142,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/835d11f9ddc628d4e1d851844c11c97e/cf3cc7ab0a5de46b5f9be8c482718de9.jpeg",
+      "cover_photo_id": 53179905,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/68a4b2c9485a03cb0bb0879563137854/fab05ed1e00cc55183ca82d0310dbd0c.jpeg",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/835d11f9ddc628d4e1d851844c11c97e/cf3cc7ab0a5de46b5f9be8c482718de9.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/68a4b2c9485a03cb0bb0879563137854/fab05ed1e00cc55183ca82d0310dbd0c.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/5ba2b84443e7cac39bfdb0b3f9f0295e/dd45ad5ad12d3596606cd7ae85048c70.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/3bd7aecfbeb8815ab9529cb831911b8d/eb67e8171c033f5d88a74fbacdb098b1.jpeg"
+        "https://new-s3.shelterluv.com/profile-pictures/835d11f9ddc628d4e1d851844c11c97e/cf3cc7ab0a5de46b5f9be8c482718de9.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/3bd7aecfbeb8815ab9529cb831911b8d/eb67e8171c033f5d88a74fbacdb098b1.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/f7f064c721aa998ab98e1f107073666e/a627bfd4a51928dad6782ea1dad9d6d4.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/08888d5d348debeca40c8dc25d7a3fa5/2815c93e62951f453fcb321c65062a43.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50345"
     },
@@ -1341,7 +1345,8 @@
       "color": "Apricot",
       "location": "Main Dog Kennel",
       "attributes": [
-        "Adult-Only Home Preferred"
+        "Adult-Only Home Preferred",
+        "Fenced Yard preferred"
       ],
       "cover_photo_id": 51872812,
       "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/a8817933f80a0c8ebf5ec9ac595c164b/e1373e77abc7ceb61376c469d3598cfe.jpg",
@@ -1390,14 +1395,14 @@
         "Potty Trained",
         "Suitable for an Apartment"
       ],
-      "cover_photo_id": 50450432,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/5288cf322eb9378cca1afee9d54cfe2e/d65c0529ad078e8a757d2325fe68c6d2.png",
+      "cover_photo_id": 50924491,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/13a5160cdff48cb2469569e7a9cf5de6/ac23aa030b4d71ebe5c352ac4c76f1ab.jpeg",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/5288cf322eb9378cca1afee9d54cfe2e/d65c0529ad078e8a757d2325fe68c6d2.png",
+        "https://new-s3.shelterluv.com/profile-pictures/13a5160cdff48cb2469569e7a9cf5de6/ac23aa030b4d71ebe5c352ac4c76f1ab.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/96c0faaacb12bd861f0916b88c7bf41b/944cd32089046c3a2856c84cbb81b4dd.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/89037d698117abf55995a03636c07258/1e185e3dcbba31b2f9b3c0779a1fc1ca.png",
         "https://new-s3.shelterluv.com/profile-pictures/11caca45ae769318e6dba72806686cc7/95f7952ea8a8007b8ccc1cdeac9f6ab3.png",
-        "https://new-s3.shelterluv.com/profile-pictures/13a5160cdff48cb2469569e7a9cf5de6/ac23aa030b4d71ebe5c352ac4c76f1ab.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/5288cf322eb9378cca1afee9d54cfe2e/d65c0529ad078e8a757d2325fe68c6d2.png",
         "https://new-s3.shelterluv.com/profile-pictures/b71d6f621288082276c1004162e47156/4b947ee5ce77d70fe49b55a0e64246d0.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/05762e6f648b955506748f90ddda7f45/5619f862f1cbba0864d917eca12038ea.jpeg"
       ],
@@ -1415,7 +1420,8 @@
       "location": "Main Dog Kennel",
       "attributes": [
         "Good with Dogs",
-        "Good with Kids"
+        "Good with Kids",
+        "Crate Trained"
       ],
       "cover_photo_id": 51872040,
       "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/466fc18cb6036dcfc30887d02fba4d51/e5828026042a785358000697ac0a6d97.jpg",
