@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50380",
-  "cover_photo_id": 51981542,
+  "cover_photo_id": 53333431,
   "cartoon_version": 2,
   "breed": {
     "species": "Cat",
@@ -8,30 +8,30 @@
     "guesses": [
       {
         "breed": "Domestic Shorthair (orange tabby)",
-        "confidence": 0.85,
-        "reason": "Short, dense orange coat with classic darker ginger striping on the legs and forehead 'M' marking, medium build, and moderately sized upright ears are typical of a random-bred shorthair."
+        "confidence": 0.88,
+        "reason": "The short, dense ginger coat with darker mackerel-style stripes on the legs and forehead 'M' marking, a medium wedge-shaped head, and moderately sized upright ears are classic random-bred orange tabby traits."
       },
       {
-        "breed": "American Shorthair mix",
-        "confidence": 0.1,
-        "reason": "The sturdy paws and tabby barring on the legs echo the American Shorthair look, though the face and build are not distinctive enough to suggest a purebred."
+        "breed": "American Shorthair mix (red tabby)",
+        "confidence": 0.07,
+        "reason": "The sturdy legs, rounded muzzle and crisp tabby barring loosely resemble a red tabby American Shorthair, but nothing points to purebred lineage."
       },
       {
         "breed": "Polydactyl Domestic Shorthair",
         "confidence": 0.05,
-        "reason": "The front paws look broad and mitten-like, hinting at possible extra toes, but this can't be confirmed from the photo."
+        "reason": "The front paws look notably broad and mitten-like, which could hint at extra toes, though the angle makes this uncertain."
       }
     ],
-    "appearance": "Sunny is a lean, medium-sized orange (ginger) tabby with a short coat, darker rust-colored stripes on the forehead and cheeks, and bold horizontal barring down both outstretched front legs, with a slightly paler cream chest and muzzle. He has one open amber-green eye (left side of the photo) and the other eye closed/healed shut, a pink nose, long white whiskers, and medium upright ears with pinkish insides. In the photo he is in a deep forward stretch on a wooden floor, wearing a soft blue fabric recovery cone, with broad paws and pink-tipped claws extended.",
-    "fun_fact": "Orange tabbies are famous for their big, friendly personalities, and Sunny's sunny coat matches his name perfectly!"
+    "appearance": "Sunny is a slender, medium-sized orange tabby with a short ginger coat, darker copper mackerel stripes banding the long outstretched front legs, and a tabby 'M' and stripes on the forehead, with paler cream fur on the muzzle, chin and chest. Only one eye is open (an amber-green eye on the viewer's left), and the other eye is closed or healed shut. He has a pink nose, long white whiskers, medium upright ears with pale inner fur, and is shown mid-stretch with large paws and pale claws extended, wearing a soft royal-blue fabric recovery cone with a black drawstring.",
+    "fun_fact": "About four out of five orange tabby cats are boys, and they're famous for their sunny, people-loving personalities, a perfect match for the name Sunny!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (orange tabby) mix named Sunny (2026). Keep its real appearance: Sunny is a lean, medium-sized orange (ginger) tabby with a short coat, darker rust-colored stripes on the forehead and cheeks, and bold horizontal barring down both outstretched front legs, with a slightly paler cream chest and muzzle. He has one open amber-green eye (left side of the photo) and the other eye closed/healed shut, a pink nose, long white whiskers, and medium upright ears with pinkish insides. In the photo he is in a deep forward stretch on a wooden floor, wearing a soft blue fabric recovery cone, with broad paws and pink-tipped claws extended. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (orange tabby) mix named Sunny (2026). Keep its real appearance: Sunny is a slender, medium-sized orange tabby with a short ginger coat, darker copper mackerel stripes banding the long outstretched front legs, and a tabby 'M' and stripes on the forehead, with paler cream fur on the muzzle, chin and chest. Only one eye is open (an amber-green eye on the viewer's left), and the other eye is closed or healed shut. He has a pink nose, long white whiskers, medium upright ears with pale inner fur, and is shown mid-stretch with large paws and pale claws extended, wearing a soft royal-blue fabric recovery cone with a black drawstring. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50380.jpg",
   "cartoon_file": "CAIL-A-50380.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 27.8,
-  "analyzed_at": 1793389937
+  "seconds": 31.6,
+  "analyzed_at": 1794513658
 }

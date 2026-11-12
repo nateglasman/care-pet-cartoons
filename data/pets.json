@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794468007,
-  "count": 50,
+  "synced_at": 1794513626,
+  "count": 49,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -922,9 +922,10 @@
       "color": "Orange",
       "location": "Cat Catio",
       "attributes": [],
-      "cover_photo_id": 51981542,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/7b1ebee8f1d48571a5c9246b85e43f76/e159f65fd1141f1982a922540f1249f5.jpeg",
+      "cover_photo_id": 53333431,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/aefb7444d1be6623dc345112734a7234/5d546b437f391c14fc73cdec68bab881.jpeg",
       "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/aefb7444d1be6623dc345112734a7234/5d546b437f391c14fc73cdec68bab881.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/7b1ebee8f1d48571a5c9246b85e43f76/e159f65fd1141f1982a922540f1249f5.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/c10e79d9c657625af0fc610bf59c4cd6/5c26a5ca68cecc617e4333fd57de71e9.jpeg"
       ],
@@ -1211,25 +1212,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/e250e8f3513305b539f744aed7d1b0cc/7cf7bb1f7e95327aca3b8c2ceb0b77d9.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50361"
-    },
-    {
-      "id": "CAIL-A-50396",
-      "name": "Fluffy",
-      "species": "Dog",
-      "sex": "Male",
-      "age_group": "Young",
-      "shelter_breed": "Mixed Breed (Small)",
-      "shelter_secondary_breed": null,
-      "color": "Brown",
-      "location": "Foster Home",
-      "attributes": [],
-      "cover_photo_id": 52829921,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/55c727b3850b04fb52f55a628e3f28a7/ddf90cd5423a0c6ef2ffe3923bf4fdbc.jpg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/55c727b3850b04fb52f55a628e3f28a7/ddf90cd5423a0c6ef2ffe3923bf4fdbc.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/4197a4727785f901985d793513a01510/b8d56a8a62453d8c6bc43c18975ecd3c.jpeg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50396"
     },
     {
       "id": "CAIL-A-50385",
