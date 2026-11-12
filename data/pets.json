@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794426035,
+  "synced_at": 1794468007,
   "count": 50,
   "pets": [
     {
@@ -129,7 +129,7 @@
       "name": "Eileen",
       "species": "Cat",
       "sex": "Female",
-      "age_group": "Kitten",
+      "age_group": "Adult Cat",
       "shelter_breed": "Domestic Shorthair",
       "shelter_secondary_breed": "Siamese",
       "color": "Lynx",
@@ -1072,7 +1072,7 @@
       "name": "Wally",
       "species": "Cat",
       "sex": "Male",
-      "age_group": "Kitten",
+      "age_group": "Adult Cat",
       "shelter_breed": "Domestic Shorthair",
       "shelter_secondary_breed": null,
       "color": "Brown",
