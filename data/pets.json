@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794513626,
+  "synced_at": 1794552767,
   "count": 49,
   "pets": [
     {
@@ -596,7 +596,7 @@
       "shelter_breed": "Domestic Shorthair",
       "shelter_secondary_breed": null,
       "color": "Grey",
-      "location": "Foster Home",
+      "location": "Cat Catio",
       "attributes": [],
       "cover_photo_id": 50517717,
       "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/4b83ec98b633da30ec4f8219553b8484/14c1938891e1beddea43a7f74738c4f9.jpg",
