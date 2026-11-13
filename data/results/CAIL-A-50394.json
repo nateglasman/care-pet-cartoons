@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50394",
+  "cover_photo_id": 52065922,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Dog",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Miniature Poodle",
+        "confidence": 0.55,
+        "reason": "Tight, curly, low-shedding coat in a silver-gray color with a compact small build strongly suggests poodle ancestry."
+      },
+      {
+        "breed": "Schnauzer (Miniature)",
+        "confidence": 0.25,
+        "reason": "The bushy beard, whiskery muzzle furnishings, and salt-and-pepper grizzled coloring on the face point to schnauzer influence."
+      },
+      {
+        "breed": "Bichon Frise",
+        "confidence": 0.15,
+        "reason": "The soft, fluffy, lighter cream-gray curls on the chest and body and the round dark eyes resemble a bichon."
+      }
+    ],
+    "appearance": "Nino is a small, compact dog with a dense coat of tight curls in a mottled silver-gray and salt-and-pepper mix, lighter whitish-gray on the chest and legs, with darker charcoal patches around the eyes and a black, wavy-furred ear on one side. He has large, round, glossy dark-brown eyes, a broad black nose, and a shaggy grizzled beard and mustache with a small white patch under the chin. His ears are floppy and covered in longer curls, and he wears a teal collar with a blue leash.",
+    "fun_fact": "Poodles are among the smartest dog breeds in the world, so this curly cutie may learn new tricks in no time!"
+  },
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Miniature Poodle mix named Nino. Keep its real appearance: Nino is a small, compact dog with a dense coat of tight curls in a mottled silver-gray and salt-and-pepper mix, lighter whitish-gray on the chest and legs, with darker charcoal patches around the eyes and a black, wavy-furred ear on one side. He has large, round, glossy dark-brown eyes, a broad black nose, and a shaggy grizzled beard and mustache with a small white patch under the chin. His ears are floppy and covered in longer curls, and he wears a teal collar with a blue leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50394.jpg",
+  "cartoon_file": "CAIL-A-50394.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 27.5,
+  "analyzed_at": 1794599376
+}

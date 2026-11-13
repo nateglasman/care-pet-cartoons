@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50388",
+  "cover_photo_id": 52065777,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Dog",
+    "is_mixed": false,
+    "guesses": [
+      {
+        "breed": "American Akita",
+        "confidence": 0.75,
+        "reason": "Broad bear-like head, thick double coat, erect triangular ears, plush curled tail over the back, and classic pinto black-and-white pattern with a white blaze are all hallmark American Akita traits."
+      },
+      {
+        "breed": "Akita mix (with Siberian Husky or other spitz)",
+        "confidence": 0.15,
+        "reason": "The ears are slightly larger and the muzzle a bit longer than a typical show Akita, hinting at possible spitz-type mixing."
+      },
+      {
+        "breed": "Alaskan Malamute",
+        "confidence": 0.1,
+        "reason": "Heavy-boned build, dense coat, and plumed tail overlap with Malamute features, though the pattern and head shape favor Akita."
+      }
+    ],
+    "appearance": "A large, heavy-boned spitz-type dog with a thick double coat in a pinto pattern: a mostly black head and face with a narrow white blaze on the forehead and a white stripe down one side of the muzzle, a white chest, legs, and paws, and a black saddle with a white band behind the shoulders. He has erect, thick triangular ears tipped slightly forward, small deep-set warm brown eyes with a soulful expression, a broad black nose, and some graying around the muzzle suggesting a mature age. His fluffy cream-white tail curls up high over his back.",
+    "fun_fact": "Akitas are famously loyal, and the legendary Akita Hachiko waited faithfully for his owner at a Tokyo train station for nearly ten years!"
+  },
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a American Akita named Kuzco. Keep its real appearance: A large, heavy-boned spitz-type dog with a thick double coat in a pinto pattern: a mostly black head and face with a narrow white blaze on the forehead and a white stripe down one side of the muzzle, a white chest, legs, and paws, and a black saddle with a white band behind the shoulders. He has erect, thick triangular ears tipped slightly forward, small deep-set warm brown eyes with a soulful expression, a broad black nose, and some graying around the muzzle suggesting a mature age. His fluffy cream-white tail curls up high over his back. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50388.jpg",
+  "cartoon_file": "CAIL-A-50388.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 30.7,
+  "analyzed_at": 1794599348
+}

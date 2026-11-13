@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794552767,
-  "count": 49,
+  "synced_at": 1794599318,
+  "count": 51,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -1291,6 +1291,24 @@
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50081"
     },
     {
+      "id": "CAIL-A-50388",
+      "name": "Kuzco",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Akita",
+      "shelter_secondary_breed": null,
+      "color": "White",
+      "location": "Room 24 - Medium Dog Room",
+      "attributes": [],
+      "cover_photo_id": 52065777,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/7b7ae064525f004b314f808e6bcc61ea/695dff8f4402d57cddb2d506a231312e.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/7b7ae064525f004b314f808e6bcc61ea/695dff8f4402d57cddb2d506a231312e.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50388"
+    },
+    {
       "id": "CAIL-A-50345",
       "name": "Mina",
       "species": "Dog",
@@ -1315,6 +1333,24 @@
         "https://new-s3.shelterluv.com/profile-pictures/08888d5d348debeca40c8dc25d7a3fa5/2815c93e62951f453fcb321c65062a43.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50345"
+    },
+    {
+      "id": "CAIL-A-50394",
+      "name": "Nino",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Mixed Breed (Small)",
+      "shelter_secondary_breed": null,
+      "color": "Silver",
+      "location": "Foster Home",
+      "attributes": [],
+      "cover_photo_id": 52065922,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/3c8f5f7d8c1930a69f9b167d7b3e801a/ebc4fad5d755e16f93d06adaa312267e.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/3c8f5f7d8c1930a69f9b167d7b3e801a/ebc4fad5d755e16f93d06adaa312267e.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50394"
     },
     {
       "id": "CAIL-A-5131",
