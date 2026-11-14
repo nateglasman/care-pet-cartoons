@@ -1,37 +1,37 @@
 {
   "pet_id": "CAIL-A-4801",
-  "cover_photo_id": 40023504,
+  "cover_photo_id": 28671627,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Jack Russell Terrier (Broken/Rough Coat)",
+        "breed": "Jack Russell Terrier (wire/broken coat)",
         "confidence": 0.5,
-        "reason": "Small, sturdy terrier build with a mostly white wiry coat, tan-tinged face, and expressive dark eyes typical of rough-coated Jack Russells."
+        "reason": "Small sturdy terrier build, wiry white coat with tan head shading, and upright brown-tinged ears are classic rough-coated Jack Russell traits."
       },
       {
         "breed": "Chihuahua",
         "confidence": 0.25,
-        "reason": "The large, upright, thin brown ears that flare outward and the small rounded head suggest Chihuahua influence."
+        "reason": "The large, broad, upright ears and rounded skull suggest some Chihuahua influence in this small mix."
       },
       {
-        "breed": "Wire Fox Terrier",
+        "breed": "Wire Fox Terrier / Cairn Terrier",
         "confidence": 0.15,
-        "reason": "The scruffy, wiry white coat with beard and eyebrow furnishings resembles wire-haired terrier breeds."
+        "reason": "The scruffy, whiskery facial furnishings and wheaten-tan highlights are reminiscent of wire-coated terriers like the Cairn or Wire Fox Terrier."
       }
     ],
-    "appearance": "A small, scruffy dog with a wiry, tousled coat that is mostly white with pale tan/wheaten shading across the forehead and cheeks, and long wispy furnishings forming a beard and whiskery eyebrows. Large, upright, triangular ears are smooth reddish-brown on the backs with white wisps of fur at the edges, set wide and slightly flared. Round, glossy dark-brown eyes with darker gray-brown 'eyeliner' patches above them, a shiny black nose, and an open, happy mouth with a pink tongue; wearing a green harness with a gold heart-shaped tag.",
-    "fun_fact": "Jack Russell Terriers are bundles of clever energy who turn every walk into an adventure and every day into a game!"
+    "appearance": "A small, compact dog with a scruffy, wiry coat that is mostly creamy white, with light tan-wheaten shading across the forehead, brows, and top of the head and darker grayish-brown smudges around the eyes. Large, upright, triangular ears are rich reddish-brown on the backs and edges with wispy white hairs sticking out, framing round, dark brown, expressive eyes and a black button nose. Long, tousled whiskers and a shaggy white beard surround a happy open mouth with a pink tongue, and he wears a green harness with a gold heart-shaped tag.",
+    "fun_fact": "Jack Russell Terriers are bundles of energy and smarts who love games, adventures, and making their people laugh!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Jack Russell Terrier (Broken/Rough Coat) mix named Arty. Keep its real appearance: A small, scruffy dog with a wiry, tousled coat that is mostly white with pale tan/wheaten shading across the forehead and cheeks, and long wispy furnishings forming a beard and whiskery eyebrows. Large, upright, triangular ears are smooth reddish-brown on the backs with white wisps of fur at the edges, set wide and slightly flared. Round, glossy dark-brown eyes with darker gray-brown 'eyeliner' patches above them, a shiny black nose, and an open, happy mouth with a pink tongue; wearing a green harness with a gold heart-shaped tag. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Jack Russell Terrier (wire/broken coat) mix named Arty. Keep its real appearance: A small, compact dog with a scruffy, wiry coat that is mostly creamy white, with light tan-wheaten shading across the forehead, brows, and top of the head and darker grayish-brown smudges around the eyes. Large, upright, triangular ears are rich reddish-brown on the backs and edges with wispy white hairs sticking out, framing round, dark brown, expressive eyes and a black button nose. Long, tousled whiskers and a shaggy white beard surround a happy open mouth with a pink tongue, and he wears a green harness with a gold heart-shaped tag. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-4801.jpg",
   "cartoon_file": "CAIL-A-4801.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 28.6,
-  "analyzed_at": 1793390170
+  "seconds": 29.8,
+  "analyzed_at": 1794679964
 }

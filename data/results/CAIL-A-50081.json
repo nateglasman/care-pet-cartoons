@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50081",
-  "cover_photo_id": 38387306,
+  "cover_photo_id": 53453488,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -9,12 +9,12 @@
       {
         "breed": "American Pit Bull Terrier / American Staffordshire Terrier",
         "confidence": 0.6,
-        "reason": "Broad blocky skull, short smooth blue-gray coat, folded rose-style ears, and a strong muscular muzzle are classic pit bull-type traits."
+        "reason": "Short, sleek blue-gray coat, broad blocky skull, defined stop, and rose/half-folded ears are classic pit bull\u2013type traits."
       },
       {
         "breed": "Cane Corso",
         "confidence": 0.2,
-        "reason": "The solid gray-blue coloring, slightly loose lips, and a larger, heavier head hint at some mastiff-type influence."
+        "reason": "The solid gray coat, slightly loose lips, and fairly deep muzzle on a large-listed dog hint at some mastiff-type influence."
       },
       {
         "breed": "Labrador Retriever",
@@ -22,16 +22,16 @@
         "reason": "The softer, slightly longer muzzle and gentle expression could reflect some retriever ancestry."
       }
     ],
-    "appearance": "Jerry has a short, sleek, solid blue-gray (slate) coat with a faint lighter dusting of gray on the forehead and muzzle, a broad flat-topped head, and a dark gray-black nose. His ears are small-to-medium and folded back in a rose shape, and his round, dark brown eyes give a soft, soulful, slightly droopy expression. He is a sturdy, medium-large dog shown snuggled in a cream fluffy blanket while wearing a blue harness with gray reflective stripes.",
-    "fun_fact": "Pit bull-type dogs are famously affectionate couch-cuddlers who love nothing more than being close to their people!"
+    "appearance": "A large, short-coated dog with a solid slate blue-gray coat, slightly lighter and grizzled around the muzzle and brow, with a dark gray-black nose. He has a broad, rounded head, a medium-length squared muzzle, soft folded rose ears that tip backward, and warm, deep brown almond-shaped eyes with a sweet, slightly droopy gaze. In this photo he's snuggled into a fluffy cream blanket wearing a navy blue harness with gray reflective stripes.",
+    "fun_fact": "Pit bull\u2013type dogs are famous for their goofy, affectionate personalities and love nothing more than being a cuddly couch companion!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a American Pit Bull Terrier / American Staffordshire Terrier mix named Jerry. Keep its real appearance: Jerry has a short, sleek, solid blue-gray (slate) coat with a faint lighter dusting of gray on the forehead and muzzle, a broad flat-topped head, and a dark gray-black nose. His ears are small-to-medium and folded back in a rose shape, and his round, dark brown eyes give a soft, soulful, slightly droopy expression. He is a sturdy, medium-large dog shown snuggled in a cream fluffy blanket while wearing a blue harness with gray reflective stripes. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a American Pit Bull Terrier / American Staffordshire Terrier mix named Jerry. Keep its real appearance: A large, short-coated dog with a solid slate blue-gray coat, slightly lighter and grizzled around the muzzle and brow, with a dark gray-black nose. He has a broad, rounded head, a medium-length squared muzzle, soft folded rose ears that tip backward, and warm, deep brown almond-shaped eyes with a sweet, slightly droopy gaze. In this photo he's snuggled into a fluffy cream blanket wearing a navy blue harness with gray reflective stripes. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50081.jpg",
   "cartoon_file": "CAIL-A-50081.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 29.3,
-  "analyzed_at": 1793390372
+  "seconds": 27.2,
+  "analyzed_at": 1794680017
 }

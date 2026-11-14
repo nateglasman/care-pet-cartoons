@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50388",
-  "cover_photo_id": 52065777,
+  "cover_photo_id": 53467734,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -9,29 +9,29 @@
       {
         "breed": "American Akita",
         "confidence": 0.75,
-        "reason": "Broad bear-like head, thick double coat, erect triangular ears, plush curled tail over the back, and classic pinto black-and-white pattern with a white blaze are all hallmark American Akita traits."
+        "reason": "Broad bear-like head, thick neck, small deep-set brown eyes, erect thick triangular ears, dense double coat, and a plush curled tail over the back are classic American Akita traits, and the black-and-white pinto pattern is common in the breed."
       },
       {
-        "breed": "Akita mix (with Siberian Husky or other spitz)",
+        "breed": "Akita mix (with Siberian Husky or Alaskan Malamute)",
         "confidence": 0.15,
-        "reason": "The ears are slightly larger and the muzzle a bit longer than a typical show Akita, hinting at possible spitz-type mixing."
+        "reason": "The somewhat lighter build and pied coloring could hint at another spitz-type contributor, though the head shape strongly favors Akita."
       },
       {
-        "breed": "Alaskan Malamute",
+        "breed": "Shiba Inu / Japanese spitz mix",
         "confidence": 0.1,
-        "reason": "Heavy-boned build, dense coat, and plumed tail overlap with Malamute features, though the pattern and head shape favor Akita."
+        "reason": "Prick ears and the fluffy curled tail are shared spitz features, but the size and massive head point more to Akita."
       }
     ],
-    "appearance": "A large, heavy-boned spitz-type dog with a thick double coat in a pinto pattern: a mostly black head and face with a narrow white blaze on the forehead and a white stripe down one side of the muzzle, a white chest, legs, and paws, and a black saddle with a white band behind the shoulders. He has erect, thick triangular ears tipped slightly forward, small deep-set warm brown eyes with a soulful expression, a broad black nose, and some graying around the muzzle suggesting a mature age. His fluffy cream-white tail curls up high over his back.",
-    "fun_fact": "Akitas are famously loyal, and the legendary Akita Hachiko waited faithfully for his owner at a Tokyo train station for nearly ten years!"
+    "appearance": "A large, sturdy spitz-type dog with a broad, bear-like black head, a thin white blaze running up the center of the forehead, and a slightly graying black muzzle with a big black nose and white whiskers. He has thick, upright triangular black ears, small almond-shaped warm brown eyes, a white chest and legs, and a black saddle patch on his back. His plush cream-white tail curls up high over his back, and his dense double coat looks slightly coarse.",
+    "fun_fact": "Akitas are famously loyal; the legendary Akita Hachik\u014d waited for his owner at a Tokyo train station every day for nearly ten years!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a American Akita named Kuzco. Keep its real appearance: A large, heavy-boned spitz-type dog with a thick double coat in a pinto pattern: a mostly black head and face with a narrow white blaze on the forehead and a white stripe down one side of the muzzle, a white chest, legs, and paws, and a black saddle with a white band behind the shoulders. He has erect, thick triangular ears tipped slightly forward, small deep-set warm brown eyes with a soulful expression, a broad black nose, and some graying around the muzzle suggesting a mature age. His fluffy cream-white tail curls up high over his back. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a American Akita named Kuzco. Keep its real appearance: A large, sturdy spitz-type dog with a broad, bear-like black head, a thin white blaze running up the center of the forehead, and a slightly graying black muzzle with a big black nose and white whiskers. He has thick, upright triangular black ears, small almond-shaped warm brown eyes, a white chest and legs, and a black saddle patch on his back. His plush cream-white tail curls up high over his back, and his dense double coat looks slightly coarse. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50388.jpg",
   "cartoon_file": "CAIL-A-50388.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 30.7,
-  "analyzed_at": 1794599348
+  "seconds": 28.0,
+  "analyzed_at": 1794680045
 }
