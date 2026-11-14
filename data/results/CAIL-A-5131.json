@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-5131",
-  "cover_photo_id": 51872812,
+  "cover_photo_id": 53412447,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -9,29 +9,29 @@
       {
         "breed": "Poodle (Miniature/Toy) mix",
         "confidence": 0.45,
-        "reason": "The wavy-to-curly apricot coat, slender build, and soft, hanging furnished ears suggest poodle influence, as in a Maltipoo or Cavapoo-type mix."
+        "reason": "The soft, wavy-to-curly apricot coat and slim, small frame suggest Poodle influence, as in a Maltipoo or Cavapoo-style cross."
       },
       {
-        "breed": "Yorkshire Terrier / Silky Terrier mix",
+        "breed": "Cairn/Wheaten-type Terrier mix",
         "confidence": 0.3,
-        "reason": "The small size, scruffy facial furnishings, longish muzzle, and wispy wheaten coat point to a small terrier contribution."
+        "reason": "The scruffy shaggy face furnishings, wiry tousled texture, and alert terrier expression fit a small terrier contribution."
       },
       {
-        "breed": "Cocker Spaniel or Cavalier King Charles Spaniel mix",
+        "breed": "Cocker Spaniel mix",
         "confidence": 0.15,
-        "reason": "The low-set, feathered, drop ears and sweet dark eyes hint at some spaniel ancestry."
+        "reason": "The longer, feathered drop ears with wavy fur hint at a spaniel ancestor such as in a Cockapoo."
       }
     ],
-    "appearance": "Roger is a small, slim-legged dog with a shaggy, wavy-to-curly apricot-tan coat that looks a bit tousled and damp, with longer wispy furnishings on his muzzle, chin, and ears. His ears are long, floppy, and feathered, framing a face with round, dark brown eyes and a dark brown-black nose. In this photo he sits looking up attentively, wearing a bright blue harness with a silver tag and an orange-and-black leash.",
-    "fun_fact": "Poodle mixes are famously smart and eager to learn, so Roger could pick up new tricks in no time!"
+    "appearance": "A small, slender dog with a tousled, wavy-to-curly apricot-tan coat that looks slightly damp and shaggy, longest on the ears, cheeks, and beard. Floppy, feathered drop ears frame a face with dark brown round eyes, a dark liver-brown nose, and a scruffy muzzle with a wispy beard. Roger sits looking up attentively, wearing a bright blue harness clipped to an orange-and-black leash.",
+    "fun_fact": "Poodle mixes like Roger are famously smart and quick to learn, so he could be mastering new tricks in no time!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Poodle (Miniature/Toy) mix mix named Roger. Keep its real appearance: Roger is a small, slim-legged dog with a shaggy, wavy-to-curly apricot-tan coat that looks a bit tousled and damp, with longer wispy furnishings on his muzzle, chin, and ears. His ears are long, floppy, and feathered, framing a face with round, dark brown eyes and a dark brown-black nose. In this photo he sits looking up attentively, wearing a bright blue harness with a silver tag and an orange-and-black leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Poodle (Miniature/Toy) mix mix named Roger. Keep its real appearance: A small, slender dog with a tousled, wavy-to-curly apricot-tan coat that looks slightly damp and shaggy, longest on the ears, cheeks, and beard. Floppy, feathered drop ears frame a face with dark brown round eyes, a dark liver-brown nose, and a scruffy muzzle with a wispy beard. Roger sits looking up attentively, wearing a bright blue harness clipped to an orange-and-black leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-5131.jpg",
   "cartoon_file": "CAIL-A-5131.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 32.1,
-  "analyzed_at": 1793390438
+  "seconds": 29.0,
+  "analyzed_at": 1794638129
 }
