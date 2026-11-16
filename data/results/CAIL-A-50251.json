@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50251",
-  "cover_photo_id": 49638423,
+  "cover_photo_id": 49638275,
   "cartoon_version": 2,
   "breed": {
     "species": "Cat",
@@ -9,29 +9,29 @@
       {
         "breed": "Domestic Shorthair (torbie / patched tabby)",
         "confidence": 0.8,
-        "reason": "Short dense coat with gray mackerel tabby striping overlaid by soft orange-peach patches on the back and a peachy hind paw marks a classic torbie (tortoiseshell-tabby) domestic shorthair."
+        "reason": "Short dense coat with gray mackerel tabby striping overlaid by soft peachy-orange patches on the back and a warm cream hind paw is the classic torbie pattern of a random-bred shorthair."
       },
       {
-        "breed": "Domestic Shorthair (dilute mackerel tabby)",
-        "confidence": 0.15,
-        "reason": "The muted blue-gray tone with narrow vertical side stripes and barred legs fits a dilute mackerel tabby pattern."
+        "breed": "Domestic Shorthair (dilute calico tabby)",
+        "confidence": 0.12,
+        "reason": "The muted blue-gray base and pale apricot patches could also read as a dilute tortie-tabby coloring."
       },
       {
-        "breed": "Egyptian Mau mix",
-        "confidence": 0.05,
-        "reason": "Large ears, slender build, and gooseberry-gold eyes give a faint Mau-like look, though the stripes rather than spots make this unlikely."
+        "breed": "American Shorthair mix",
+        "confidence": 0.08,
+        "reason": "The tabby striping and moderate, balanced build loosely echo the American Shorthair, though the lean frame and larger ears point to a typical domestic mix."
       }
     ],
-    "appearance": "A slim, young adult shorthaired cat with a cool blue-gray mackerel tabby coat striped in darker charcoal, softly washed with faint apricot-peach patches along the back and shoulders, and a peach-orange back foot. Her wedge-shaped face has a tabby 'M' on the forehead, a white muzzle and chin with long white whiskers, a rosy-pink nose, and wide round yellow-green eyes with an alert expression. She has tall, upright triangular ears with pinkish insides, barred gray legs, and wears a thin dark collar.",
-    "fun_fact": "Torbies blend tabby stripes with tortie patches, so every one wears a one-of-a-kind coat\u2014just like their one-of-a-kind personalities!"
+    "appearance": "A slender young adult shorthaired cat with a cool gray mackerel tabby coat marked by thin dark stripes along the sides and legs, with soft peach-orange patches blended across the back and shoulders and a pale apricot-cream rear paw. The face has a classic tabby 'M' on the forehead, dark lines running from the eyes, a whitish muzzle and chin with long white whiskers, a dusty pink nose, and wide, round golden-green eyes. Large upright triangular ears with pinkish insides and light ear tufts sit atop a wedge-shaped head, and the cat wears a thin dark collar.",
+    "fun_fact": "Torbie cats combine tabby stripes with tortoiseshell patches, so every one wears a one-of-a-kind coat, and Kimball comes with a built-in best friend, Damen!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (torbie / patched tabby) mix named Kimball (k2026). Keep its real appearance: A slim, young adult shorthaired cat with a cool blue-gray mackerel tabby coat striped in darker charcoal, softly washed with faint apricot-peach patches along the back and shoulders, and a peach-orange back foot. Her wedge-shaped face has a tabby 'M' on the forehead, a white muzzle and chin with long white whiskers, a rosy-pink nose, and wide round yellow-green eyes with an alert expression. She has tall, upright triangular ears with pinkish insides, barred gray legs, and wears a thin dark collar. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (torbie / patched tabby) mix named Kimball (k2026). Keep its real appearance: A slender young adult shorthaired cat with a cool gray mackerel tabby coat marked by thin dark stripes along the sides and legs, with soft peach-orange patches blended across the back and shoulders and a pale apricot-cream rear paw. The face has a classic tabby 'M' on the forehead, dark lines running from the eyes, a whitish muzzle and chin with long white whiskers, a dusty pink nose, and wide, round golden-green eyes. Large upright triangular ears with pinkish insides and light ear tufts sit atop a wedge-shaped head, and the cat wears a thin dark collar. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50251.jpg",
   "cartoon_file": "CAIL-A-50251.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 27.7,
-  "analyzed_at": 1793389507
+  "seconds": 30.0,
+  "analyzed_at": 1794867283
 }

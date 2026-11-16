@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50246",
-  "cover_photo_id": 49643164,
+  "cover_photo_id": 49643083,
   "cartoon_version": 2,
   "breed": {
     "species": "Cat",
@@ -9,29 +9,29 @@
       {
         "breed": "Domestic Shorthair (brown tabby)",
         "confidence": 0.85,
-        "reason": "Short dense coat with a classic brown mackerel/ticked tabby pattern, forehead 'M', and an average lean kitten build typical of random-bred shorthairs."
+        "reason": "Short dense coat in warm brown with black mackerel/ticked striping, an M-marked forehead, and a lean, typical kitten build point to a random-bred brown tabby."
       },
       {
         "breed": "American Shorthair mix",
-        "confidence": 0.08,
-        "reason": "The brown tabby striping and rounded face hint at American Shorthair coloring, though the build is slimmer than the breed standard."
+        "confidence": 0.1,
+        "reason": "The classic brown tabby coloring and a rounded face with a white muzzle bear some resemblance, though the body is slimmer than the breed standard."
       },
       {
         "breed": "Abyssinian mix",
-        "confidence": 0.04,
-        "reason": "Large upright ears and some warm ticking on the coat loosely suggest Abyssinian influence."
+        "confidence": 0.05,
+        "reason": "Large upright ears, a warm tawny undertone, and somewhat ticked fur on the body hint faintly at Abyssinian traits."
       }
     ],
-    "appearance": "A young, slender brown tabby kitten with a short coat of warm sandy-brown ground color, marked with dark brown-black mackerel stripes and spots, a bold 'M' on the forehead, and dark rings along a black-tipped tail. She has large, tall, pointed ears with pink insides, round greenish-gold eyes rimmed in dark liner, a brick-pink nose outlined in black, a white muzzle and chin with long white whiskers, and a slightly cream chest. She wears a bright orange collar and sits upright with one striped front paw raised.",
-    "fun_fact": "Brown tabbies like Addison sport the famous 'M' on their foreheads, a natural badge that makes every tabby instantly recognizable!"
+    "appearance": "A slim, young brown tabby kitten with a short coat of warm tawny-brown fur, grizzled with black ticking and broken mackerel stripes on the body, plus bold dark bars on the legs and a ringed tail ending in a solid black tip. She has large, tall, pink-lined ears, wide yellow-green eyes, a dark-rimmed brick-pink nose with a peachy-orange patch above it, and a white muzzle and chin with long white whiskers. She wears a bright orange collar and sits alert with one front paw raised, gazing upward.",
+    "fun_fact": "Brown tabbies are the classic 'wild-type' cat coat, and every one of them wears a signature 'M' on the forehead like a built-in name tag!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby) mix named Addison (k2026). Keep its real appearance: A young, slender brown tabby kitten with a short coat of warm sandy-brown ground color, marked with dark brown-black mackerel stripes and spots, a bold 'M' on the forehead, and dark rings along a black-tipped tail. She has large, tall, pointed ears with pink insides, round greenish-gold eyes rimmed in dark liner, a brick-pink nose outlined in black, a white muzzle and chin with long white whiskers, and a slightly cream chest. She wears a bright orange collar and sits upright with one striped front paw raised. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (brown tabby) mix named Addison (k2026). Keep its real appearance: A slim, young brown tabby kitten with a short coat of warm tawny-brown fur, grizzled with black ticking and broken mackerel stripes on the body, plus bold dark bars on the legs and a ringed tail ending in a solid black tip. She has large, tall, pink-lined ears, wide yellow-green eyes, a dark-rimmed brick-pink nose with a peachy-orange patch above it, and a white muzzle and chin with long white whiskers. She wears a bright orange collar and sits alert with one front paw raised, gazing upward. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50246.jpg",
   "cartoon_file": "CAIL-A-50246.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 25.5,
-  "analyzed_at": 1793386420
+  "seconds": 30.0,
+  "analyzed_at": 1794867227
 }

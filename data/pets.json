@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794811254,
-  "count": 44,
+  "synced_at": 1794867197,
+  "count": 43,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -14,17 +14,16 @@
       "color": "Brown",
       "location": "Foster Home",
       "attributes": [
-        "Bonded",
         "Good with Cats",
         "Good with Kids",
         "Lap Cat",
         "Likes to Play",
         "Loves Brushing"
       ],
-      "cover_photo_id": 49643164,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/4a8fc5de180b81f5a9907566e441da41/52e5a9c927e08854cdc3e5a44ed34274.png",
+      "cover_photo_id": 49643083,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/210b437a1a7b28f0dc3c5ffa2b784947/97987836461bdca7c09727c1c0e66ec4.png",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/4a8fc5de180b81f5a9907566e441da41/52e5a9c927e08854cdc3e5a44ed34274.png",
+        "https://new-s3.shelterluv.com/profile-pictures/210b437a1a7b28f0dc3c5ffa2b784947/97987836461bdca7c09727c1c0e66ec4.png",
         "https://new-s3.shelterluv.com/profile-pictures/0992325dcd82ab0de6d38f36396748d4/10ab9f37159a45d50fb2534af2d1724e.JPG",
         "https://new-s3.shelterluv.com/profile-pictures/3b221fa14be04a38289970cbb4aa1f2b/d75ff226cf17fd82f19cc7039e6d5890.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/215f10cba0821c598d84d8f4836d03f9/a1297f1ceb492f6fb5e162dc637a2bfe.jpeg",
@@ -106,16 +105,15 @@
       "color": "Black",
       "location": "Foster Home",
       "attributes": [
-        "Bonded",
         "Good with Cats",
         "Good with Kids",
         "Lap Cat",
         "Likes to Play"
       ],
-      "cover_photo_id": 49638488,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/5e1a46e635f8b2b035a79a9e5877af75/e4b031a2e6500f3a398863c2ee7753cc.png",
+      "cover_photo_id": 49637834,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/6490d8063647478b491664652c05f91d/40043a2179be716f7f60fa8e16e3e4ff.png",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/5e1a46e635f8b2b035a79a9e5877af75/e4b031a2e6500f3a398863c2ee7753cc.png",
+        "https://new-s3.shelterluv.com/profile-pictures/6490d8063647478b491664652c05f91d/40043a2179be716f7f60fa8e16e3e4ff.png",
         "https://new-s3.shelterluv.com/profile-pictures/5b6be0e03c955f25e086525f53d19727/29c9ac4e2df509dbbbd6af9607514d8b.JPG",
         "https://new-s3.shelterluv.com/profile-pictures/2563f2e4b1a452eecf5a55a20632708c/ca8763fb3896d83bd65e2420654445e0.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/29f8e5258b94a6029198b2758fc01671/8f74caab19f9ac4e104533e3987c8ce4.jpeg",
@@ -448,16 +446,15 @@
       "color": "Brown",
       "location": "Foster Home",
       "attributes": [
-        "Bonded",
         "Good with Cats",
         "Lap Cat",
         "Likes to Play",
         "Shy at First"
       ],
-      "cover_photo_id": 49638423,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/55c6a6b096c8b9b3bec5da279aef8c84/2eb76a6cb8ff1e598025aef490e7bc2d.png",
+      "cover_photo_id": 49638275,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/613f04cb3a4742715adc64b0e4efd76d/6bc68e7db346e197ad909cedf77700c5.jpg",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/55c6a6b096c8b9b3bec5da279aef8c84/2eb76a6cb8ff1e598025aef490e7bc2d.png",
+        "https://new-s3.shelterluv.com/profile-pictures/613f04cb3a4742715adc64b0e4efd76d/6bc68e7db346e197ad909cedf77700c5.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/77b6b684de9e143cc7e060282c507f7b/4033546cadf01ffdda8da1e19d272ea2.JPG",
         "https://new-s3.shelterluv.com/profile-pictures/f9e9c081cca1cf46f729b10abdbcd560/7d0bc2cd9e06e37e89a581da5966f685.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/d1754fd6110b869051b5d58fa6b9b274/4046f09b78c2476117d424254e1f81c9.jpeg",
@@ -671,17 +668,16 @@
       "color": "Grey",
       "location": "Foster Home",
       "attributes": [
-        "Bonded",
         "Good with Cats",
         "Good with Kids",
         "Lap Cat",
         "Likes to Play",
         "Loves Brushing"
       ],
-      "cover_photo_id": 49643553,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/b2a7c476c3d6f628b2f1c5e588c1538f/a8d0f72da485216974165ebbc9023da2.png",
+      "cover_photo_id": 49643424,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/88b2cbcf6f895e8aa01279bc028985b4/c55f12489e26f84d0805dd393c3293d4.png",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/b2a7c476c3d6f628b2f1c5e588c1538f/a8d0f72da485216974165ebbc9023da2.png",
+        "https://new-s3.shelterluv.com/profile-pictures/88b2cbcf6f895e8aa01279bc028985b4/c55f12489e26f84d0805dd393c3293d4.png",
         "https://new-s3.shelterluv.com/profile-pictures/6b08e0e8541f555963e26261fbda73cd/682673e3ab7c068747d5d3099eee6995.JPG",
         "https://new-s3.shelterluv.com/profile-pictures/bab4eeceabce2514daf14f0f474db813/32ee9df43bd275d5737bcd4b80ffc73a.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/346209391be0f772f2a5c8a30bea1cc7/19cb4582beff76d16be2e32ce824f255.jpeg",
@@ -692,8 +688,7 @@
         "https://new-s3.shelterluv.com/profile-pictures/332a8bfba69776ceecb334c40de8946b/b7405710d250c9f63bfbce68c141d802.png",
         "https://new-s3.shelterluv.com/profile-pictures/f5e7ed418057590e5b6b5e572dd93f95/3574d352ddac011fdf0891893fb38869.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/43692ca231ee058a8f5e8a1653fc32ec/a9f13d4b649ff9934414442e67df69ae.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/cb679fc278c90c46a46717074a362835/c1d864ae0c3d6e339a1fc6508eaa32c8.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/88b2cbcf6f895e8aa01279bc028985b4/c55f12489e26f84d0805dd393c3293d4.png"
+        "https://new-s3.shelterluv.com/profile-pictures/cb679fc278c90c46a46717074a362835/c1d864ae0c3d6e339a1fc6508eaa32c8.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50245"
     },
@@ -1173,31 +1168,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/3df31d0b820514df8b5d732ba2d4fbf4/d8a8bdbd9cc7a9e90cb13c398cb8196f.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50345"
-    },
-    {
-      "id": "CAIL-A-50394",
-      "name": "Nino",
-      "species": "Dog",
-      "sex": "Male",
-      "age_group": "Adult",
-      "shelter_breed": "Mixed Breed (Small)",
-      "shelter_secondary_breed": null,
-      "color": "Silver",
-      "location": "Foster Home",
-      "attributes": [
-        "Crate Trained",
-        "Good with Cats",
-        "Good with Kids",
-        "Housetrained",
-        "Potty Trained",
-        "Suitable for an Apartment"
-      ],
-      "cover_photo_id": 52065922,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/3c8f5f7d8c1930a69f9b167d7b3e801a/ebc4fad5d755e16f93d06adaa312267e.jpeg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/3c8f5f7d8c1930a69f9b167d7b3e801a/ebc4fad5d755e16f93d06adaa312267e.jpeg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50394"
     },
     {
       "id": "CAIL-A-5131",
