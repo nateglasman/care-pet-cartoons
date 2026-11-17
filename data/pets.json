@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794867197,
-  "count": 43,
+  "synced_at": 1794902439,
+  "count": 45,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -121,6 +121,34 @@
         "https://new-s3.shelterluv.com/profile-pictures/f2f372f349353eae18c884d252ce0030/c434a53a978f204be14f57966b6a4d50.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50250"
+    },
+    {
+      "id": "CAIL-A-50410",
+      "name": "Dottie",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Senior Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Cat Catio",
+      "attributes": [
+        "Bonded",
+        "Lap Cat",
+        "Likes to Sit Nearby",
+        "Loves Brushing",
+        "Shy at First"
+      ],
+      "cover_photo_id": 53623048,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/419cd9ee47c7176baf8eecd0e212a940/4394f34d50aafd0fd896c756e9b36219.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/419cd9ee47c7176baf8eecd0e212a940/4394f34d50aafd0fd896c756e9b36219.png",
+        "https://new-s3.shelterluv.com/profile-pictures/0e3073a37ab08d3ff6d9c671f1bfa1c2/30e27f1d4220c51e20442d907fd97c03.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/da4ffc2a865952b6230d30b02dce3597/8beab4475f6e9756f6d8e5cbb6d195fd.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/f172612aa011256463189732c2821593/be1fc05d55f61f478fd2b2b2e6f5c5f6.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/454e8171d140b8a33966b66cb825b54e/535958a8e14610e0280c32819d2467a2.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50410"
     },
     {
       "id": "CAIL-A-50384",
@@ -691,6 +719,32 @@
         "https://new-s3.shelterluv.com/profile-pictures/cb679fc278c90c46a46717074a362835/c1d864ae0c3d6e339a1fc6508eaa32c8.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50245"
+    },
+    {
+      "id": "CAIL-A-50411",
+      "name": "Payton",
+      "species": "Cat",
+      "sex": "Female",
+      "age_group": "Senior Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Black",
+      "location": "Cat Catio",
+      "attributes": [
+        "Bonded",
+        "Likes to Sit Nearby",
+        "Shy at First",
+        "Lap Cat",
+        "Loves Brushing"
+      ],
+      "cover_photo_id": 53623124,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/bec78277d3091a67029a0dba4eda1aa7/6a0799d8350764d9427ed62c783b37fa.png",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/bec78277d3091a67029a0dba4eda1aa7/6a0799d8350764d9427ed62c783b37fa.png",
+        "https://new-s3.shelterluv.com/profile-pictures/6020e9aee40d47a8163dc9436fe9956b/ec5e1f73636b0917e52af2fc24f4fbcd.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/f2818a4dda59080f24856415bfc741d4/61faa9b7281426b9ccff34e495ac0e1f.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50411"
     },
     {
       "id": "CAIL-A-50343",

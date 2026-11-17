@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50410",
+  "cover_photo_id": 53623048,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Cat",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Domestic Shorthair (solid black)",
+        "confidence": 0.8,
+        "reason": "Short, sleek, glossy all-black coat with a small white chest spot, medium build, and an ordinary wedge-shaped head point to a classic random-bred black shorthair."
+      },
+      {
+        "breed": "Bombay mix",
+        "confidence": 0.12,
+        "reason": "The jet-black coat and round eyes resemble a Bombay, but the greenish-yellow eye color, white chest locket, and less rounded head make a purebred unlikely."
+      },
+      {
+        "breed": "American Shorthair mix",
+        "confidence": 0.08,
+        "reason": "Her compact, sturdy frame and dense short coat hint at American Shorthair-type ancestry."
+      }
+    ],
+    "appearance": "A slender-to-medium black shorthaired cat with a sleek, glossy jet-black coat and a small white spot (locket) in the center of her chest. She has large, upright, slightly pointed ears, a moderately wedge-shaped face with a black nose, long white-tipped whiskers, and big round pale green-yellow eyes with wide black pupils. She stands alert and curious, looking straight up at the viewer.",
+    "fun_fact": "Black cats like Dottie are considered lucky in many cultures, including Scotland and Japan, where they're thought to bring good fortune to their homes!"
+  },
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (solid black) mix named Dottie. Keep its real appearance: A slender-to-medium black shorthaired cat with a sleek, glossy jet-black coat and a small white spot (locket) in the center of her chest. She has large, upright, slightly pointed ears, a moderately wedge-shaped face with a black nose, long white-tipped whiskers, and big round pale green-yellow eyes with wide black pupils. She stands alert and curious, looking straight up at the viewer. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50410.jpg",
+  "cartoon_file": "CAIL-A-50410.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 26.2,
+  "analyzed_at": 1794902465
+}

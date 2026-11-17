@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50411",
+  "cover_photo_id": 53623124,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Cat",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Domestic Shorthair (solid black)",
+        "confidence": 0.8,
+        "reason": "Short, dense, glossy all-black coat with no visible white markings, medium build, and moderately sized upright ears are typical of a random-bred solid black shorthair."
+      },
+      {
+        "breed": "Bombay mix",
+        "confidence": 0.12,
+        "reason": "The sleek jet-black coat and black nose leather resemble a Bombay, but the yellow-green rather than copper eyes and the less rounded head point away from a purebred."
+      },
+      {
+        "breed": "American Shorthair mix",
+        "confidence": 0.08,
+        "reason": "The sturdy medium body and short, plush black coat could reflect some American Shorthair-type ancestry."
+      }
+    ],
+    "appearance": "A medium-sized, solidly built cat with a short, glossy, uniformly jet-black coat, black nose leather, and long black whiskers, with no white markings visible. Its head is a moderate wedge with large, upright, slightly pointed ears that have faint tufts of fur inside, and its round, pale yellow-green (chartreuse) eyes have large dark pupils. In the photo it is walking toward the camera with its tail held straight up, licking its nose with a bright pink tongue.",
+    "fun_fact": "Solid black cats are considered good luck in places like Japan and the UK, so adopting Payton could bring some extra luck into your home!"
+  },
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (solid black) mix named Payton. Keep its real appearance: A medium-sized, solidly built cat with a short, glossy, uniformly jet-black coat, black nose leather, and long black whiskers, with no white markings visible. Its head is a moderate wedge with large, upright, slightly pointed ears that have faint tufts of fur inside, and its round, pale yellow-green (chartreuse) eyes have large dark pupils. In the photo it is walking toward the camera with its tail held straight up, licking its nose with a bright pink tongue. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50411.jpg",
+  "cartoon_file": "CAIL-A-50411.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 27.9,
+  "analyzed_at": 1794902493
+}
