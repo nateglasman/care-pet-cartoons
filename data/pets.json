@@ -1,6 +1,6 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1794949272,
+  "synced_at": 1794987457,
   "count": 44,
   "pets": [
     {
@@ -146,7 +146,8 @@
         "https://new-s3.shelterluv.com/profile-pictures/0e3073a37ab08d3ff6d9c671f1bfa1c2/30e27f1d4220c51e20442d907fd97c03.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/da4ffc2a865952b6230d30b02dce3597/8beab4475f6e9756f6d8e5cbb6d195fd.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/f172612aa011256463189732c2821593/be1fc05d55f61f478fd2b2b2e6f5c5f6.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/454e8171d140b8a33966b66cb825b54e/535958a8e14610e0280c32819d2467a2.jpg"
+        "https://new-s3.shelterluv.com/profile-pictures/454e8171d140b8a33966b66cb825b54e/535958a8e14610e0280c32819d2467a2.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/67a45d9424aee63f8c881d65b4d67060/9a4a59a269b93d17feb90447a7fb2c0a.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50410"
     },
@@ -742,7 +743,8 @@
       "photo_urls": [
         "https://new-s3.shelterluv.com/profile-pictures/bec78277d3091a67029a0dba4eda1aa7/6a0799d8350764d9427ed62c783b37fa.png",
         "https://new-s3.shelterluv.com/profile-pictures/6020e9aee40d47a8163dc9436fe9956b/ec5e1f73636b0917e52af2fc24f4fbcd.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/f2818a4dda59080f24856415bfc741d4/61faa9b7281426b9ccff34e495ac0e1f.jpg"
+        "https://new-s3.shelterluv.com/profile-pictures/f2818a4dda59080f24856415bfc741d4/61faa9b7281426b9ccff34e495ac0e1f.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/e9f1239198fec81f1d2f03d4e28db4bb/c22d365796a1cc98a64474b15572d746.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50411"
     },
@@ -969,7 +971,9 @@
       "photo_urls": [
         "https://new-s3.shelterluv.com/profile-pictures/646532bff2034a8aaa7d50b6855d4fb4/2c9a88bb21784287d489049c6418aaf4.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/4eefe054dfe9fb82fa3b29ef973bf59a/ae31bfd2bc7d7c4eaec7f745a3301a01.png",
-        "https://new-s3.shelterluv.com/profile-pictures/dc28ae495a7f5915348fb86f27f102fe/27dd763b61bb69ed594ec53dc672b268.jpeg"
+        "https://new-s3.shelterluv.com/profile-pictures/dc28ae495a7f5915348fb86f27f102fe/27dd763b61bb69ed594ec53dc672b268.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/1ae0197ea192036b3b088e490f46230d/e36c5c7ab172fd3073fa893bbdb53406.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/5cd6588e63cc5225c4b39e074350f683/b5ca3b156f0b5e82c271825c10c8939e.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50409"
     },
@@ -994,7 +998,8 @@
         "https://new-s3.shelterluv.com/profile-pictures/e1746086b3bb39ce678690c456850bf4/ef0b3b6390a5e6717329cb8d4d770316.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/f2d6ee99ef31086dea0340d7e44c247b/15b45c7b39915e774d687670efdd3fef.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/667f1de974bccff3089775f198a5adfe/233a790a92cac5ad677c76e13dce671c.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/e250e8f3513305b539f744aed7d1b0cc/7cf7bb1f7e95327aca3b8c2ceb0b77d9.jpg"
+        "https://new-s3.shelterluv.com/profile-pictures/e250e8f3513305b539f744aed7d1b0cc/7cf7bb1f7e95327aca3b8c2ceb0b77d9.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/ba0197032c4401f5028ee85227f32d79/0d959700f9e8fcdaf5bbe4f882cd2cbc.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50361"
     },
@@ -1013,10 +1018,13 @@
         "Good with Dogs",
         "Good with Kids"
       ],
-      "cover_photo_id": 53164269,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/f39c24917c94d0ee2a407393131f9a77/114ee57cb99f905b2b5f9e689a4efa14.png",
+      "cover_photo_id": 53690483,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/76140b5667097480e9dd4c8a633a99fc/a2ae8336f9d5c16aef51a8325f4f8fe6.jpg",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/f39c24917c94d0ee2a407393131f9a77/114ee57cb99f905b2b5f9e689a4efa14.png"
+        "https://new-s3.shelterluv.com/profile-pictures/76140b5667097480e9dd4c8a633a99fc/a2ae8336f9d5c16aef51a8325f4f8fe6.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/f39c24917c94d0ee2a407393131f9a77/114ee57cb99f905b2b5f9e689a4efa14.png",
+        "https://new-s3.shelterluv.com/profile-pictures/a0106916d025f46c1ee77e715dc25a6d/d389da23f3d7b03f861b26325ff0ccb6.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/53d8e04e83981a2615da6dc33c5b352d/35a958f8ba0c79667239288d172151c2.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50407"
     },
@@ -1036,10 +1044,12 @@
         "Good with Dogs",
         "Good with Kids"
       ],
-      "cover_photo_id": 53164208,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/5e73b2670b604b047ef6a935c6009540/bc961d1990e4dda04cbb0a9b6a9a98a2.png",
+      "cover_photo_id": 53690476,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/d8acbb7160dcb5240a8db32731c6f7e4/0ed727aee4cc7a80f79266885b0d6910.jpg",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/5e73b2670b604b047ef6a935c6009540/bc961d1990e4dda04cbb0a9b6a9a98a2.png"
+        "https://new-s3.shelterluv.com/profile-pictures/d8acbb7160dcb5240a8db32731c6f7e4/0ed727aee4cc7a80f79266885b0d6910.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/5e73b2670b604b047ef6a935c6009540/bc961d1990e4dda04cbb0a9b6a9a98a2.png",
+        "https://new-s3.shelterluv.com/profile-pictures/4558de50a9f392b4e62715d275664bfa/81fbb23941e8037962e35785db177d39.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50406"
     },
@@ -1067,7 +1077,9 @@
         "https://new-s3.shelterluv.com/profile-pictures/2d6489b50f6528cebeb31e811f6532a4/a66fdd5a811b20c40cff01a95598a74b.jpg",
         "https://new-s3.shelterluv.com/profile-pictures/1f2450f21dd3b57be5d607259791816f/0833ac17f8f9ef3a6c751e4f7de783dd.png",
         "https://new-s3.shelterluv.com/profile-pictures/a0e3c6ffebad700ef7ab29e73967edf0/5764f1565e1c38199682f0db67083f6d.png",
-        "https://new-s3.shelterluv.com/profile-pictures/b9895928427130356890b62b55ffbf60/0c388182e8d67372be3d932ab9c179e7.png"
+        "https://new-s3.shelterluv.com/profile-pictures/b9895928427130356890b62b55ffbf60/0c388182e8d67372be3d932ab9c179e7.png",
+        "https://new-s3.shelterluv.com/profile-pictures/eb00f4729d3031d25b991092114ae100/797fce096979a74d94a37b61ebc2d166.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/32c8f90fe9f8b5234f4cd0d8fdbb77e1/513618a1556e173741b4b135be34eaa9.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50385"
     },
@@ -1242,7 +1254,8 @@
         "https://new-s3.shelterluv.com/profile-pictures/5288cf322eb9378cca1afee9d54cfe2e/d65c0529ad078e8a757d2325fe68c6d2.png",
         "https://new-s3.shelterluv.com/profile-pictures/13a5160cdff48cb2469569e7a9cf5de6/ac23aa030b4d71ebe5c352ac4c76f1ab.jpeg",
         "https://new-s3.shelterluv.com/profile-pictures/b71d6f621288082276c1004162e47156/4b947ee5ce77d70fe49b55a0e64246d0.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/05762e6f648b955506748f90ddda7f45/5619f862f1cbba0864d917eca12038ea.jpeg"
+        "https://new-s3.shelterluv.com/profile-pictures/05762e6f648b955506748f90ddda7f45/5619f862f1cbba0864d917eca12038ea.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/c1c68e523991e8df652a5fb8d86bb43e/de6d145b07b1a48181cba34d7fe3a594.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50356"
     },

@@ -1,37 +1,37 @@
 {
   "pet_id": "CAIL-A-50407",
-  "cover_photo_id": 53164269,
+  "cover_photo_id": 53690483,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Anatolian Shepherd / Kangal",
+        "breed": "German Shepherd Dog mix",
         "confidence": 0.4,
-        "reason": "The fawn coat with a distinct black mask over the muzzle and eyes, plus the stocky, big-boned puppy build, strongly suggests a livestock guardian breed."
+        "reason": "The tan coat with a distinct black mask on the muzzle and around the eyes is classic shepherd-puppy coloring."
       },
       {
-        "breed": "German Shepherd",
-        "confidence": 0.25,
-        "reason": "The tan coat with black facial shading and medium-length fluffy fur could come from a shepherd-type parent."
+        "breed": "Great Pyrenees or Anatolian Shepherd mix",
+        "confidence": 0.3,
+        "reason": "The fluffy, plush medium-length coat, broad head, and folded ears suggest a livestock guardian breed contribution, and the black mask is common in Anatolians."
       },
       {
-        "breed": "Great Pyrenees",
+        "breed": "Chow Chow mix",
         "confidence": 0.15,
-        "reason": "The plush, slightly longer fluffy coat and lighter cream chest point to a fluffy guardian-breed contribution."
+        "reason": "The teddy-bear fluff and rounded, blocky puppy face hint at a possible Chow influence."
       }
     ],
-    "appearance": "A chubby, fluffy puppy with a warm golden-fawn to light tan coat that fades to cream on the chest and front legs, with a slightly longer, soft, fuzzy texture. The muzzle and the area around the eyes form a distinct black mask, with a shiny black nose, small dark brown eyes, and medium triangular ears that fold forward and hang down, tinged darker at the edges. The puppy has a broad head, thick legs, and a sturdy, big-boned build that hints at a large adult size.",
-    "fun_fact": "Anatolian Shepherds are ancient, loyal guardian dogs known for their calm confidence and deep devotion to their families!"
+    "appearance": "A fluffy young puppy with a soft, medium-length golden-tan coat that lightens to cream on the chest and front legs. It has a sharply defined black mask covering the muzzle and wrapping around its dark brown, round eyes, a black nose, and soft, floppy ears that fold down and are tipped slightly darker. Its build is sturdy and roly-poly, with a broad head and thick, fuzzy fur that gives it a teddy-bear look.",
+    "fun_fact": "Shepherd-type pups are famously smart and eager to learn, so Gill could be a star student in puppy class!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Anatolian Shepherd / Kangal mix named Gill. Keep its real appearance: A chubby, fluffy puppy with a warm golden-fawn to light tan coat that fades to cream on the chest and front legs, with a slightly longer, soft, fuzzy texture. The muzzle and the area around the eyes form a distinct black mask, with a shiny black nose, small dark brown eyes, and medium triangular ears that fold forward and hang down, tinged darker at the edges. The puppy has a broad head, thick legs, and a sturdy, big-boned build that hints at a large adult size. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a German Shepherd Dog mix mix named Gill. Keep its real appearance: A fluffy young puppy with a soft, medium-length golden-tan coat that lightens to cream on the chest and front legs. It has a sharply defined black mask covering the muzzle and wrapping around its dark brown, round eyes, a black nose, and soft, floppy ears that fold down and are tipped slightly darker. Its build is sturdy and roly-poly, with a broad head and thick, fuzzy fur that gives it a teddy-bear look. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50407.jpg",
   "cartoon_file": "CAIL-A-50407.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 25.3,
-  "analyzed_at": 1794725031
+  "seconds": 29.2,
+  "analyzed_at": 1794987486
 }

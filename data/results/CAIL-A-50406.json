@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50406",
-  "cover_photo_id": 53164208,
+  "cover_photo_id": 53690476,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -8,30 +8,30 @@
     "guesses": [
       {
         "breed": "Great Pyrenees",
-        "confidence": 0.45,
-        "reason": "The fluffy white body coat, broad puppy head, and tan-and-dark facial 'badger' markings on the ears and head are classic Pyrenees puppy traits."
-      },
-      {
-        "breed": "Australian Shepherd",
-        "confidence": 0.25,
-        "reason": "The blue-gray eyes, folded ears, and brown-and-black tricolor mask hint at a herding-breed contribution."
+        "confidence": 0.5,
+        "reason": "The fluffy, dense white coat on the body and legs, sturdy big-boned puppy build, and tan 'badger' head markings are classic Great Pyrenees puppy traits."
       },
       {
         "breed": "Anatolian Shepherd",
+        "confidence": 0.2,
+        "reason": "The dark shading around the eyes and ears and the drop ears suggest a livestock guardian cross such as Anatolian Shepherd."
+      },
+      {
+        "breed": "Australian Shepherd",
         "confidence": 0.15,
-        "reason": "The darker muzzle shading and dense pale coat are consistent with a livestock-guardian mix."
+        "reason": "The symmetrical tan-and-black face patches with a white blaze and light eyes are also common in Aussie crosses."
       }
     ],
-    "appearance": "A fluffy, sturdy puppy with a mostly white, medium-length coat and a white blaze running from the forehead down over the muzzle. The ears and the sides of the head are rich golden-brown with black shading on the ear tips and around the eyes, giving a soft mask effect, and the soft drop ears fold forward. Grace has striking blue-gray eyes, a black nose, a little pink tongue peeking out, and big chunky white paws.",
-    "fun_fact": "Great Pyrenees are gentle giants bred to guard flocks, so they are famously calm, loyal, and protective of their families!"
+    "appearance": "A chubby, fluffy puppy with a mostly white, medium-long plush coat covering the body, chest, and thick paws. The head has symmetrical golden-tan patches over both eyes and ears, with darker blackish-brown shading at the ear tips and around the eyes, a wide white blaze running up the forehead, and a white muzzle. It has soft folded drop ears, round blue-gray puppy eyes, a black nose, and often a little pink tongue tip peeking out.",
+    "fun_fact": "Great Pyrenees are gentle giants bred to guard flocks, so they're famously calm, loyal, and devoted to their families!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Great Pyrenees mix named Grace. Keep its real appearance: A fluffy, sturdy puppy with a mostly white, medium-length coat and a white blaze running from the forehead down over the muzzle. The ears and the sides of the head are rich golden-brown with black shading on the ear tips and around the eyes, giving a soft mask effect, and the soft drop ears fold forward. Grace has striking blue-gray eyes, a black nose, a little pink tongue peeking out, and big chunky white paws. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Great Pyrenees mix named Grace. Keep its real appearance: A chubby, fluffy puppy with a mostly white, medium-long plush coat covering the body, chest, and thick paws. The head has symmetrical golden-tan patches over both eyes and ears, with darker blackish-brown shading at the ear tips and around the eyes, a wide white blaze running up the forehead, and a white muzzle. It has soft folded drop ears, round blue-gray puppy eyes, a black nose, and often a little pink tongue tip peeking out. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50406.jpg",
   "cartoon_file": "CAIL-A-50406.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 38.7,
-  "analyzed_at": 1794725070
+  "seconds": 25.6,
+  "analyzed_at": 1794987512
 }
