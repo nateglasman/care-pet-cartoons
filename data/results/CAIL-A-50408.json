@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50408",
+  "cover_photo_id": 53164416,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Dog",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Golden Retriever",
+        "confidence": 0.45,
+        "reason": "The warm golden-red coat, soft feathering on the ears and chest, and friendly broad head strongly suggest Golden Retriever ancestry."
+      },
+      {
+        "breed": "Australian Shepherd",
+        "confidence": 0.3,
+        "reason": "The crisp white blaze down the face, white muzzle and chest, and semi-folded ears are typical of a red-and-white Aussie or similar herding mix."
+      },
+      {
+        "breed": "Border Collie",
+        "confidence": 0.2,
+        "reason": "The symmetrical white facial stripe, white collar markings, and lean medium build resemble a red-and-white Border Collie."
+      }
+    ],
+    "appearance": "Moe is a medium-sized dog with a medium-length, softly feathered golden-red coat and a bright white blaze running from the forehead down the center of the face to a white muzzle and white chest. Moe has soft, folded drop ears with longer feathering, warm almond-shaped amber-brown eyes, a black nose, and a lean, athletic frame. In the photo Moe is lying in grass with mouth open and pink tongue out in a happy, relaxed expression.",
+    "fun_fact": "Golden Retrievers are famous for their sunny, people-loving personalities, so a golden mix like Moe may be ready to be your new best friend!"
+  },
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Golden Retriever mix named Moe. Keep its real appearance: Moe is a medium-sized dog with a medium-length, softly feathered golden-red coat and a bright white blaze running from the forehead down the center of the face to a white muzzle and white chest. Moe has soft, folded drop ears with longer feathering, warm almond-shaped amber-brown eyes, a black nose, and a lean, athletic frame. In the photo Moe is lying in grass with mouth open and pink tongue out in a happy, relaxed expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50408.jpg",
+  "cartoon_file": "CAIL-A-50408.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 27.1,
+  "analyzed_at": 1795034368
+}
