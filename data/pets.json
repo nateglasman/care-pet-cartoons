@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1795159505,
-  "count": 45,
+  "synced_at": 1795206521,
+  "count": 44,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -57,6 +57,29 @@
         "https://new-s3.shelterluv.com/profile-pictures/707e1cb05dcfefa486e6d2587d8ea2be/e3fd3073fc22314289ec63c5a2fc4c41.jpg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50377"
+    },
+    {
+      "id": "CAIL-A-50412",
+      "name": "Buddy (2026)",
+      "species": "Cat",
+      "sex": "Male",
+      "age_group": "Adult Cat",
+      "shelter_breed": "Domestic Shorthair",
+      "shelter_secondary_breed": null,
+      "color": "Grey",
+      "location": "Cat Catio",
+      "attributes": [
+        "Good with Kids",
+        "Likes to Sit Nearby",
+        "Likes to climb",
+        "Likes to Play"
+      ],
+      "cover_photo_id": 53549895,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/48f4aac1a9a43cc25930584ae333dd13/81b0d73fb3dd964aac7a961b6491e2db.jpeg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/48f4aac1a9a43cc25930584ae333dd13/81b0d73fb3dd964aac7a961b6491e2db.jpeg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50412"
     },
     {
       "id": "CAIL-A-5107",
@@ -150,31 +173,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/67a45d9424aee63f8c881d65b4d67060/9a4a59a269b93d17feb90447a7fb2c0a.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50410"
-    },
-    {
-      "id": "CAIL-A-50384",
-      "name": "Elberta",
-      "species": "Cat",
-      "sex": "Female",
-      "age_group": "Adult Cat",
-      "shelter_breed": "Domestic Shorthair",
-      "shelter_secondary_breed": null,
-      "color": "Tortoise",
-      "location": "Cat Catio",
-      "attributes": [
-        "Lap Cat",
-        "Likes to Sit Nearby"
-      ],
-      "cover_photo_id": 51421885,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/de7d23054ffb2900667d53c8c89847c5/9ab7b5e967a13117ddb72c9f6720df75.jpeg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/de7d23054ffb2900667d53c8c89847c5/9ab7b5e967a13117ddb72c9f6720df75.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/3e42bafede7c68ed6bc965e12073a04f/0d73aa1c7a7541b41a1cc689d79664f5.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/523b48006a98a4a485ca4f9421b10a53/a273cf0e3b27c02c4f18e8bb4196bf26.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/7c217fff489f857d6aa42d3f4bc644a9/bf668d9b3c939037d9bd7b7b31c68615.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/f1422744e0a66efee0ca5a0ba9b2d4fb/fe65855be64022b82177b3cc237962be.jpeg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50384"
     },
     {
       "id": "CAIL-A-50347",
@@ -879,7 +877,9 @@
       "attributes": [
         "Good with Kids",
         "Likes to Play",
-        "Not Good with Cats"
+        "Not Good with Cats",
+        "Likes to climb",
+        "Busy/Nosy"
       ],
       "cover_photo_id": 46410567,
       "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/c39aaaf75b7af3d041c2886f13741cd3/3f4ac592abd2e7ad72ac08ef6c14a450.jpeg",
@@ -950,32 +950,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/d0cec111a97f79e42dfa02e8d887b9a2/6cc148bc2774ca15211682fa2019593f.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-4801"
-    },
-    {
-      "id": "CAIL-A-50361",
-      "name": "Dahlia",
-      "species": "Dog",
-      "sex": "Female",
-      "age_group": "Adult",
-      "shelter_breed": "Mixed Breed (Medium)",
-      "shelter_secondary_breed": null,
-      "color": "Black",
-      "location": "Main Dog Kennel",
-      "attributes": [
-        "Children over 12 years old",
-        "Crate Trained"
-      ],
-      "cover_photo_id": 51873054,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/5ec601a9370949cfad392db9760bb27d/1d8c2487602cba449db681c74ce46823.jpg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/5ec601a9370949cfad392db9760bb27d/1d8c2487602cba449db681c74ce46823.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/e1746086b3bb39ce678690c456850bf4/ef0b3b6390a5e6717329cb8d4d770316.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/f2d6ee99ef31086dea0340d7e44c247b/15b45c7b39915e774d687670efdd3fef.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/667f1de974bccff3089775f198a5adfe/233a790a92cac5ad677c76e13dce671c.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/e250e8f3513305b539f744aed7d1b0cc/7cf7bb1f7e95327aca3b8c2ceb0b77d9.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/ba0197032c4401f5028ee85227f32d79/0d959700f9e8fcdaf5bbe4f882cd2cbc.jpg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50361"
     },
     {
       "id": "CAIL-A-50407",
