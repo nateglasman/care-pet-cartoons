@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1795245462,
-  "count": 44,
+  "synced_at": 1795288962,
+  "count": 43,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -74,10 +74,12 @@
         "Likes to climb",
         "Likes to Play"
       ],
-      "cover_photo_id": 53549895,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/48f4aac1a9a43cc25930584ae333dd13/81b0d73fb3dd964aac7a961b6491e2db.jpeg",
+      "cover_photo_id": 53908678,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/349496ee42f2d025d32320bd933c1b71/25115b1ed67fd38a45ea83d2cb2b6b21.jpeg",
       "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/48f4aac1a9a43cc25930584ae333dd13/81b0d73fb3dd964aac7a961b6491e2db.jpeg"
+        "https://new-s3.shelterluv.com/profile-pictures/349496ee42f2d025d32320bd933c1b71/25115b1ed67fd38a45ea83d2cb2b6b21.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/48f4aac1a9a43cc25930584ae333dd13/81b0d73fb3dd964aac7a961b6491e2db.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/6a666a4f578891efff839a4a51ed9978/29bc7b03d8c6ada8a1a4c3bb2957d584.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50412"
     },
@@ -1162,27 +1164,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/3df31d0b820514df8b5d732ba2d4fbf4/d8a8bdbd9cc7a9e90cb13c398cb8196f.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50345"
-    },
-    {
-      "id": "CAIL-A-50408",
-      "name": "Moe",
-      "species": "Dog",
-      "sex": "Male",
-      "age_group": "Young",
-      "shelter_breed": "Mixed Breed (Medium)",
-      "shelter_secondary_breed": null,
-      "color": "Tan",
-      "location": "Main Dog Kennel",
-      "attributes": [],
-      "cover_photo_id": 53164416,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/3323c3d5be7f9328d5394541b99a5e32/725deebf06faca63c3a0fd1f0a8e5ef6.png",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/3323c3d5be7f9328d5394541b99a5e32/725deebf06faca63c3a0fd1f0a8e5ef6.png",
-        "https://new-s3.shelterluv.com/profile-pictures/645f2306ff6db5f81ad31504e9173a40/304d3945aa8d63b8354c349b1dd590b6.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/b73f39fe09461f4213f22844275894d4/96eb0b1297c72c88d947d18b028b93f4.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/79e586139c0e96f04facf2ba9b56c3ea/2f46befbbeb841d0980185bf7f9b2375.jpg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50408"
     },
     {
       "id": "CAIL-A-5131",
