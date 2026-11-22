@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50404",
-  "cover_photo_id": 53690605,
+  "cover_photo_id": 53955473,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -9,29 +9,29 @@
       {
         "breed": "Shih Tzu",
         "confidence": 0.45,
-        "reason": "Small sturdy body, short flat-ish muzzle, large dark round eyes, and a shaggy gray head with beard typical of a Shih Tzu in a puppy cut."
+        "reason": "Small sturdy body, short flat-ish muzzle, large dark round eyes, and a long shaggy facial coat with beard and mustache point strongly to Shih Tzu ancestry."
       },
       {
         "breed": "Miniature Schnauzer",
         "confidence": 0.25,
-        "reason": "Salt-and-pepper gray face furnishings with a prominent mustache and beard, plus a slightly longer muzzle than a pure Shih Tzu."
+        "reason": "The salt-and-pepper gray head with a pronounced beard and the bluish-gray skin patches showing through the shaved body suggest Schnauzer influence."
       },
       {
         "breed": "Brussels Griffon",
         "confidence": 0.15,
-        "reason": "Bearded, wiry-looking face with large expressive dark eyes and an upward-curving tail on a tiny frame."
+        "reason": "The wiry, scruffy whiskered face, prominent dark eyes, and slightly upturned short muzzle resemble a bearded Griffon."
       }
     ],
-    "appearance": "A small, compact dog with a body shaved very short, showing whitish-pink skin mottled with gray patches, while the head is left fluffy with shaggy dark charcoal-gray fur, a bushy beard, and a lighter gray-white mustache under the black nose. Large round dark-brown eyes peer up from the scruffy face, with small folded ears hidden in the tousled head fur, and a short clipped tail with a gray tip curves upward. Gizmo wears a teal nylon collar clipped to a bright orange leash and has little white tufted feet.",
-    "fun_fact": "Shih Tzus were bred as cherished companions in Chinese royal palaces, so Gizmo comes from a long line of professional lap-warmers!"
+    "appearance": "A small, compact dog with a freshly shaved body showing white fur over mottled bluish-gray skin patches, and a thin, upward-curving tail with a darker gray tip. The head is left fluffy and scruffy in dark charcoal-gray with lighter silver strands, featuring a short muzzle, a bushy white-tinged beard and drooping mustache, small folded ears hidden in the fur, and big round shiny dark-brown eyes looking up. Gizmo wears a teal nylon collar clipped to a bright orange leash and stands on short white legs with fluffy paws.",
+    "fun_fact": "Shih Tzus were bred as cherished companions of Chinese royalty, so Gizmo comes from a long line of professional lap-warmers!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Shih Tzu mix named Gizmo. Keep its real appearance: A small, compact dog with a body shaved very short, showing whitish-pink skin mottled with gray patches, while the head is left fluffy with shaggy dark charcoal-gray fur, a bushy beard, and a lighter gray-white mustache under the black nose. Large round dark-brown eyes peer up from the scruffy face, with small folded ears hidden in the tousled head fur, and a short clipped tail with a gray tip curves upward. Gizmo wears a teal nylon collar clipped to a bright orange leash and has little white tufted feet. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Shih Tzu mix named Gizmo. Keep its real appearance: A small, compact dog with a freshly shaved body showing white fur over mottled bluish-gray skin patches, and a thin, upward-curving tail with a darker gray tip. The head is left fluffy and scruffy in dark charcoal-gray with lighter silver strands, featuring a short muzzle, a bushy white-tinged beard and drooping mustache, small folded ears hidden in the fur, and big round shiny dark-brown eyes looking up. Gizmo wears a teal nylon collar clipped to a bright orange leash and stands on short white legs with fluffy paws. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50404.jpg",
   "cartoon_file": "CAIL-A-50404.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 29.6,
-  "analyzed_at": 1795034341
+  "seconds": 24.2,
+  "analyzed_at": 1795330800
 }

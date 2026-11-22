@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50385",
-  "cover_photo_id": 53467506,
+  "cover_photo_id": 53960936,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -9,29 +9,29 @@
       {
         "breed": "Chihuahua",
         "confidence": 0.45,
-        "reason": "Small, fine-boned frame, large upright triangular ears, rounded head, and big dark eyes are classic Chihuahua traits."
-      },
-      {
-        "breed": "Jack Russell Terrier",
-        "confidence": 0.35,
-        "reason": "The predominantly white coat with black-and-tan tricolor head markings, a white blaze, and a slightly wiry texture point to terrier ancestry."
+        "reason": "Small, fine-boned body with large, upright, wide-set triangular ears, big round dark eyes, and a short, slightly pointed muzzle."
       },
       {
         "breed": "Rat Terrier",
-        "confidence": 0.2,
-        "reason": "The tricolor pattern with tan eyebrow and cheek points, the black body patch, and the lean, leggy build are typical of Rat Terriers."
+        "confidence": 0.3,
+        "reason": "Classic tricolor pattern (white body with a black saddle patch, black-and-tan head with a white blaze and tan eyebrows) and an alert, sturdy terrier stance."
+      },
+      {
+        "breed": "Jack Russell Terrier",
+        "confidence": 0.15,
+        "reason": "Mostly white coat with a slightly wiry, scruffy texture, ticking on the legs, and a tail carried curled over the back."
       }
     ],
-    "appearance": "A small, slender dog with a mostly white, slightly scruffy medium-short coat. Its head is black with tan eyebrow dots and tan cheeks, split by a narrow white blaze that runs from forehead to muzzle, and it has a large black saddle patch on its left side. It has very large, erect, triangular ears that are tan inside with dark edges, big round dark-brown eyes, a short pointed muzzle with a black nose, and light freckling on its legs and paws. Its tail is curled upward with a black-and-tan tip, and it wears a teal collar with a silver bone-shaped tag.",
-    "fun_fact": "Chihuahuas may be tiny, but they have huge personalities and often form fiercely loyal bonds with their favorite people!"
+    "appearance": "A small, lightly built tricolor dog with a mostly white, slightly scruffy medium-short coat, a large black patch on the shoulder/side, and faint gray-tan ticking on the legs and paws. The head is black with tan eyebrow dots, tan cheeks, and a narrow white blaze running from forehead down the muzzle to a black nose, topped by very large, upright, wide-set triangular ears that are tan inside and dark-edged. He has big round dark-brown eyes, a fluffy white chest and whisker area, and a bushy tail curled up over his back that is tan and black at the tip.",
+    "fun_fact": "Chihuahuas pack a huge personality into a tiny body and often form deep, devoted bonds with their favorite people!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Chihuahua mix named Jack. Keep its real appearance: A small, slender dog with a mostly white, slightly scruffy medium-short coat. Its head is black with tan eyebrow dots and tan cheeks, split by a narrow white blaze that runs from forehead to muzzle, and it has a large black saddle patch on its left side. It has very large, erect, triangular ears that are tan inside with dark edges, big round dark-brown eyes, a short pointed muzzle with a black nose, and light freckling on its legs and paws. Its tail is curled upward with a black-and-tan tip, and it wears a teal collar with a silver bone-shaped tag. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Chihuahua mix named Jack. Keep its real appearance: A small, lightly built tricolor dog with a mostly white, slightly scruffy medium-short coat, a large black patch on the shoulder/side, and faint gray-tan ticking on the legs and paws. The head is black with tan eyebrow dots, tan cheeks, and a narrow white blaze running from forehead down the muzzle to a black nose, topped by very large, upright, wide-set triangular ears that are tan inside and dark-edged. He has big round dark-brown eyes, a fluffy white chest and whisker area, and a bushy tail curled up over his back that is tan and black at the tip. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50385.jpg",
   "cartoon_file": "CAIL-A-50385.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 26.1,
-  "analyzed_at": 1794679990
+  "seconds": 24.9,
+  "analyzed_at": 1795330854
 }

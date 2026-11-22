@@ -1,37 +1,37 @@
 {
   "pet_id": "CAIL-A-50387",
-  "cover_photo_id": 52504398,
+  "cover_photo_id": 53954916,
   "cartoon_version": 2,
   "breed": {
     "species": "Cat",
     "is_mixed": true,
     "guesses": [
       {
-        "breed": "Domestic Shorthair (dilute tortoiseshell)",
-        "confidence": 0.85,
-        "reason": "The short, dense coat shows a soft mottled blend of blue-gray and cream patches typical of a dilute tortie, on an everyday moderate body type."
+        "breed": "Domestic Shorthair (dilute tortoiseshell / blue-cream)",
+        "confidence": 0.8,
+        "reason": "Short, dense coat with a mottled blend of blue-gray and soft cream patches, the classic dilute tortie coloring seen in random-bred shorthairs."
       },
       {
         "breed": "Domestic Shorthair (blue-cream torbie)",
-        "confidence": 0.1,
-        "reason": "Faint darker striping on the legs and tail hints at some tabby patterning mixed into the dilute tortie coat."
+        "confidence": 0.15,
+        "reason": "Faint tabby-like striping on the forehead and legs hints at some tabby patterning mixed into the dilute tortie coat."
       },
       {
         "breed": "Oriental Shorthair mix",
         "confidence": 0.05,
-        "reason": "Her large upright ears and slender, angular face suggest a slight Oriental-type influence, though her overall build is typical domestic."
+        "reason": "Slender build, large upright ears, and a somewhat wedge-shaped face give a slight Oriental look, though it's likely just a lean domestic cat."
       }
     ],
-    "appearance": "A slender, young-looking shorthaired cat with a soft mottled coat of blue-gray and pale cream, with cream patches on her chest, cheeks, and haunches and faint darker barring on her legs and long tapering tail. She has large, tall, upright ears with slightly ragged tips and pinkish insides, a narrow wedge-shaped face with a gray nose and dark nose leather, and striking almond-shaped golden-amber eyes. Long white whiskers fan out from her muzzle, and she sits upright with a calm, steady gaze.",
-    "fun_fact": "Dilute torties like Tara are often called 'blue-creams,' and every one has a one-of-a-kind watercolor coat that no other cat can match!"
+    "appearance": "A slim, young-looking shorthaired cat with a dilute tortoiseshell coat of smoky blue-gray mottled with pale cream and peach patches, darkest on the forehead and nose bridge and lighter cream on the cheeks, chest, and front legs. She has large, tall, slightly rounded ears with sparse pinkish inner fur (the left ear shows a small nick), striking golden-amber eyes with a calm, slightly hooded gaze, a dark slate nose, and long white whiskers. Her long, thin tail is gray with subtle darker banding.",
+    "fun_fact": "Dilute tortoiseshell cats like Tara are almost always female and are famous for their one-of-a-kind, watercolor-soft coats and spirited 'tortitude'!"
   },
-  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (dilute tortoiseshell) mix named Tara (2026). Keep its real appearance: A slender, young-looking shorthaired cat with a soft mottled coat of blue-gray and pale cream, with cream patches on her chest, cheeks, and haunches and faint darker barring on her legs and long tapering tail. She has large, tall, upright ears with slightly ragged tips and pinkish insides, a narrow wedge-shaped face with a gray nose and dark nose leather, and striking almond-shaped golden-amber eyes. Long white whiskers fan out from her muzzle, and she sits upright with a calm, steady gaze. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (dilute tortoiseshell / blue-cream) mix named Tara (2026). Keep its real appearance: A slim, young-looking shorthaired cat with a dilute tortoiseshell coat of smoky blue-gray mottled with pale cream and peach patches, darkest on the forehead and nose bridge and lighter cream on the cheeks, chest, and front legs. She has large, tall, slightly rounded ears with sparse pinkish inner fur (the left ear shows a small nick), striking golden-amber eyes with a calm, slightly hooded gaze, a dark slate nose, and long white whiskers. Her long, thin tail is gray with subtle darker banding. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50387.jpg",
   "cartoon_file": "CAIL-A-50387.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 31.1,
-  "analyzed_at": 1793389968
+  "seconds": 28.0,
+  "analyzed_at": 1795330749
 }

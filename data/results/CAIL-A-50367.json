@@ -1,6 +1,6 @@
 {
   "pet_id": "CAIL-A-50367",
-  "cover_photo_id": 51872040,
+  "cover_photo_id": 53960955,
   "cartoon_version": 2,
   "breed": {
     "species": "Dog",
@@ -8,30 +8,30 @@
     "guesses": [
       {
         "breed": "Great Pyrenees",
-        "confidence": 0.45,
-        "reason": "The solid white, medium-length plush coat, dark eye rims, and sturdy large-breed puppy build strongly suggest a white livestock guardian breed."
+        "confidence": 0.4,
+        "reason": "The all-white coat, broad head, dark-rimmed eyes, and sturdy large-breed puppy build strongly suggest a white livestock guardian breed."
       },
       {
         "breed": "Labrador Retriever",
         "confidence": 0.3,
-        "reason": "The broad head, soft folded ears, friendly open-mouthed expression, and shorter, smoother face coat resemble a cream or white Lab."
+        "reason": "The short-to-medium dense coat, soft folded drop ears, and friendly otter-like muzzle resemble a yellow/cream Lab."
       },
       {
-        "breed": "White Shepherd / German Shepherd",
+        "breed": "Anatolian Shepherd",
         "confidence": 0.15,
-        "reason": "The semi-erect, folding ears with slight lift at the base and a slightly longer muzzle hint at shepherd ancestry."
+        "reason": "The cream-white color, slightly longer muzzle, and lanky adolescent frame are also consistent with Anatolian or Akbash guardian ancestry."
       }
     ],
-    "appearance": "Vera is a young, large-breed puppy with a solid creamy-white, soft, medium-short double coat that looks plush on the chest and a fluffy tail curled to one side. She has a broad head with floppy, triangular ears that fold forward at the tips, warm almond-shaped dark brown eyes, and a dusky brownish-black nose. Her muzzle is medium length, her pink tongue peeks out in a happy grin, and she sits upright on sturdy legs wearing a green collar clipped to an orange leash.",
-    "fun_fact": "Great Pyrenees are gentle giants famous for watching over their flocks, so Vera may grow up to be your family's loyal, cuddly guardian!"
+    "appearance": "Vera is a young, large-breed puppy with a solid creamy-white, short-to-medium plush coat and a slightly fluffier, curled tail. She has soft triangular ears that fold forward at the tips, warm dark-brown almond eyes, a liver-brown nose, and a medium-length muzzle with her pink tongue peeking out in a happy smile. Her build is lanky and sturdy with big paws and a broad chest, and she wears a green collar.",
+    "fun_fact": "Great Pyrenees are gentle giants bred to guard flocks, so they're famously calm, loyal, and devoted to their families!"
   },
-  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Great Pyrenees mix named Vera. Keep its real appearance: Vera is a young, large-breed puppy with a solid creamy-white, soft, medium-short double coat that looks plush on the chest and a fluffy tail curled to one side. She has a broad head with floppy, triangular ears that fold forward at the tips, warm almond-shaped dark brown eyes, and a dusky brownish-black nose. Her muzzle is medium length, her pink tongue peeks out in a happy grin, and she sits upright on sturdy legs wearing a green collar clipped to an orange leash. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Great Pyrenees mix named Vera. Keep its real appearance: Vera is a young, large-breed puppy with a solid creamy-white, short-to-medium plush coat and a slightly fluffier, curled tail. She has soft triangular ears that fold forward at the tips, warm dark-brown almond eyes, a liver-brown nose, and a medium-length muzzle with her pink tongue peeking out in a happy smile. Her build is lanky and sturdy with big paws and a broad chest, and she wears a green collar. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
   "photo_file": "CAIL-A-50367.jpg",
   "cartoon_file": "CAIL-A-50367.webp",
   "models": {
     "breed": "claude-opus-5-5",
     "cartoon": "openai:gpt-image-1.5"
   },
-  "seconds": 30.9,
-  "analyzed_at": 1793390526
+  "seconds": 25.3,
+  "analyzed_at": 1795330934
 }
