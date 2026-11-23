@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50414",
+  "cover_photo_id": 53907517,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Cat",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Domestic Shorthair (calico tabby / caliby with white)",
+        "confidence": 0.85,
+        "reason": "Short dense coat with brown mackerel tabby patches mixed with orange patches and extensive white on the chest, legs, and muzzle is the classic dilute-free caliby-and-white pattern of a random-bred shorthair."
+      },
+      {
+        "breed": "Japanese Bobtail mix",
+        "confidence": 0.05,
+        "reason": "Slender build, large upright ears, and a tri-color (mi-ke) coat loosely resemble the breed, though the full-length tail argues against it."
+      },
+      {
+        "breed": "Oriental Shorthair mix",
+        "confidence": 0.05,
+        "reason": "Fairly large ears and a lean, fine-boned frame hint at a slightly oriental type, but the head is too rounded for a strong influence."
+      }
+    ],
+    "appearance": "A slim, young adult shorthaired cat with a caliby-and-white coat: brown mackerel tabby on the back, flank, and tail (ending in a solid black tip), with patches of warm orange blended in, especially across the forehead, around the eyes, and along the shoulder and base of the tail. Her muzzle, chin, chest, belly, and all four legs and paws are bright white, and an orange blaze runs down the center of her face to a pink nose. She has large, upright, slightly rounded ears with pinkish inner skin and almond-shaped olive-green eyes with a gentle, curious expression.",
+    "fun_fact": "Calico and caliby cats are almost always female, and many cultures consider their patchwork coats a sign of good luck!"
+  },
+  "cartoon_prompt": "Redraw the cat in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Domestic Shorthair (calico tabby / caliby with white) mix named Kaylee. Keep its real appearance: A slim, young adult shorthaired cat with a caliby-and-white coat: brown mackerel tabby on the back, flank, and tail (ending in a solid black tip), with patches of warm orange blended in, especially across the forehead, around the eyes, and along the shoulder and base of the tail. Her muzzle, chin, chest, belly, and all four legs and paws are bright white, and an orange blaze runs down the center of her face to a pink nose. She has large, upright, slightly rounded ears with pinkish inner skin and almond-shaped olive-green eyes with a gentle, curious expression. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50414.jpg",
+  "cartoon_file": "CAIL-A-50414.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 30.5,
+  "analyzed_at": 1795478359
+}

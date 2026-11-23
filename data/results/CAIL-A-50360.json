@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50360",
+  "cover_photo_id": 53412747,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Dog",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Chihuahua",
+        "confidence": 0.5,
+        "reason": "Small size, large erect triangular ears, rounded apple-ish skull and fine-boned legs strongly suggest Chihuahua ancestry."
+      },
+      {
+        "breed": "Boston Terrier",
+        "confidence": 0.25,
+        "reason": "The short slightly blunt muzzle, white chest blaze and white paws point toward Boston Terrier or similar bully-type influence."
+      },
+      {
+        "breed": "French Bulldog",
+        "confidence": 0.15,
+        "reason": "The dark brindle coat and broad bat-like ears are classic French Bulldog traits, hinting at a Frenchie mix."
+      }
+    ],
+    "appearance": "A small, compact dog with a short, glossy dark brindle coat that reads nearly black, with subtle brown tiger striping on the legs and body, a white chest patch, white markings on the front paws, and a frosting of gray on the chin and muzzle. Very large, upright, pointed bat-like ears sit atop a rounded head with a short, slightly tapered muzzle, black nose, and warm amber-brown eyes, the head tilted slightly as if curious. He is slim-legged and sturdy-chested, sitting upright in a blue mesh harness with a bone-shaped silver tag.",
+    "fun_fact": "Chihuahua mixes pack huge personalities into tiny bodies and love nothing more than being a devoted lap buddy!"
+  },
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Chihuahua mix named Bonchon. Keep its real appearance: A small, compact dog with a short, glossy dark brindle coat that reads nearly black, with subtle brown tiger striping on the legs and body, a white chest patch, white markings on the front paws, and a frosting of gray on the chin and muzzle. Very large, upright, pointed bat-like ears sit atop a rounded head with a short, slightly tapered muzzle, black nose, and warm amber-brown eyes, the head tilted slightly as if curious. He is slim-legged and sturdy-chested, sitting upright in a blue mesh harness with a bone-shaped silver tag. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50360.jpg",
+  "cartoon_file": "CAIL-A-50360.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 24.6,
+  "analyzed_at": 1795478383
+}
