@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1795478328,
-  "count": 45,
+  "synced_at": 1795514403,
+  "count": 44,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -591,37 +591,6 @@
         "https://new-s3.shelterluv.com/profile-pictures/c9f6f3da344a6b21495730a55a7dcc0b/484261db198d352579c5c73f8d6f3d50.JPG"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50341"
-    },
-    {
-      "id": "CAIL-A-50211",
-      "name": "Miller",
-      "species": "Cat",
-      "sex": "Male",
-      "age_group": "Adult Cat",
-      "shelter_breed": "Domestic Shorthair",
-      "shelter_secondary_breed": null,
-      "color": "Black",
-      "location": "Cat Catio",
-      "attributes": [
-        "Not Good with Dogs",
-        "Adult-Only Home Preferred",
-        "Likes to Sit Nearby",
-        "Prefers Not to be Picked Up",
-        "Shy at First",
-        "Likes to Play",
-        "Special Dietary needs"
-      ],
-      "cover_photo_id": 53007048,
-      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/60d7fda956d29e7f9dc67c0d6d61cf01/0b55415c7f29acc857d10c7c8d09c102.jpg",
-      "photo_urls": [
-        "https://new-s3.shelterluv.com/profile-pictures/60d7fda956d29e7f9dc67c0d6d61cf01/0b55415c7f29acc857d10c7c8d09c102.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/773c2b1f539d8117bc76b24b901b3de2/6f5c9953a12357ac215e6d32b5f09e0d.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/959dc9b224247a7dc712ba0c691ccaa6/778e3d950c500ca68c190050cde59ca3.jpeg",
-        "https://new-s3.shelterluv.com/profile-pictures/d0968eb3175c733807c5d4d7e9a4bc98/be184b4943d23ba50751e3b3e5773628.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/fbd90c3cf3affafa3e0485a8934253c2/8aad886f9a72a01ff434066a19f9c07b.jpg",
-        "https://new-s3.shelterluv.com/profile-pictures/bc2e932b2f8fa5920434ff694db3b7a4/256792bbd3206811a3d3ed91120497f0.jpg"
-      ],
-      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50211"
     },
     {
       "id": "CAIL-A-50352",
