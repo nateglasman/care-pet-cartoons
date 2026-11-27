@@ -1,0 +1,37 @@
+{
+  "pet_id": "CAIL-A-50403",
+  "cover_photo_id": 53960895,
+  "cartoon_version": 2,
+  "breed": {
+    "species": "Dog",
+    "is_mixed": true,
+    "guesses": [
+      {
+        "breed": "Yorkshire Terrier",
+        "confidence": 0.65,
+        "reason": "Classic black-and-tan saddle with a long, silky, rich golden-tan coat on the head and legs and a small, compact terrier build."
+      },
+      {
+        "breed": "Dachshund",
+        "confidence": 0.15,
+        "reason": "Somewhat longer body with short, sturdy legs and drop ears that hang lower and fuller than a typical Yorkie's upright ears."
+      },
+      {
+        "breed": "Shih Tzu",
+        "confidence": 0.1,
+        "reason": "Fuller, slightly broader face with heavy facial furnishings and floppy, well-feathered ears."
+      }
+    ],
+    "appearance": "A small, low-set dog with a long, silky, slightly wavy coat: rich golden-tan to russet on the head, ears, chest, and legs, with a darker black-and-grey saddle over the back and shoulders. Its ears are soft, heavily feathered drop ears framing a rounded face with dark brown almond eyes, a black button nose, and a short muzzle with long tan whiskery furnishings. It wears a teal nylon collar with silver rings and sits with feathery front paws planted forward.",
+    "fun_fact": "Yorkshire Terriers may be tiny, but they were originally bred as fearless ratters in English mills\u2014big personality in a pocket-sized package!"
+  },
+  "cartoon_prompt": "Redraw the dog in this photo as a friendly flat-color cartoon with bold clean outlines and soft shading, like a character from a modern animated series, as a sticker-style portrait isolated on a fully transparent background. It is a Yorkshire Terrier mix named Bjorn. Keep its real appearance: A small, low-set dog with a long, silky, slightly wavy coat: rich golden-tan to russet on the head, ears, chest, and legs, with a darker black-and-grey saddle over the back and shoulders. Its ears are soft, heavily feathered drop ears framing a rounded face with dark brown almond eyes, a black button nose, and a short muzzle with long tan whiskery furnishings. It wears a teal nylon collar with silver rings and sits with feathery front paws planted forward. Keep the same face, ear shape, coat colors and markings so it is clearly the same animal. Happy, approachable expression, facing the viewer, head and upper chest centered and filling most of the frame, nothing else in the image: no background, no scenery, no text, no watermark, no collar tag text.",
+  "photo_file": "CAIL-A-50403.jpg",
+  "cartoon_file": "CAIL-A-50403.webp",
+  "models": {
+    "breed": "claude-opus-5-5",
+    "cartoon": "openai:gpt-image-1.5"
+  },
+  "seconds": 27.8,
+  "analyzed_at": 1795814699
+}

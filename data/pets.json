@@ -1,7 +1,7 @@
 {
   "source": "https://new.shelterluv.com/api/v3/available-animals/3204",
-  "synced_at": 1795769005,
-  "count": 44,
+  "synced_at": 1795814671,
+  "count": 45,
   "pets": [
     {
       "id": "CAIL-A-50246",
@@ -944,6 +944,28 @@
         "https://new-s3.shelterluv.com/profile-pictures/d0cec111a97f79e42dfa02e8d887b9a2/6cc148bc2774ca15211682fa2019593f.jpeg"
       ],
       "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-4801"
+    },
+    {
+      "id": "CAIL-A-50403",
+      "name": "Bjorn",
+      "species": "Dog",
+      "sex": "Male",
+      "age_group": "Adult",
+      "shelter_breed": "Terrier, Yorkshire, Yorkie",
+      "shelter_secondary_breed": "Mix",
+      "color": "Brown",
+      "location": "Room 24 - Medium Dog Room",
+      "attributes": [],
+      "cover_photo_id": 53960895,
+      "cover_photo_url": "https://new-s3.shelterluv.com/profile-pictures/504c5a6ea8a19caf74e0afa550712e02/56ae907169ed88c4a2f0ba2b6af21bcb.jpg",
+      "photo_urls": [
+        "https://new-s3.shelterluv.com/profile-pictures/504c5a6ea8a19caf74e0afa550712e02/56ae907169ed88c4a2f0ba2b6af21bcb.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/bb1edb241a0a87f74a88a5cc62ce9c51/ab3117d2359c91be67f97198157aa531.jpeg",
+        "https://new-s3.shelterluv.com/profile-pictures/c185da7316d54f4c156dd0bd03212df1/c884d1129b262232e8d13fc239abd061.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/4207727647385676999f9326fcc92cd2/1396f610416b8c9cdba5070581efe30d.jpg",
+        "https://new-s3.shelterluv.com/profile-pictures/3658fd00e2f979471bb8f3b87ce54fd1/3fb1fc9f299412278baa5733faf69420.jpg"
+      ],
+      "public_url": "https://new.shelterluv.com/embed/animal/CAIL-A-50403"
     },
     {
       "id": "CAIL-A-50360",
